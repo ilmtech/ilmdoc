@@ -1,0 +1,297 @@
+{
+ "playlist": "https://www.youtube.com/playlist?list=PLC17iYmpEQnM",
+ "pages": [
+  {
+   "slug": "installation-and-licence",
+   "title": "Installation and licence",
+   "file": "installation-and-licence.html",
+   "lead": "Install the Pro add-on and activate your licence.",
+   "video": {
+    "yt": "pK20_opVTyc",
+    "len": "1:10",
+    "clip": "01-install-licence",
+    "start": 58
+   },
+   "intro": "",
+   "steps": [
+    {
+     "t": 58,
+     "text": "The Pro add-on, from ilmtech.in, is installed the same way: Add New Plugin, Upload Plugin, choose its zip, and Install Now. Pro adds Find my size, the AI builder and five more themes."
+    },
+    {
+     "t": 77,
+     "text": "Activate it. To upgrade later, upload the new zip the same way and choose Replace current with uploaded: your size charts and settings are kept."
+    },
+    {
+     "t": 94,
+     "text": "Open the Size Charts menu. Pro asks for your licence: paste the order ID from your ilmtech.in order e-mail and click Activate. It turns on updates, support and the AI."
+    },
+    {
+     "t": 107,
+     "text": "Remind me later closes the window. The bar keeps the Enter licence button for later."
+    },
+    {
+     "t": 114,
+     "text": "The size chart list is still empty. Add Size Chart makes your first chart; with an active licence, Create with AI is there too. The next videos show how."
+    }
+   ]
+  },
+  {
+   "slug": "ai-settings",
+   "title": "AI settings",
+   "file": "ai-settings.html",
+   "lead": "Choose which AI creates and changes your size charts.",
+   "video": {
+    "yt": "g48S8gNSwG0",
+    "len": "0:53",
+    "clip": "30-ai-settings"
+   },
+   "intro": "In this video: the AI settings of the ILM Size Chart Pro add-on.",
+   "steps": [
+    {
+     "t": 7,
+     "text": "On the size chart list, click AI Settings. The green dot shows that the AI is ready."
+    },
+    {
+     "t": 14,
+     "text": "ILM Tech AI is built in: no key is needed."
+    },
+    {
+     "t": 22,
+     "text": "With an activated licence you get free AI requests. Each size chart created by AI uses one. The Pro plan gives more requests every month."
+    },
+    {
+     "t": 32,
+     "text": "You can also use your own account with Anthropic Claude, DeepSeek or Google Gemini: choose it, paste your key, pick a model, and test the connection."
+    },
+    {
+     "t": 43,
+     "text": "We keep the built-in AI and close the window. The next videos use it to create and change a chart."
+    }
+   ]
+  },
+  {
+   "slug": "create-with-ai",
+   "title": "Create with AI",
+   "file": "create-with-ai.html",
+   "lead": "A complete size chart in three steps.",
+   "video": {
+    "yt": "pfDiAr5rK-w",
+    "len": "1:50",
+    "clip": "31-create-with-ai"
+   },
+   "intro": "In this video: Create with AI, a feature of the Pro add-on. A complete size chart in three easy steps.",
+   "steps": [
+    {
+     "t": 9,
+     "text": "On the size chart list, click Create with AI. Three easy steps, and you check the result before anything is saved."
+    },
+    {
+     "t": 18,
+     "text": "Step one: what is the chart for? We choose Pants and jeans."
+    },
+    {
+     "t": 26,
+     "text": "Who is it for: Men and Women. With two groups you get one tab per group."
+    },
+    {
+     "t": 35,
+     "text": "Below, you see what the AI will make: the sizes, the measurements and the units. Each can be changed."
+    },
+    {
+     "t": 43,
+     "text": "Next. Step two: pick a look. We choose Indigo Denim. A tick can style the size guide button and the popup to match."
+    },
+    {
+     "t": 57,
+     "text": "Next. Step three: name it. Create uses one AI request."
+    },
+    {
+     "t": 72,
+     "text": "Click Create. After a moment the chart is ready: men and women tabs, with real sizes and measurements in centimetres and inches."
+    },
+    {
+     "t": 85,
+     "text": "Open in editor puts it in a new chart form. Check the values, change anything in the designer, add a display rule, and save."
+    },
+    {
+     "t": 100,
+     "text": "Nothing is saved until you click Save, so you can try again or start over at any time."
+    }
+   ]
+  },
+  {
+   "slug": "ai-design-assistant",
+   "title": "AI design assistant",
+   "file": "ai-design-assistant.html",
+   "lead": "Change your chart by typing what you want.",
+   "video": {
+    "yt": "gAm1l46TbHE",
+    "len": "1:02",
+    "clip": "32-ai-design-assistant"
+   },
+   "intro": "In this video: the AI design assistant of the Pro add-on, which changes a chart from one sentence.",
+   "steps": [
+    {
+     "t": 18,
+     "text": "Edit a chart and open the designer. The green button at the bottom right is the AI design assistant."
+    },
+    {
+     "t": 26,
+     "text": "Click it. Type what you want to change, in your own words. You can also attach a picture of a chart to copy."
+    },
+    {
+     "t": 34,
+     "text": "We ask: make the table header dark green, and add a row for the number of pages."
+    },
+    {
+     "t": 44,
+     "text": "Send. The assistant answers and changes the chart in the designer: a green header and a Pages row."
+    },
+    {
+     "t": 52,
+     "text": "Not what you wanted? Undo takes it back. Save the chart to keep the change."
+    }
+   ]
+  },
+  {
+   "slug": "find-my-size",
+   "title": "Find my size",
+   "file": "find-my-size.html",
+   "lead": "Shoppers get their size from your chart, with a fit explanation.",
+   "video": {
+    "yt": "DSs2rnqEBfQ",
+    "len": "2:18",
+    "clip": "06-find-my-size"
+   },
+   "intro": "In this video: Find my size, a feature of the Pro add-on. Shoppers type their measurements, or their height and weight, and get the right size from your chart.",
+   "steps": [
+    {
+     "t": 21,
+     "text": "Edit a chart. On the General tab, Find my size is enabled for every new chart. There is nothing to set up: it reads the chart."
+    },
+    {
+     "t": 30,
+     "text": "Below the switch you see what shoppers will be asked, taken from the measurement names in your table: here chest, waist and collar."
+    },
+    {
+     "t": 47,
+     "text": "In the shop, the shirt now has a Find my size button next to the size chart button."
+    },
+    {
+     "t": 55,
+     "text": "The shopper clicks it and chooses: measure with a tape, or a quick estimate from height and weight."
+    },
+    {
+     "t": 62,
+     "text": "With the tape: they type their chest, 100 centimetres, and their waist, 94. Every field they can leave empty is optional."
+    },
+    {
+     "t": 72,
+     "text": "The result: size M, and why: how each measurement fits that size."
+    },
+    {
+     "t": 78,
+     "text": "One click chooses size M on the product, and the button now says: your size, M. The size is remembered on other products too."
+    },
+    {
+     "t": 88,
+     "text": "In the size chart, the M column is marked for this shopper."
+    },
+    {
+     "t": 93,
+     "text": "Opened again, it shows the result straight away. Forget my measurements clears them. The quick estimate asks only height and weight. It is offered for clothes; for rings or shoes, a tape measurement is needed."
+    },
+    {
+     "t": 125,
+     "text": "To hide it for one chart, click Disable here and save. Charts without body measurements, like mugs or posters, never show the button."
+    }
+   ]
+  },
+  {
+   "slug": "pro-designer-and-rules",
+   "title": "Pro themes",
+   "file": "pro-designer-and-rules.html",
+   "lead": "The five themes the Pro add-on adds, and how to use a theme.",
+   "video": {
+    "yt": "FZPzEyMO9hI",
+    "len": "1:28",
+    "clip": "23-themes"
+   },
+   "intro": "In this video: themes. Ready-made looks for your size chart.",
+   "steps": [
+    {
+     "t": 15,
+     "text": "Edit the chart, open the designer, and click Themes. Every card shows a sample table in that theme."
+    },
+    {
+     "t": 28,
+     "text": "Each theme has two buttons. Apply to my tables gives your own tables this look. Add as new row adds a complete sample block in this theme."
+    },
+    {
+     "t": 37,
+     "text": "We click Apply to my tables on Midnight. A bar asks to confirm, and says how many tables change."
+    },
+    {
+     "t": 45,
+     "text": "Yes. The table has the Midnight colours; its content and units are kept."
+    },
+    {
+     "t": 52,
+     "text": "Not happy? One click on Undo takes the whole theme back."
+    },
+    {
+     "t": 70,
+     "text": "We keep it and save. The shop shows the new look."
+    },
+    {
+     "t": 77,
+     "text": "The option Also style the popup button and window, in the themes window, matches the button to the theme too."
+    }
+   ]
+  },
+  {
+   "slug": "privacy-and-services",
+   "title": "Privacy and external services",
+   "file": "privacy-and-services.html",
+   "lead": "Which external services the Pro add-on uses and what is sent to them."
+  },
+  {
+   "slug": "deactivate-and-delete",
+   "title": "Deactivate and delete",
+   "file": "deactivate-and-delete.html",
+   "lead": "Switch the Pro add-on off, or remove it.",
+   "video": {
+    "yt": "br1JkSPDqYA",
+    "len": "0:52",
+    "clip": "33-uninstall",
+    "start": 29,
+    "end": 81,
+    "note": ""
+   },
+   "intro": "",
+   "steps": [
+    {
+     "t": 29,
+     "text": "Then open Plugins. Start with the Pro add-on."
+    },
+    {
+     "t": 37,
+     "text": "Click Deactivate. Pro is off, and your charts stay as they are. Deactivate only, if you just want to switch it off for a while."
+    },
+    {
+     "t": 50,
+     "text": "Deactivate ILM Size Chart too. The shop no longer shows any size chart, but nothing is deleted yet."
+    },
+    {
+     "t": 63,
+     "text": "Delete removes a plugin with its files. Delete the Pro add-on first: WordPress keeps ILM Size Chart until the add-on that needs it is gone."
+    },
+    {
+     "t": 73,
+     "text": "Click Delete and confirm. The Pro add-on is deleted."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,271 @@
+{
+ "playlist": "https://www.youtube.com/playlist?list=PLPYTROnNCGQA",
+ "videos": [
+  {
+   "id": "01-install-licence",
+   "yt": "23Q9uGjO0jQ",
+   "title": "Install and activate",
+   "sub": "Install or upgrade the module, and activate your licence.",
+   "len": "1:26"
+  },
+  {
+   "id": "02-uninstall",
+   "yt": "hj8Bkc9tS0w",
+   "title": "Uninstall and delete",
+   "sub": "Remove the module, with or without its files.",
+   "len": "1:19"
+  },
+  {
+   "id": "03-minimum-quantity",
+   "yt": "FdnELhvkhvc",
+   "title": "Minimum Quantity",
+   "sub": "Make customers order at least a set number of units.",
+   "len": "2:27"
+  },
+  {
+   "id": "04-maximum-quantity",
+   "yt": "V2SIkNx5qzY",
+   "title": "Maximum Quantity",
+   "sub": "Stop customers ordering more than a set number of units.",
+   "len": "2:07"
+  },
+  {
+   "id": "05-multiples-of-quantity",
+   "yt": "VZwSs3tf8UQ",
+   "title": "Multiples of Quantity",
+   "sub": "Sell in packs: 3, 6, 9… and choose whether steps start from the minimum.",
+   "len": "2:52"
+  },
+  {
+   "id": "06-limit-multiple-quantity",
+   "yt": "jOVWflXRPg8",
+   "title": "Limit Multiple Quantity",
+   "sub": "Packs up to a quantity, single units above it.",
+   "len": "1:44"
+  },
+  {
+   "id": "07-allowed-quantities",
+   "yt": "WMGeVFuuVQk",
+   "title": "Allowed Quantities",
+   "sub": "Only let fixed quantities be ordered, such as 6, 12 or 24.",
+   "len": "1:51"
+  },
+  {
+   "id": "08-minimum-maximum-amount",
+   "yt": "OKVMnpNU_Dg",
+   "title": "Minimum and Maximum Amount",
+   "sub": "Limit how much a customer must, or may, spend on a product.",
+   "len": "2:43"
+  },
+  {
+   "id": "09-amounts-include-tax",
+   "yt": "9IPB6OGrCc8",
+   "title": "Amounts include tax",
+   "sub": "Measure Minimum and Maximum Amount with or without tax.",
+   "len": "2:03"
+  },
+  {
+   "id": "10-different-products-per-order",
+   "yt": "VlT5U9YDk5Q",
+   "title": "Different products per order",
+   "sub": "Require, or cap, the number of different products in one order.",
+   "len": "2:42"
+  },
+  {
+   "id": "11-auto-save",
+   "yt": "x2gcruIS6K8",
+   "title": "Auto Save",
+   "sub": "Save rule table changes straight away, or only with a Save button.",
+   "len": "1:15"
+  },
+  {
+   "id": "12-product-rule-combinations",
+   "yt": "MhLPI0A4Xf4",
+   "title": "Product rules and combinations",
+   "sub": "A rule for a whole product, or for one size or colour.",
+   "len": "2:00"
+  },
+  {
+   "id": "13-category-rule",
+   "yt": "stXV9j7BQhg",
+   "title": "Category rule",
+   "sub": "One rule for every product in a category: each on its own, or added up.",
+   "len": "2:55"
+  },
+  {
+   "id": "14-brand-rule",
+   "yt": "59KwA7EQ5fA",
+   "title": "Brand rule",
+   "sub": "One rule for every product of a brand.",
+   "len": "1:56"
+  },
+  {
+   "id": "15-supplier-rule",
+   "yt": "BRAhwsE6Gsc",
+   "title": "Supplier rule",
+   "sub": "One rule for every product from a supplier.",
+   "len": "2:00"
+  },
+  {
+   "id": "16-customer-group-rule",
+   "yt": "i8tuXbz4bso",
+   "title": "Customer group rule",
+   "sub": "Different limits for different customer groups.",
+   "len": "2:02"
+  },
+  {
+   "id": "17-global-rule",
+   "yt": "E-HYfeDck7M",
+   "title": "Global rule",
+   "sub": "One rule for the whole shop, and a minimum order value.",
+   "len": "2:07"
+  },
+  {
+   "id": "18-rule-priority",
+   "yt": "sb1Jc6_K6uo",
+   "title": "Rule priority order",
+   "sub": "When a product matches more than one rule, which one wins.",
+   "len": "1:40"
+  },
+  {
+   "id": "19-attributes",
+   "yt": "UqYCMFFeZ2c",
+   "title": "Attributes setting",
+   "sub": "Check a product rule on each combination, or on all combinations together.",
+   "len": "2:03"
+  },
+  {
+   "id": "20-status-bulk",
+   "yt": "tSIZ2T-G99s",
+   "title": "Status, switching off and bulk actions",
+   "sub": "See what each rule does right now, and switch or delete many at once.",
+   "len": "2:04"
+  },
+  {
+   "id": "21-conditions",
+   "yt": "hxlYpTNVnWc",
+   "title": "Conditions",
+   "sub": "Apply a rule only in some situations: price, stock, currency, country…",
+   "len": "1:34"
+  },
+  {
+   "id": "22-one-customer-rule",
+   "yt": "cdZiCuNCrn8",
+   "title": "A rule for one customer",
+   "sub": "Give a single customer their own limit.",
+   "len": "2:02"
+  },
+  {
+   "id": "23-table-filters",
+   "yt": "S0IzSJr8mYE",
+   "title": "Rule table filters",
+   "sub": "Find products fast, and set a product rule for one customer group.",
+   "len": "2:00"
+  },
+  {
+   "id": "24-duration-per-order",
+   "yt": "8cwDBXWgPgE",
+   "title": "Duration: per order, no time limit",
+   "sub": "The default: every order starts fresh.",
+   "len": "1:18"
+  },
+  {
+   "id": "25-duration-date-range",
+   "yt": "ZJ3b11vuOsU",
+   "title": "Duration: active only in a date range",
+   "sub": "A limit that only applies between two dates, such as a sale.",
+   "len": "1:46"
+  },
+  {
+   "id": "26-duration-lifetime",
+   "yt": "1TeTxkz1sfw",
+   "title": "Duration: lifetime total",
+   "sub": "Count everything a customer has ever ordered.",
+   "len": "1:32"
+  },
+  {
+   "id": "27-duration-fixed-range",
+   "yt": "q-RhDaW8q-c",
+   "title": "Duration: total in a fixed date range",
+   "sub": "Add up what a customer orders between two dates.",
+   "len": "1:34"
+  },
+  {
+   "id": "28-duration-rolling",
+   "yt": "8E5xrqRNe5w",
+   "title": "Duration: rolling window",
+   "sub": "Add up what a customer ordered in the last days, weeks or months.",
+   "len": "1:42"
+  },
+  {
+   "id": "29-duration-custom-start",
+   "yt": "xkQcq2JWL6g",
+   "title": "Duration: custom start and length",
+   "sub": "Count orders from a start date, for a set time.",
+   "len": "1:40"
+  },
+  {
+   "id": "30-duration-order-statuses",
+   "yt": "fJmoivfk8sw",
+   "title": "Duration: which order statuses count",
+   "sub": "Only count past orders in the statuses you choose.",
+   "len": "2:02"
+  },
+  {
+   "id": "31-rule-templates",
+   "yt": "J1NdOkuDhTA",
+   "title": "Rule templates",
+   "sub": "Save a set of limits once, and apply it to any product in one pick.",
+   "len": "1:24"
+  },
+  {
+   "id": "32-export-import",
+   "yt": "fiJI-5yJpm8",
+   "title": "Export and import (CSV)",
+   "sub": "Back up rules, edit many at once in a spreadsheet, or move them to another shop.",
+   "len": "1:20"
+  },
+  {
+   "id": "33-blocked-attempts",
+   "yt": "rEGIeiy14uI",
+   "title": "Blocked attempts log",
+   "sub": "See every time a rule stopped a customer.",
+   "len": "1:40"
+  },
+  {
+   "id": "34-messages",
+   "yt": "JoJ9gMwRJYc",
+   "title": "Customer messages",
+   "sub": "Change every message the customer sees, per language, with a live preview.",
+   "len": "1:44"
+  },
+  {
+   "id": "35-pack-price-position",
+   "yt": "w3BPzFjcbC4",
+   "title": "Pack price message and position",
+   "sub": "The “Pack of 3 for …” line, and where it appears.",
+   "len": "1:42"
+  },
+  {
+   "id": "36-product-page-information",
+   "yt": "ZAvrrUkpxyU",
+   "title": "Product page information",
+   "sub": "Tell customers the limits before they try to order.",
+   "len": "1:40"
+  },
+  {
+   "id": "37-checkout-protection",
+   "yt": "dBxDV6VTCPw",
+   "title": "Checkout protection",
+   "sub": "Make sure no order is created while a rule is broken.",
+   "len": "1:52"
+  },
+  {
+   "id": "38-custom-css",
+   "yt": "I98ZR55iev4",
+   "title": "Custom CSS",
+   "sub": "Fine-tune how the module looks on your theme.",
+   "len": "1:16"
+  }
+ ]
+}

@@ -1,0 +1,1947 @@
+{
+ "playlist": "https://www.youtube.com/playlist?list=PLPYTROnNCGQA",
+ "pages": [
+  {
+   "slug": "getting-started",
+   "title": "Getting started",
+   "pages": [
+    {
+     "slug": "install-and-activate",
+     "title": "Install and activate",
+     "video": {
+      "yt": "23Q9uGjO0jQ",
+      "len": "1:26",
+      "clip": "01-install-licence"
+     },
+     "lead": "Install or upgrade the module, and activate your licence.",
+     "intro": "In this video: installing and upgrading the module, and activating your licence.",
+     "steps": [
+      {
+       "t": 9,
+       "text": "In your back office, open Modules, then Module Manager. Click Upload a module."
+      },
+      {
+       "t": 15,
+       "text": "Drop the module zip file in this window, or click select file and choose it."
+      },
+      {
+       "t": 22,
+       "text": "We drop the zip. PrestaShop uploads the file and installs the module."
+      },
+      {
+       "t": 28,
+       "text": "After a few seconds it says: module installed."
+      },
+      {
+       "t": 33,
+       "text": "To upgrade later, upload the new zip the same way. Your rules, duration rules, messages and settings are all kept. Now click Configure."
+      },
+      {
+       "t": 48,
+       "text": "The module asks for your licence: Enter licence opens this window. You need it if you bought the module on PrestaShop Addons."
+      },
+      {
+       "t": 57,
+       "text": "Paste your Addons order ID here, and click Activate. You find the order ID in your Addons account, under Orders. It turns on updates and support for this shop."
+      },
+      {
+       "t": 68,
+       "text": "Remind me later closes the window. The module works the same while you activate it, and this bar keeps the Enter licence button."
+      },
+      {
+       "t": 77,
+       "text": "These tabs hold all its settings. Every other video in this series starts here."
+      }
+     ],
+     "file": "install-and-activate.html"
+    },
+    {
+     "slug": "the-six-tabs",
+     "title": "The six tabs",
+     "file": "the-six-tabs.html"
+    }
+   ]
+  },
+  {
+   "slug": "configuration",
+   "title": "Configuration",
+   "file": "configuration.html",
+   "pages": [
+    {
+     "slug": "minimum-quantity",
+     "title": "Minimum Quantity",
+     "video": {
+      "yt": "FdnELhvkhvc",
+      "len": "2:27",
+      "clip": "03-minimum-quantity"
+     },
+     "lead": "Make customers order at least a set number of units.",
+     "intro": "In this video: the Minimum Quantity setting. How to switch it on and off, how to give a product a minimum, and what your customer sees.",
+     "steps": [
+      {
+       "t": 12,
+       "text": "Open the module, then the Configuration tab. The Minimum Quantity card has a status switch and a global value."
+      },
+      {
+       "t": 22,
+       "text": "Because it is enabled, the Quantity and Amount Rule tab shows a Min Qty column for every product."
+      },
+      {
+       "t": 32,
+       "text": "Now click Disable. The change is saved straight away."
+      },
+      {
+       "t": 38,
+       "text": "Back on the rule table, the Min Qty column is gone, and no minimum is checked anywhere in the shop."
+      },
+      {
+       "t": 48,
+       "text": "Click Enable to switch it back on."
+      },
+      {
+       "t": 53,
+       "text": "The column is back. Let us give the Pine coaster a minimum. Search for it."
+      },
+      {
+       "t": 62,
+       "text": "Type three in Min Qty and click away. The rule is saved and active."
+      },
+      {
+       "t": 86,
+       "text": "On the product page, the customer sees: minimum order three. The quantity box already starts at three."
+      },
+      {
+       "t": 94,
+       "text": "If they type one, the box goes back up to three."
+      },
+      {
+       "t": 98,
+       "text": "They click Add to cart."
+      },
+      {
+       "t": 107,
+       "text": "In the cart, the quantity is three."
+      },
+      {
+       "t": 110,
+       "text": "Now they try to lower it to two on the cart page. The cart refuses and tells them: you need to order at least three."
+      },
+      {
+       "t": 121,
+       "text": "The quantity stays at three, so the order can never go below the minimum."
+      },
+      {
+       "t": 134,
+       "text": "Finally, the global value on the card is the minimum for every product that has no rule of its own. It is shown in the Global rule video."
+      }
+     ],
+     "file": "minimum-quantity.html"
+    },
+    {
+     "slug": "maximum-quantity",
+     "title": "Maximum Quantity",
+     "video": {
+      "yt": "V2SIkNx5qzY",
+      "len": "2:07",
+      "clip": "04-maximum-quantity"
+     },
+     "lead": "Stop customers ordering more than a set number of units.",
+     "intro": "In this video: the Maximum Quantity setting. Switching it on and off, giving a product a maximum, and what your customer sees.",
+     "steps": [
+      {
+       "t": 12,
+       "text": "While Maximum Quantity is enabled, the Quantity and Amount Rule tab has a Max Qty column."
+      },
+      {
+       "t": 21,
+       "text": "On the Configuration tab, General section, click Disable on the Maximum Quantity card. It is saved straight away."
+      },
+      {
+       "t": 31,
+       "text": "Back on the rule table, the Max Qty column is gone, and this limit is not checked anywhere in the shop."
+      },
+      {
+       "t": 41,
+       "text": "Click Enable to switch it back on."
+      },
+      {
+       "t": 46,
+       "text": "The Max Qty column is back."
+      },
+      {
+       "t": 49,
+       "text": "Let us give the Pine trivet a maximum. Search for it."
+      },
+      {
+       "t": 58,
+       "text": "Type five in Max Qty and click away. The rule is saved."
+      },
+      {
+       "t": 80,
+       "text": "On the product page, the customer sees: maximum order five."
+      },
+      {
+       "t": 86,
+       "text": "If they try to add eight, the cart refuses, and tells them they can order at most five."
+      },
+      {
+       "t": 98,
+       "text": "Five is fine, so that goes into the cart."
+      },
+      {
+       "t": 111,
+       "text": "On the cart page, the plus button cannot go past five either. The customer sees the same message."
+      },
+      {
+       "t": 121,
+       "text": "The quantity stays at five."
+      }
+     ],
+     "file": "maximum-quantity.html"
+    },
+    {
+     "slug": "multiples-of-quantity",
+     "title": "Multiples of Quantity",
+     "video": {
+      "yt": "VZwSs3tf8UQ",
+      "len": "2:52",
+      "clip": "05-multiples-of-quantity"
+     },
+     "lead": "Sell in packs: 3, 6, 9… and choose whether steps start from the minimum.",
+     "intro": "In this video: Multiples of Quantity. Selling a product in packs, and the Start from the minimum option.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "While Multiples of Quantity is enabled, the Quantity and Amount Rule tab has a Multiple Qty column."
+      },
+      {
+       "t": 20,
+       "text": "On the Configuration tab, General section, click Disable on the Multiples of Quantity card. It is saved straight away."
+      },
+      {
+       "t": 30,
+       "text": "Back on the rule table, the Multiple Qty column is gone, and this limit is not checked anywhere in the shop."
+      },
+      {
+       "t": 39,
+       "text": "Click Enable to switch it back on."
+      },
+      {
+       "t": 44,
+       "text": "The Multiple Qty column is back."
+      },
+      {
+       "t": 48,
+       "text": "Let us sell the Northline pencil in packs of three. Search for it."
+      },
+      {
+       "t": 53,
+       "text": "Type three in Multiple Qty and click away."
+      },
+      {
+       "t": 69,
+       "text": "On the product page, one pack of three is the smallest order, so the customer sees minimum order three, and the box starts at three."
+      },
+      {
+       "t": 79,
+       "text": "Next to the price, the pack price is shown as well. Its wording and position are set on the Advanced tab."
+      },
+      {
+       "t": 87,
+       "text": "The plus button jumps a whole pack at a time: six, then nine."
+      },
+      {
+       "t": 92,
+       "text": "If they type four, it is rounded up to the next pack, six."
+      },
+      {
+       "t": 108,
+       "text": "Now a minimum together with packs. We set a minimum of five, in steps of two."
+      },
+      {
+       "t": 117,
+       "text": "On the Multiples of Quantity card, Start from the minimum is enabled. The steps then count from the minimum."
+      },
+      {
+       "t": 136,
+       "text": "So the customer can order five, seven, nine, and so on."
+      },
+      {
+       "t": 148,
+       "text": "Now we disable Start from the minimum."
+      },
+      {
+       "t": 160,
+       "text": "Now the quantities are whole multiples of two, from the minimum up: six, eight, ten."
+      }
+     ],
+     "file": "multiples-of-quantity.html"
+    },
+    {
+     "slug": "limit-multiple-quantity",
+     "title": "Limit Multiple Quantity",
+     "video": {
+      "yt": "jOVWflXRPg8",
+      "len": "1:44",
+      "clip": "06-limit-multiple-quantity"
+     },
+     "lead": "Packs up to a quantity, single units above it.",
+     "intro": "In this video: Limit Multiple Quantity. Above this quantity, the pack rule stops and single units are allowed again.",
+     "steps": [
+      {
+       "t": 12,
+       "text": "Limit Multiple Quantity is switched off after a fresh install, so the rule table has no Limit Mult Qty column yet."
+      },
+      {
+       "t": 23,
+       "text": "On the Configuration tab, General section, click Enable on the Limit Multiple Quantity card. It is saved straight away."
+      },
+      {
+       "t": 33,
+       "text": "Now the rule table has a Limit Mult Qty column."
+      },
+      {
+       "t": 37,
+       "text": "Take the Northline eraser. Search for it."
+      },
+      {
+       "t": 51,
+       "text": "We set Multiple Qty to six and Limit Mult Qty to twelve. So it is sold in packs of six, up to twelve."
+      },
+      {
+       "t": 75,
+       "text": "On the product page, the quantity starts at one pack of six."
+      },
+      {
+       "t": 81,
+       "text": "The plus button goes to twelve, the next pack."
+      },
+      {
+       "t": 85,
+       "text": "From twelve upwards the limit is reached, so the pack rule stops: thirteen, fourteen, one unit at a time."
+      },
+      {
+       "t": 93,
+       "text": "Below the limit, packs still apply: if the customer types nine, it is rounded up to twelve."
+      }
+     ],
+     "file": "limit-multiple-quantity.html"
+    },
+    {
+     "slug": "allowed-quantities",
+     "title": "Allowed Quantities",
+     "video": {
+      "yt": "WMGeVFuuVQk",
+      "len": "1:51",
+      "clip": "07-allowed-quantities"
+     },
+     "lead": "Only let fixed quantities be ordered, such as 6, 12 or 24.",
+     "intro": "In this video: Allowed Quantities. Only the quantities you list can be ordered.",
+     "steps": [
+      {
+       "t": 9,
+       "text": "Allowed Quantities is switched off after a fresh install, so the rule table has no Allowed Qty column yet."
+      },
+      {
+       "t": 18,
+       "text": "On the Configuration tab, General section, click Enable on the Allowed Quantities card. It is saved straight away."
+      },
+      {
+       "t": 28,
+       "text": "Now the rule table has a Allowed Qty column."
+      },
+      {
+       "t": 32,
+       "text": "Take the Cotton napkin. Search for it."
+      },
+      {
+       "t": 44,
+       "text": "Type the quantities, separated by commas: six, twelve, twenty four. A rule uses either Allowed Qty or Multiple Qty, not both."
+      },
+      {
+       "t": 74,
+       "text": "The product page lists the quantities the customer can order, and the box starts at six."
+      },
+      {
+       "t": 80,
+       "text": "The plus button jumps from one allowed quantity to the next: twelve, then twenty four."
+      },
+      {
+       "t": 87,
+       "text": "A quantity in between, like eight, is rounded up to the next allowed one, twelve."
+      },
+      {
+       "t": 102,
+       "text": "The global value on the card is the allowed list for products with no rule of their own."
+      }
+     ],
+     "file": "allowed-quantities.html"
+    },
+    {
+     "slug": "minimum-and-maximum-amount",
+     "title": "Minimum and Maximum Amount",
+     "video": {
+      "yt": "OKVMnpNU_Dg",
+      "len": "2:43",
+      "clip": "08-minimum-maximum-amount"
+     },
+     "lead": "Limit how much a customer must, or may, spend on a product.",
+     "intro": "In this video: Minimum Amount and Maximum Amount. Limits in money instead of units.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "Minimum Amount is switched off after a fresh install, so the rule table has no Min Amt column yet."
+      },
+      {
+       "t": 21,
+       "text": "On the Configuration tab, General section, click Enable on the Minimum Amount card. It is saved straight away."
+      },
+      {
+       "t": 31,
+       "text": "Now the rule table has a Min Amt column."
+      },
+      {
+       "t": 37,
+       "text": "Maximum Amount is switched on the same way."
+      },
+      {
+       "t": 44,
+       "text": "Now there is a Max Amt column too. Let us use the Ceramic planter."
+      },
+      {
+       "t": 61,
+       "text": "The customer must spend at least fifty euros on it, and at most one hundred. Amounts are in your shop default currency."
+      },
+      {
+       "t": 93,
+       "text": "A customer adds one planter, about twenty euros."
+      },
+      {
+       "t": 104,
+       "text": "The cart explains that they need to spend at least fifty euros on this product."
+      },
+      {
+       "t": 110,
+       "text": "And the Proceed to checkout button stays disabled while the rule is broken."
+      },
+      {
+       "t": 116,
+       "text": "They raise the quantity to three planters, about sixty euros."
+      },
+      {
+       "t": 129,
+       "text": "The message is gone, and Proceed to checkout is open again."
+      },
+      {
+       "t": 134,
+       "text": "Now they try to go up to six planters. Five are about one hundred euros, but the sixth would make one hundred and twenty, so the cart refuses it: they can spend at most one hundred."
+      },
+      {
+       "t": 154,
+       "text": "The cart keeps five planters, within the range, and checkout stays open."
+      }
+     ],
+     "file": "minimum-and-maximum-amount.html"
+    },
+    {
+     "slug": "amounts-include-tax",
+     "title": "Amounts include tax",
+     "video": {
+      "yt": "9IPB6OGrCc8",
+      "len": "2:03",
+      "clip": "09-amounts-include-tax"
+     },
+     "lead": "Measure Minimum and Maximum Amount with or without tax.",
+     "intro": "In this video: Amounts include tax. The same amount rule, measured with tax and without tax.",
+     "steps": [
+      {
+       "t": 21,
+       "text": "The Kestrel mug warmer has a minimum amount of sixteen euros fifty. It costs sixteen euros without tax, and sixteen eighty with tax."
+      },
+      {
+       "t": 34,
+       "text": "Amounts include tax is enabled, so amounts are measured with tax."
+      },
+      {
+       "t": 60,
+       "text": "A customer adds one to the cart."
+      },
+      {
+       "t": 71,
+       "text": "Sixteen eighty with tax is more than sixteen fifty, so there is no message, and checkout is open."
+      },
+      {
+       "t": 85,
+       "text": "Now disable Amounts include tax. Amounts are measured without tax."
+      },
+      {
+       "t": 103,
+       "text": "The same cart now counts sixteen euros, below sixteen fifty, so the customer is asked to spend at least sixteen fifty."
+      },
+      {
+       "t": 113,
+       "text": "And checkout is locked. The setting also applies to past orders counted by duration rules."
+      }
+     ],
+     "file": "amounts-include-tax.html"
+    },
+    {
+     "slug": "different-products-per-order",
+     "title": "Different products per order",
+     "video": {
+      "yt": "VlT5U9YDk5Q",
+      "len": "2:42",
+      "clip": "10-different-products-per-order"
+     },
+     "lead": "Require, or cap, the number of different products in one order.",
+     "intro": "In this video: Different products per order. How many different products one order must hold, and may hold.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "This card is on the Configuration tab, General section. Zero means no limit, for both the minimum and the maximum."
+      },
+      {
+       "t": 20,
+       "text": "Type two in Maximum. An order may now hold at most two different products, whatever their quantities."
+      },
+      {
+       "t": 53,
+       "text": "A customer adds a first mug, and a second mug."
+      },
+      {
+       "t": 90,
+       "text": "A third different product is refused: they can order at most two different products."
+      },
+      {
+       "t": 108,
+       "text": "Now the other way round: no maximum, and a minimum of three different products."
+      },
+      {
+       "t": 130,
+       "text": "With only two different products, the cart asks for at least three, and checkout stays locked until a third product is added."
+      },
+      {
+       "t": 148,
+       "text": "Per combination decides how combinations count. Enabled: two sizes of one shirt count as two products. Disabled: they count as one."
+      }
+     ],
+     "file": "different-products-per-order.html"
+    },
+    {
+     "slug": "auto-save",
+     "title": "Auto Save",
+     "video": {
+      "yt": "x2gcruIS6K8",
+      "len": "1:15",
+      "clip": "11-auto-save"
+     },
+     "lead": "Save rule table changes straight away, or only with a Save button.",
+     "intro": "In this video: Auto Save. Changes in the rule table saved straight away, or only when you click Save.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "Auto Save is enabled after installation."
+      },
+      {
+       "t": 28,
+       "text": "So when you change a value in the rule table and click away, it is saved at once. There is no Save button."
+      },
+      {
+       "t": 38,
+       "text": "Now disable Auto Save."
+      },
+      {
+       "t": 54,
+       "text": "The rule table now has a Save button on every row."
+      },
+      {
+       "t": 58,
+       "text": "Changing a value no longer saves it. If you leave the page now, the change is lost."
+      },
+      {
+       "t": 65,
+       "text": "Click Save to store the row. This is useful when you want to edit several values first, and save them together."
+      }
+     ],
+     "file": "auto-save.html"
+    },
+    {
+     "slug": "rule-priority-order",
+     "title": "Rule priority order",
+     "video": {
+      "yt": "sb1Jc6_K6uo",
+      "len": "1:40",
+      "clip": "18-rule-priority"
+     },
+     "lead": "When a product matches more than one rule, which one wins.",
+     "intro": "In this video: the Rule Priority Order. When one product matches two rules, the order decides which one applies.",
+     "steps": [
+      {
+       "t": 14,
+       "text": "The Home Accessories category has a maximum of four."
+      },
+      {
+       "t": 31,
+       "text": "And the brand Studio Design has a maximum of two. Our mugs belong to both."
+      },
+      {
+       "t": 40,
+       "text": "On the Configuration tab, the Rule Priority Order decides. By default: product, category, brand, supplier, customer group, then global."
+      },
+      {
+       "t": 67,
+       "text": "Category comes before brand, so the mug shows maximum order four."
+      },
+      {
+       "t": 78,
+       "text": "Drag Brand Rule in front of Category Rule. The new order is saved at once."
+      },
+      {
+       "t": 91,
+       "text": "Now the brand rule wins, and the same mug shows maximum order two."
+      }
+     ],
+     "file": "rule-priority-order.html"
+    },
+    {
+     "slug": "attributes",
+     "title": "Attributes setting",
+     "video": {
+      "yt": "UqYCMFFeZ2c",
+      "len": "2:03",
+      "clip": "19-attributes"
+     },
+     "lead": "Check a product rule on each combination, or on all combinations together.",
+     "intro": "In this video: the Attributes setting. Whether combinations of one product are counted on their own, or together.",
+     "steps": [
+      {
+       "t": 23,
+       "text": "The Hummingbird printed t-shirt has a product rule: a maximum of three."
+      },
+      {
+       "t": 31,
+       "text": "Attributes is enabled. Each combination is checked on its own against the maximum."
+      },
+      {
+       "t": 55,
+       "text": "So a customer can take three in size S, and three more in size M."
+      },
+      {
+       "t": 81,
+       "text": "Six t-shirts in the cart, and no message."
+      },
+      {
+       "t": 92,
+       "text": "Now disable Attributes. All combinations of a product are counted together."
+      },
+      {
+       "t": 109,
+       "text": "The same cart now has six of one product, so it asks for at most three, and checkout is locked until it is three in total."
+      }
+     ],
+     "file": "attributes.html"
+    }
+   ]
+  },
+  {
+   "slug": "rules",
+   "title": "Quantity / Amount rules",
+   "file": "rules.html",
+   "pages": [
+    {
+     "slug": "product-rules-and-combinations",
+     "title": "Product rules and combinations",
+     "video": {
+      "yt": "MhLPI0A4Xf4",
+      "len": "2:00",
+      "clip": "12-product-rule-combinations"
+     },
+     "lead": "A rule for a whole product, or for one size or colour.",
+     "intro": "In this video: product rules, and rules for a single combination such as one size or one colour.",
+     "steps": [
+      {
+       "t": 12,
+       "text": "The Quantity and Amount Rule tab opens on Product rules. Every product of the shop is listed."
+      },
+      {
+       "t": 19,
+       "text": "Search for the Hummingbird printed t-shirt. It has combinations: four sizes in two colours."
+      },
+      {
+       "t": 36,
+       "text": "The bold row is the product itself. A rule here applies to the product as a whole."
+      },
+      {
+       "t": 42,
+       "text": "Each row below it is one combination, and can have a rule of its own."
+      },
+      {
+       "t": 47,
+       "text": "We give size S in white a maximum of two. The other combinations stay free."
+      },
+      {
+       "t": 80,
+       "text": "On the product page, with S and white selected, the customer sees maximum order two."
+      },
+      {
+       "t": 87,
+       "text": "Three of them are refused, and the message names the combination."
+      },
+      {
+       "t": 107,
+       "text": "Size M in white has no rule, so three of them go into the cart without any message."
+      }
+     ],
+     "file": "product-rules-and-combinations.html"
+    },
+    {
+     "slug": "category-rule",
+     "title": "Category rule",
+     "video": {
+      "yt": "stXV9j7BQhg",
+      "len": "2:55",
+      "clip": "13-category-rule"
+     },
+     "lead": "One rule for every product in a category: each on its own, or added up.",
+     "intro": "In this video: category rules. One line that covers every product in a category, checked per product, or added up together.",
+     "steps": [
+      {
+       "t": 14,
+       "text": "On the Quantity and Amount Rule tab, set Rule Type to Category. The table now lists your categories."
+      },
+      {
+       "t": 22,
+       "text": "Search for the Home Accessories category. It holds our mugs."
+      },
+      {
+       "t": 29,
+       "text": "Type four in Max Qty. Every product in this category now has a maximum of four."
+      },
+      {
+       "t": 38,
+       "text": "On the Configuration tab, the Category Rule card must be enabled. Apply Rule to Individual Products is enabled too: each product is checked on its own."
+      },
+      {
+       "t": 71,
+       "text": "So each mug shows maximum order four."
+      },
+      {
+       "t": 75,
+       "text": "Five of one mug are refused."
+      },
+      {
+       "t": 99,
+       "text": "But four of a second mug are fine, because each product counts on its own."
+      },
+      {
+       "t": 117,
+       "text": "Now disable Apply Rule to Individual Products. All products of the category are added up into one total."
+      },
+      {
+       "t": 143,
+       "text": "The cart already has four mugs from this category. The customer tries to add one more, a different mug. Five would be too many, so it is refused: at most four in total from the category Home Accessories."
+      },
+      {
+       "t": 168,
+       "text": "The cart keeps its four mugs, so checkout stays open."
+      }
+     ],
+     "file": "category-rule.html"
+    },
+    {
+     "slug": "brand-rule",
+     "title": "Brand rule",
+     "video": {
+      "yt": "59KwA7EQ5fA",
+      "len": "1:56",
+      "clip": "14-brand-rule"
+     },
+     "lead": "One rule for every product of a brand.",
+     "intro": "In this video: brand rules. Here, a customer must order at least three products of one brand, in total.",
+     "steps": [
+      {
+       "t": 12,
+       "text": "Set Rule Type to Brand. The table lists your brands."
+      },
+      {
+       "t": 18,
+       "text": "Alba Paper makes a notebook and a sketch pad. Type three in Min Qty."
+      },
+      {
+       "t": 27,
+       "text": "On the Brand Rule card, Apply Rule to Individual Products is disabled. So the brand products are added up: three in total, in any mix."
+      },
+      {
+       "t": 55,
+       "text": "A customer adds one Alba notebook, and one Alba sketch pad."
+      },
+      {
+       "t": 82,
+       "text": "Two Alba Paper products are not enough. The cart asks for at least three in total from the brand, and checkout is locked."
+      },
+      {
+       "t": 93,
+       "text": "They add one more notebook."
+      },
+      {
+       "t": 103,
+       "text": "Three in total: the message is gone and checkout is open. With Apply Rule to Individual Products enabled, each product would need three on its own."
+      }
+     ],
+     "file": "brand-rule.html"
+    },
+    {
+     "slug": "supplier-rule",
+     "title": "Supplier rule",
+     "video": {
+      "yt": "BRAhwsE6Gsc",
+      "len": "2:00",
+      "clip": "15-supplier-rule"
+     },
+     "lead": "One rule for every product from a supplier.",
+     "intro": "In this video: supplier rules. Here, at most six products in total from one supplier.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "Set Rule Type to Supplier. The table lists your suppliers."
+      },
+      {
+       "t": 16,
+       "text": "Northline Supply delivers a pencil and an eraser. Type six in Max Qty."
+      },
+      {
+       "t": 25,
+       "text": "Apply Rule to Individual Products is disabled on the Supplier Rule card, so everything from this supplier is added up."
+      },
+      {
+       "t": 53,
+       "text": "A customer adds four pencils. That is fine."
+      },
+      {
+       "t": 75,
+       "text": "Then they try to add three erasers, from the same supplier. That would make seven from Northline Supply, so it is refused: at most six in total from the supplier."
+      },
+      {
+       "t": 97,
+       "text": "They add two erasers instead."
+      },
+      {
+       "t": 111,
+       "text": "Four pencils and two erasers make six, so there is no message and checkout is open."
+      }
+     ],
+     "file": "supplier-rule.html"
+    },
+    {
+     "slug": "customer-group-rule",
+     "title": "Customer group rule",
+     "video": {
+      "yt": "i8tuXbz4bso",
+      "len": "2:02",
+      "clip": "16-customer-group-rule"
+     },
+     "lead": "Different limits for different customer groups.",
+     "intro": "In this video: customer group rules. Here, wholesale customers must order at least ten of each product, while everyone else can order one.",
+     "steps": [
+      {
+       "t": 13,
+       "text": "Set Rule Type to Customer Group. The table lists your customer groups."
+      },
+      {
+       "t": 19,
+       "text": "For the Wholesale group, type ten in Min Qty."
+      },
+      {
+       "t": 29,
+       "text": "The Customer Group Rule card is enabled, and the rule applies to each product on its own."
+      },
+      {
+       "t": 56,
+       "text": "A visitor who is not logged in sees no minimum. They can order one mug."
+      },
+      {
+       "t": 103,
+       "text": "Now a customer from the Wholesale group logs in. The same mug shows minimum order ten, and the box starts at ten."
+      },
+      {
+       "t": 111,
+       "text": "If they type four, it goes back up to ten. Other groups, like VIP or Trade, can have limits of their own."
+      }
+     ],
+     "file": "customer-group-rule.html"
+    },
+    {
+     "slug": "global-rule",
+     "title": "Global rule",
+     "video": {
+      "yt": "E-HYfeDck7M",
+      "len": "2:07",
+      "clip": "17-global-rule"
+     },
+     "lead": "One rule for the whole shop, and a minimum order value.",
+     "intro": "In this video: the Global rule. A limit for every product in the shop, and a minimum order value for the whole cart.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "The Global rule is set right on the Configuration tab, with the global value of each limit."
+      },
+      {
+       "t": 18,
+       "text": "Type two in the global value of Minimum Quantity. Every product now has a minimum of two."
+      },
+      {
+       "t": 35,
+       "text": "The Pine coaster has no rule of its own, so it shows minimum order two."
+      },
+      {
+       "t": 47,
+       "text": "The Pine trivet has its own product rule, a minimum of five. A more specific rule always comes before the global one."
+      },
+      {
+       "t": 64,
+       "text": "Now a minimum order value. We set the global minimum back to zero, and enable Minimum Amount."
+      },
+      {
+       "t": 73,
+       "text": "Its global value is thirty euros."
+      },
+      {
+       "t": 76,
+       "text": "Further down, on the Global Rule card, disable Apply Rule to Individual Products. The whole cart is added up, so this is a minimum order value of thirty euros."
+      },
+      {
+       "t": 102,
+       "text": "A customer adds two coasters, about seven euros, and the cart asks them to spend at least thirty euros in total, with checkout locked until the order reaches thirty euros."
+      }
+     ],
+     "file": "global-rule.html"
+    },
+    {
+     "slug": "rule-table-filters",
+     "title": "Rule table filters",
+     "video": {
+      "yt": "S0IzSJr8mYE",
+      "len": "2:00",
+      "clip": "23-table-filters"
+     },
+     "lead": "Find products fast, and set a product rule for one customer group.",
+     "intro": "In this video: the filters above the rule table. Search, category, shop, and customer group.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "Search narrows the table to products or combinations by name."
+      },
+      {
+       "t": 16,
+       "text": "For example, mug."
+      },
+      {
+       "t": 22,
+       "text": "Category shows only the products of one category, which helps in a large catalogue."
+      },
+      {
+       "t": 29,
+       "text": "With multistore, Shop picks the shop the rules are for. All means every shop."
+      },
+      {
+       "t": 35,
+       "text": "Customer Group is the interesting one: it lets you give a product a rule for one group only."
+      },
+      {
+       "t": 42,
+       "text": "Pick Wholesale, search for the Pine coaster, and type ten in Min Qty. This rule is for wholesale customers only."
+      },
+      {
+       "t": 71,
+       "text": "A guest can still order one."
+      },
+      {
+       "t": 114,
+       "text": "A wholesale customer must order at least ten."
+      }
+     ],
+     "file": "rule-table-filters.html"
+    },
+    {
+     "slug": "status-and-bulk-actions",
+     "title": "Status, switching off and bulk actions",
+     "video": {
+      "yt": "tSIZ2T-G99s",
+      "len": "2:04",
+      "clip": "20-status-bulk"
+     },
+     "lead": "See what each rule does right now, and switch or delete many at once.",
+     "intro": "In this video: the Status column. Active, Scheduled, Expired and Off, switching a rule off, and bulk actions.",
+     "steps": [
+      {
+       "t": 21,
+       "text": "The Status column tells you what the cart does with each rule right now. Active: the rule applies now."
+      },
+      {
+       "t": 28,
+       "text": "Scheduled: its duration rule starts later, here in December. Until then the rule does nothing."
+      },
+      {
+       "t": 36,
+       "text": "Expired: its duration rule has ended. Edit the duration rule to give it new dates."
+      },
+      {
+       "t": 43,
+       "text": "Off: the rule was switched off. Its values are kept, so it can be switched back on exactly as it was."
+      },
+      {
+       "t": 51,
+       "text": "Let us switch the Pine coaster rule off, with the switch in its Status cell."
+      },
+      {
+       "t": 75,
+       "text": "On the product page, the minimum of three is gone, and the customer can order one."
+      },
+      {
+       "t": 93,
+       "text": "Switch it on again, and the minimum of three is back, unchanged."
+      },
+      {
+       "t": 98,
+       "text": "For many rules at once, tick their boxes. The bar above the table shows how many are selected."
+      },
+      {
+       "t": 106,
+       "text": "Switch off turns them all off together. Switch on turns them back on."
+      },
+      {
+       "t": 112,
+       "text": "Delete removes the selected rules, after you confirm. A deleted rule cannot be brought back, so switching off is often the better choice."
+      }
+     ],
+     "file": "status-and-bulk-actions.html"
+    },
+    {
+     "slug": "conditions",
+     "title": "Conditions",
+     "video": {
+      "yt": "hxlYpTNVnWc",
+      "len": "1:34",
+      "clip": "21-conditions"
+     },
+     "lead": "Apply a rule only in some situations: price, stock, currency, country…",
+     "intro": "In this video: rule conditions. A rule that only applies in some situations, here only for customers paying in US dollars.",
+     "steps": [
+      {
+       "t": 18,
+       "text": "The Pine coaster has a minimum of three, for everyone."
+      },
+      {
+       "t": 22,
+       "text": "Click Conditions on its row. The rule then only applies when the cart meets every condition you set."
+      },
+      {
+       "t": 29,
+       "text": "You can limit it to a product price range, or a stock range."
+      },
+      {
+       "t": 34,
+       "text": "To products with some features, or to delivery countries and zones."
+      },
+      {
+       "t": 40,
+       "text": "To new or returning customers, or to customers whose last order is recent."
+      },
+      {
+       "t": 46,
+       "text": "We pick US dollar in Currencies. Leave a list empty to accept any value."
+      },
+      {
+       "t": 52,
+       "text": "Click Apply. The button now shows one condition."
+      },
+      {
+       "t": 75,
+       "text": "A customer paying in euros does not meet the condition, so there is no minimum for them."
+      },
+      {
+       "t": 82,
+       "text": "Switch the shop to US dollars, and the minimum of three applies. When the conditions are not met, the next rule in line applies instead."
+      }
+     ],
+     "file": "conditions.html"
+    },
+    {
+     "slug": "rule-for-one-customer",
+     "title": "A rule for one customer",
+     "video": {
+      "yt": "cdZiCuNCrn8",
+      "len": "2:02",
+      "clip": "22-one-customer-rule"
+     },
+     "lead": "Give a single customer their own limit.",
+     "intro": "In this video: a rule for a single customer. Everyone can order ten, one customer only two.",
+     "steps": [
+      {
+       "t": 20,
+       "text": "The Pine trivet has a maximum of ten, for everyone."
+      },
+      {
+       "t": 25,
+       "text": "In the Customer filter, search for a customer by name, e-mail or id."
+      },
+      {
+       "t": 31,
+       "text": "Pick the customer. The table now shows this customer’s own rules, and everything you type is saved for them only."
+      },
+      {
+       "t": 40,
+       "text": "Type two in Max Qty. A customer’s own rule always comes before the rule for everyone."
+      },
+      {
+       "t": 47,
+       "text": "Click the cross in the filter to go back. The rule for everyone is still ten."
+      },
+      {
+       "t": 69,
+       "text": "A guest sees maximum order ten."
+      },
+      {
+       "t": 113,
+       "text": "When Demo Customer logs in, the same product shows maximum order two."
+      }
+     ],
+     "file": "rule-for-one-customer.html"
+    }
+   ]
+  },
+  {
+   "slug": "duration-rules",
+   "title": "Duration rules",
+   "file": "duration-rules.html",
+   "pages": [
+    {
+     "slug": "per-order-no-time-limit",
+     "title": "Per order, no time limit",
+     "video": {
+      "yt": "8cwDBXWgPgE",
+      "len": "1:18",
+      "clip": "24-duration-per-order"
+     },
+     "lead": "The default: every order starts fresh.",
+     "intro": "In this video: duration rules, starting with the default one, Per order, no time limit.",
+     "steps": [
+      {
+       "t": 9,
+       "text": "The Duration Rule tab lists the rules that decide over which time a limit is counted. Six come with the module."
+      },
+      {
+       "t": 17,
+       "text": "The first one, Per order, no time limit, is what every rule uses unless you pick another."
+      },
+      {
+       "t": 34,
+       "text": "You pick it in the Duration column of the rule table. The Kestrel mug warmer has a maximum of two, per order."
+      },
+      {
+       "t": 58,
+       "text": "Demo Customer is logged in. Five days ago they ordered two of these. With Per order, that does not matter: each order starts fresh."
+      },
+      {
+       "t": 67,
+       "text": "So they can order two again today. The limit is only checked inside one order."
+      }
+     ],
+     "file": "per-order-no-time-limit.html"
+    },
+    {
+     "slug": "active-only-in-a-date-range",
+     "title": "Active only in a date range",
+     "video": {
+      "yt": "ZJ3b11vuOsU",
+      "len": "1:46",
+      "clip": "25-duration-date-range"
+     },
+     "lead": "A limit that only applies between two dates, such as a sale.",
+     "intro": "In this video: Per order, active only in a date range. A limit that only applies during a sale or a campaign.",
+     "steps": [
+      {
+       "t": 12,
+       "text": "On the Duration Rule tab, click Create Rule. Name it, for example Black Friday, and enable it."
+      },
+      {
+       "t": 26,
+       "text": "In step two, pick Per order, active only in date range, and choose the dates: November twenty seventh to thirtieth."
+      },
+      {
+       "t": 37,
+       "text": "This type needs no order statuses. Click Save."
+      },
+      {
+       "t": 56,
+       "text": "In the rule table, pick Black Friday in the Duration column of the Kestrel mug warmer. Its status becomes Scheduled, with the start date."
+      },
+      {
+       "t": 83,
+       "text": "Before the sale, the maximum of two does not apply at all."
+      },
+      {
+       "t": 94,
+       "text": "During the dates, it works like a normal per order rule. After the end date, the rule shows Expired, and stops again."
+      }
+     ],
+     "file": "active-only-in-a-date-range.html"
+    },
+    {
+     "slug": "lifetime-total",
+     "title": "Lifetime total",
+     "video": {
+      "yt": "1TeTxkz1sfw",
+      "len": "1:32",
+      "clip": "26-duration-lifetime"
+     },
+     "lead": "Count everything a customer has ever ordered.",
+     "intro": "In this video: Total, all-time. The limit counts everything a customer has ever ordered of a product.",
+     "steps": [
+      {
+       "t": 15,
+       "text": "The Kestrel mug warmer has a maximum of three."
+      },
+      {
+       "t": 19,
+       "text": "In its Duration column, pick Total, all-time. Now the three are counted over the customer’s whole order history."
+      },
+      {
+       "t": 45,
+       "text": "Demo Customer already bought two, a month ago. So the product page tells them they can order only one more."
+      },
+      {
+       "t": 53,
+       "text": "Two would make four in total, so they are refused."
+      },
+      {
+       "t": 66,
+       "text": "One more is fine. After that order, the limit is used up for good, and the product page says so."
+      },
+      {
+       "t": 80,
+       "text": "Which past orders count is set in step three of the duration rule, by order status. That is shown in its own video."
+      }
+     ],
+     "file": "lifetime-total.html"
+    },
+    {
+     "slug": "total-in-a-fixed-date-range",
+     "title": "Total in a fixed date range",
+     "video": {
+      "yt": "q-RhDaW8q-c",
+      "len": "1:34",
+      "clip": "27-duration-fixed-range"
+     },
+     "lead": "Add up what a customer orders between two dates.",
+     "intro": "In this video: Total, fixed date range. While today is between two dates, the customer’s orders are added up against the limit.",
+     "steps": [
+      {
+       "t": 12,
+       "text": "Create a duration rule, name it October campaign, and enable it."
+      },
+      {
+       "t": 24,
+       "text": "Pick Total, fixed date range, from the first to the thirty first of October. The total does not reset until you change the dates."
+      },
+      {
+       "t": 35,
+       "text": "Leave the order statuses empty to count every order, and save."
+      },
+      {
+       "t": 51,
+       "text": "Give the Kestrel mug warmer, maximum three, this duration rule."
+      },
+      {
+       "t": 73,
+       "text": "Demo Customer ordered two earlier this month, so one is left for October."
+      },
+      {
+       "t": 79,
+       "text": "Two are refused. After the thirty first, the rule shows Expired and no longer applies."
+      }
+     ],
+     "file": "total-in-a-fixed-date-range.html"
+    },
+    {
+     "slug": "rolling-window",
+     "title": "Rolling window",
+     "video": {
+      "yt": "8E5xrqRNe5w",
+      "len": "1:42",
+      "clip": "28-duration-rolling"
+     },
+     "lead": "Add up what a customer ordered in the last days, weeks or months.",
+     "intro": "In this video: Total, rolling window. The limit counts what the customer ordered in the last thirty days, counted back from today.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "Create a duration rule named Last thirty days, and enable it."
+      },
+      {
+       "t": 24,
+       "text": "Pick Total, rolling window, and set it to thirty days. It could also be weeks, months or years."
+      },
+      {
+       "t": 36,
+       "text": "Save it."
+      },
+      {
+       "t": 51,
+       "text": "The Kestrel mug warmer, maximum three, now uses it: at most three in any thirty days."
+      },
+      {
+       "t": 79,
+       "text": "Demo Customer bought two forty days ago, and two ten days ago. Only the order from ten days ago is inside the window, so one is left."
+      },
+      {
+       "t": 88,
+       "text": "Two are refused. As days pass, older orders drop out of the window, and the customer can order again."
+      }
+     ],
+     "file": "rolling-window.html"
+    },
+    {
+     "slug": "custom-start-and-length",
+     "title": "Custom start and length",
+     "video": {
+      "yt": "xkQcq2JWL6g",
+      "len": "1:40",
+      "clip": "29-duration-custom-start"
+     },
+     "lead": "Count orders from a start date, for a set time.",
+     "intro": "In this video: Total, custom start plus duration. Orders count from a date you pick, for as long as you set, for example a product launch.",
+     "steps": [
+      {
+       "t": 13,
+       "text": "Create a duration rule named Launch month, and enable it."
+      },
+      {
+       "t": 26,
+       "text": "Pick Total, custom start plus duration. Start on October fifteenth, and last one month."
+      },
+      {
+       "t": 39,
+       "text": "Save it."
+      },
+      {
+       "t": 53,
+       "text": "Give it to the Kestrel mug warmer, maximum three."
+      },
+      {
+       "t": 77,
+       "text": "Demo Customer bought two on the eleventh, before the start, and one on the twentieth. Only the one on the twentieth counts, so two are left."
+      },
+      {
+       "t": 86,
+       "text": "Three are refused. Before the start date and after the month ends, the rule does not apply."
+      }
+     ],
+     "file": "custom-start-and-length.html"
+    },
+    {
+     "slug": "which-order-statuses-count",
+     "title": "Which order statuses count",
+     "video": {
+      "yt": "fJmoivfk8sw",
+      "len": "2:02",
+      "clip": "30-duration-order-statuses"
+     },
+     "lead": "Only count past orders in the statuses you choose.",
+     "intro": "In this video: step three of a duration rule, which orders count. Here only paid orders are added up.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "Create a duration rule named Paid orders, thirty days, and enable it."
+      },
+      {
+       "t": 25,
+       "text": "Pick Total, rolling window, thirty days."
+      },
+      {
+       "t": 35,
+       "text": "In step three, tick the statuses that should count: Payment accepted, Shipped and Delivered. Unpaid or cancelled orders are then ignored."
+      },
+      {
+       "t": 45,
+       "text": "The summary lists them. Save."
+      },
+      {
+       "t": 60,
+       "text": "The Kestrel mug warmer, maximum three, uses it."
+      },
+      {
+       "t": 81,
+       "text": "Demo Customer ordered two, five days ago, but that order is still Awaiting check payment. It does not count, so the maximum is still three."
+      },
+      {
+       "t": 97,
+       "text": "Now the payment arrives. In Orders, the merchant changes the order to Payment accepted."
+      },
+      {
+       "t": 113,
+       "text": "The paid order counts now, so Demo Customer can order only one more."
+      }
+     ],
+     "file": "which-order-statuses-count.html"
+    }
+   ]
+  },
+  {
+   "slug": "tools",
+   "title": "Templates, CSV and log",
+   "file": "tools.html",
+   "pages": [
+    {
+     "slug": "rule-templates",
+     "title": "Rule templates",
+     "video": {
+      "yt": "J1NdOkuDhTA",
+      "len": "1:24",
+      "clip": "31-rule-templates"
+     },
+     "lead": "Save a set of limits once, and apply it to any product in one pick.",
+     "intro": "In this video: rule templates. Save a set of limits once, then apply it to any product with one choice.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "Open the Rule Templates tab. A template is a set of Min, Max, Multiple and Amount values with a name."
+      },
+      {
+       "t": 18,
+       "text": "For example: Pack of ten. Minimum ten, maximum fifty, in multiples of ten."
+      },
+      {
+       "t": 28,
+       "text": "Click Save. The template appears in the list. You can delete it here at any time."
+      },
+      {
+       "t": 47,
+       "text": "On the Quantity and Amount Rule tab, every row now has an Apply a template picker."
+      },
+      {
+       "t": 53,
+       "text": "Pick Pack of ten for the Pine coaster, and the row is filled in with the template values."
+      },
+      {
+       "t": 75,
+       "text": "On the product page, the coaster now starts at ten, and is sold in tens, up to fifty."
+      }
+     ],
+     "file": "rule-templates.html"
+    },
+    {
+     "slug": "export-and-import",
+     "title": "Export and import (CSV)",
+     "video": {
+      "yt": "fiJI-5yJpm8",
+      "len": "1:20",
+      "clip": "32-export-import"
+     },
+     "lead": "Back up rules, edit many at once in a spreadsheet, or move them to another shop.",
+     "intro": "In this video: export and import. Rules as a CSV file, for backups, bulk edits, or another shop.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "Open the Export and Import tab. Export Rules downloads every rule you have saved as a CSV file."
+      },
+      {
+       "t": 19,
+       "text": "Click it, and the file is saved."
+      },
+      {
+       "t": 23,
+       "text": "Each line is one rule: the product id, the rule type, the limits, the duration rule, the shop, the group, the customer and the status. You can edit it in any spreadsheet."
+      },
+      {
+       "t": 37,
+       "text": "To import, choose a CSV file in the same layout, or drag it onto the box. This one sets a minimum of two and a maximum of ten on three mugs, plus one line with a product that does not exist."
+      },
+      {
+       "t": 52,
+       "text": "Click Import Rules. Every line is checked like a rule typed by hand. Good lines are saved, bad ones are skipped and reported."
+      },
+      {
+       "t": 69,
+       "text": "The mugs now have their new rules. A rule that already exists for a product is updated, never duplicated."
+      }
+     ],
+     "file": "export-and-import.html"
+    },
+    {
+     "slug": "blocked-attempts",
+     "title": "Blocked attempts log",
+     "video": {
+      "yt": "rEGIeiy14uI",
+      "len": "1:40",
+      "clip": "33-blocked-attempts"
+     },
+     "lead": "See every time a rule stopped a customer.",
+     "intro": "In this video: the Blocked Attempts log. Every time a rule stops a customer, it is written down here.",
+     "steps": [
+      {
+       "t": 26,
+       "text": "A customer tries to add eight Pine trivets, where the maximum is five. The cart refuses."
+      },
+      {
+       "t": 57,
+       "text": "Another one tries to lower the Pine coaster below its minimum in the cart."
+      },
+      {
+       "t": 72,
+       "text": "On the Blocked Attempts tab, both attempts are listed, newest first. It keeps the last fifty."
+      },
+      {
+       "t": 79,
+       "text": "Each line shows the date, where it happened, the customer, and the exact message they saw. What happened tells you whether a message was shown, or whether checkout or the order itself was stopped."
+      },
+      {
+       "t": 91,
+       "text": "Clear Log empties the list when you no longer need it."
+      }
+     ],
+     "file": "blocked-attempts.html"
+    }
+   ]
+  },
+  {
+   "slug": "messages-and-storefront",
+   "title": "Messages and storefront",
+   "file": "messages-and-storefront.html",
+   "pages": [
+    {
+     "slug": "customer-messages",
+     "title": "Customer messages",
+     "video": {
+      "yt": "JoJ9gMwRJYc",
+      "len": "1:44",
+      "clip": "34-messages"
+     },
+     "lead": "Change every message the customer sees, per language, with a live preview.",
+     "intro": "In this video: the Messages tab. Every message your customers can see, in every language, with a live preview.",
+     "steps": [
+      {
+       "t": 15,
+       "text": "Open Configuration, then Messages. On the left, pick the level: standard product, combination, category, brand, supplier, customer group or global."
+      },
+      {
+       "t": 27,
+       "text": "At the top, pick the language you are editing."
+      },
+      {
+       "t": 30,
+       "text": "Each message has a field. Leave it empty to use the wording that comes with the module."
+      },
+      {
+       "t": 36,
+       "text": "Type your own wording. Placeholders in curly brackets, like QTY and NAME, are replaced with the real values. The preview below shows the result straight away."
+      },
+      {
+       "t": 73,
+       "text": "In the cart, the customer now sees your wording."
+      },
+      {
+       "t": 90,
+       "text": "Empty the field to go back to the default message. The wording comes in English, French, German, Italian, Polish, Spanish and Dutch."
+      }
+     ],
+     "file": "customer-messages.html"
+    },
+    {
+     "slug": "pack-price-message-and-position",
+     "title": "Pack price message and position",
+     "video": {
+      "yt": "w3BPzFjcbC4",
+      "len": "1:42",
+      "clip": "35-pack-price-position"
+     },
+     "lead": "The “Pack of 3 for …” line, and where it appears.",
+     "intro": "In this video: the pack price message. Its wording, and its position on the product page and on product lists.",
+     "steps": [
+      {
+       "t": 23,
+       "text": "The Northline pencil is sold in packs of three, so the product page shows the pack price above the price."
+      },
+      {
+       "t": 41,
+       "text": "On Configuration, Advanced, this is the Step Quantity Price Message. QTY, INC PRICE and EXC PRICE are the pack size and its price with and without tax."
+      },
+      {
+       "t": 54,
+       "text": "Product Position switches it on or off for the product page. The text field is the page element it is placed next to, and the buttons choose where."
+      },
+      {
+       "t": 64,
+       "text": "B E means before the element, A E after it. B E C and A E C place it inside the element, at the start or the end. We pick A E, after the price."
+      },
+      {
+       "t": 85,
+       "text": "Now the pack price is shown below the price."
+      },
+      {
+       "t": 90,
+       "text": "Product List Position does the same on category and search pages, so customers see the pack size before they open the product."
+      }
+     ],
+     "file": "pack-price-message-and-position.html"
+    },
+    {
+     "slug": "product-page-information",
+     "title": "Product page information",
+     "video": {
+      "yt": "ZAvrrUkpxyU",
+      "len": "1:40",
+      "clip": "36-product-page-information"
+     },
+     "lead": "Tell customers the limits before they try to order.",
+     "intro": "In this video: product page information. The line that tells customers the limits up front.",
+     "steps": [
+      {
+       "t": 17,
+       "text": "Under the add to cart button, the Pine trivet tells the customer: minimum order two, maximum order eight."
+      },
+      {
+       "t": 36,
+       "text": "This is set on Configuration, Advanced. A rule that adds up a whole category, brand, supplier or group is not shown on each product."
+      },
+      {
+       "t": 46,
+       "text": "Disable it, and the line is gone. The limits still apply, the customer just is not told in advance."
+      },
+      {
+       "t": 75,
+       "text": "Enable it again. Each line has its own wording: minimum, maximum, allowed quantities, and limit used up. We change the minimum line."
+      },
+      {
+       "t": 94,
+       "text": "The product page shows the new wording."
+      }
+     ],
+     "file": "product-page-information.html"
+    },
+    {
+     "slug": "checkout-protection",
+     "title": "Checkout protection",
+     "video": {
+      "yt": "dBxDV6VTCPw",
+      "len": "1:52",
+      "clip": "37-checkout-protection"
+     },
+     "lead": "Make sure no order is created while a rule is broken.",
+     "intro": "In this video: checkout protection. How the module makes sure no order is placed while a rule is broken.",
+     "steps": [
+      {
+       "t": 14,
+       "text": "Checkout protection is on Configuration, Advanced."
+      },
+      {
+       "t": 18,
+       "text": "The ticked payment modules check the rules again just before they create the order. Only tick modules that create the order before taking money, like cheque, bank wire or cash on delivery."
+      },
+      {
+       "t": 31,
+       "text": "Status locks the cart page checkout button while a rule is broken, and shows the note below it."
+      },
+      {
+       "t": 60,
+       "text": "Here the Ceramic planter needs fifty euros, and the cart has twenty. Proceed to checkout is disabled, with the note."
+      },
+      {
+       "t": 78,
+       "text": "If you disable Status, the button is clickable again. But when the customer clicks it, the order page always checks the rules first, and sends them back to the cart with the message. So a broken cart can never become an order."
+      }
+     ],
+     "file": "checkout-protection.html"
+    },
+    {
+     "slug": "custom-css",
+     "title": "Custom CSS",
+     "video": {
+      "yt": "I98ZR55iev4",
+      "len": "1:16",
+      "clip": "38-custom-css"
+     },
+     "lead": "Fine-tune how the module looks on your theme.",
+     "intro": "In this video: custom CSS. Make the module’s messages match your theme.",
+     "steps": [
+      {
+       "t": 17,
+       "text": "This is the product page information line in its default look."
+      },
+      {
+       "t": 33,
+       "text": "On Configuration, Advanced, the Custom CSS box takes your own CSS. It is loaded after the module’s own styles."
+      },
+      {
+       "t": 42,
+       "text": "For example, give the information line an orange background and a border."
+      },
+      {
+       "t": 69,
+       "text": "The product page now shows it in your style."
+      }
+     ],
+     "file": "custom-css.html"
+    },
+    {
+     "slug": "on-the-storefront",
+     "title": "Seeing it on the storefront",
+     "file": "on-the-storefront.html"
+    }
+   ]
+  },
+  {
+   "slug": "ai-assistant",
+   "title": "AI Assistant",
+   "file": "ai-assistant.html",
+   "pages": [
+    {
+     "slug": "create-rules-with-ai",
+     "title": "Create rules with AI",
+     "video": {
+      "yt": "kTj4A8IUv5g",
+      "len": "2:23",
+      "clip": "01-create-rules-with-ai"
+     },
+     "lead": "Describe your limits in your own words, check the preview, apply what you tick.",
+     "intro": "In this video: Create rules with AI. You write your limits in plain words, and the AI turns them into rules you can check before anything is saved.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "Open the module, and click the AI Assistant tab."
+      },
+      {
+       "t": 20,
+       "text": "Under Create rules with AI, this line shows how many AI answers your plan has left."
+      },
+      {
+       "t": 27,
+       "text": "Now describe your limits, the way you would tell a colleague. Home Accessories in packs of two, at most ten. Wholesale customers buy at least six of each Stationery product. And every order is at least 20 euros."
+      },
+      {
+       "t": 48,
+       "text": "Click Build rules. The AI answers with a preview of the rules. Nothing is saved yet."
+      },
+      {
+       "t": 58,
+       "text": "Each row is one rule. Home Accessories, at most ten, in packs of two. Stationery, for the Wholesale group only, at least six. And a minimum of 20 euros for the whole order."
+      },
+      {
+       "t": 71,
+       "text": "Read the notes next to each rule. Untick any row you do not want; only ticked rows are saved."
+      },
+      {
+       "t": 78,
+       "text": "Click Apply selected. The three rules are saved."
+      },
+      {
+       "t": 88,
+       "text": "On the Quantity and Amount Rule tab, choose Category. The rules from the AI are here, like rules you make yourself, and you can change them at any time."
+      },
+      {
+       "t": 114,
+       "text": "In the shop, a mug from Home Accessories now tells the customer its limits."
+      },
+      {
+       "t": 120,
+       "text": "If the customer types three, it becomes four, the next pack of two."
+      },
+      {
+       "t": 128,
+       "text": "Tip: put one limit in each sentence, and use the names of your categories, brands and customer groups. Each Build rules uses one AI answer of your plan."
+      }
+     ],
+     "file": "create-rules-with-ai.html"
+    },
+    {
+     "slug": "check-my-rules",
+     "title": "Check my rules",
+     "video": {
+      "yt": "IvD4ITInXgY",
+      "len": "1:28",
+      "clip": "02-check-my-rules"
+     },
+     "lead": "Find rules that can never apply or contradict themselves.",
+     "intro": "In this video: Check my rules. The module looks for rules that cannot work, and the AI explains each problem and what to do.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "Here is a rule on a mug: at most ten, sold in packs of four. Can you see the problem? Ten is not a multiple of four."
+      },
+      {
+       "t": 20,
+       "text": "Open the AI Assistant tab, and scroll down to Check my rules."
+      },
+      {
+       "t": 29,
+       "text": "Click Check my rules. The module finds the problem, and the AI explains it: with packs of four and a maximum of ten, a customer can only order four or eight."
+      },
+      {
+       "t": 41,
+       "text": "The check never changes your rules. You decide what to fix."
+      },
+      {
+       "t": 54,
+       "text": "Back on the rule table, we change the maximum to twelve, a multiple of four."
+      },
+      {
+       "t": 62,
+       "text": "Check again. No problem is found."
+      },
+      {
+       "t": 76,
+       "text": "Tip: when no problem is found, the AI is not asked, so the check uses no AI answer. Run it after you change many rules."
+      }
+     ],
+     "file": "check-my-rules.html"
+    },
+    {
+     "slug": "write-messages-with-ai",
+     "title": "Write messages with AI",
+     "video": {
+      "yt": "c3uB3wD7xms",
+      "len": "1:15",
+      "clip": "03-write-messages-with-ai"
+     },
+     "lead": "All shopper messages of one language in one go.",
+     "intro": "In this video: Write with AI. The AI writes every shopper message of one language for you, in the tone you choose.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "Open the Configuration tab, then Messages. At the top is Write the messages with AI."
+      },
+      {
+       "t": 18,
+       "text": "Choose the language to write. We take French."
+      },
+      {
+       "t": 25,
+       "text": "You can add a note about the tone, for example friendly and short."
+      },
+      {
+       "t": 33,
+       "text": "Click Write with AI. Every French message is written in one go, and the page saves them."
+      },
+      {
+       "t": 45,
+       "text": "Check the texts. The placeholders, like the quantity and the product name, are kept. Change any word you like."
+      },
+      {
+       "t": 56,
+       "text": "In the French shop, the mug with a minimum of three now shows the new French text."
+      },
+      {
+       "t": 63,
+       "text": "Tip: write one language at a time, and run it again for each language your shop uses. It uses one AI answer per language."
+      }
+     ],
+     "file": "write-messages-with-ai.html"
+    },
+    {
+     "slug": "step-by-step-and-ai-idea",
+     "title": "Step by step, and an idea from AI",
+     "video": {
+      "yt": "wjODFfUJwUU",
+      "len": "1:47",
+      "clip": "04-wizard-and-ai-idea"
+     },
+     "lead": "Build a rule by answering questions; ask the AI for one more idea.",
+     "intro": "In this video: Set up a rule step by step. Answer a few questions, no AI needed. Then ask the AI for one idea to go with your rule.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "On the AI Assistant tab, the first panel is Set up a rule step by step. It needs no AI and no AI plan."
+      },
+      {
+       "t": 22,
+       "text": "What do you want to limit? Minimum quantity. Next. Which products? One product."
+      },
+      {
+       "t": 33,
+       "text": "Type part of its name, and choose the Mountain fox cushion."
+      },
+      {
+       "t": 47,
+       "text": "Next. Who is it for? A customer group: Wholesale."
+      },
+      {
+       "t": 59,
+       "text": "It applies always. And the minimum is six."
+      },
+      {
+       "t": 69,
+       "text": "Click Show the result. Here is the rule, not saved yet."
+      },
+      {
+       "t": 74,
+       "text": "Now click Get an idea from AI. The AI suggests one more rule that shops in this situation often add. It arrives unticked."
+      },
+      {
+       "t": 84,
+       "text": "If you like it, tick it. If not, leave it unticked and it is ignored."
+      },
+      {
+       "t": 89,
+       "text": "Click Apply selected. Your rule, and the idea you ticked, are saved."
+      },
+      {
+       "t": 95,
+       "text": "Tip: the step by step setup is free. Only Get an idea from AI uses one AI answer of your plan."
+      }
+     ],
+     "file": "step-by-step-and-ai-idea.html"
+    }
+   ]
+  },
+  {
+   "slug": "uninstall-and-delete",
+   "title": "Uninstall and delete",
+   "video": {
+    "yt": "hj8Bkc9tS0w",
+    "len": "1:19",
+    "clip": "02-uninstall"
+   },
+   "lead": "Remove the module, with or without its files.",
+   "intro": "In this video: uninstalling the module, and deleting it completely.",
+   "steps": [
+    {
+     "t": 8,
+     "text": "Uninstalling deletes your rules, duration rules and settings. If you may need them again, export your rules as CSV first."
+    },
+    {
+     "t": 17,
+     "text": "Then open Modules, Module Manager, and search for the module."
+    },
+    {
+     "t": 30,
+     "text": "Open the menu next to Configure, and click Uninstall."
+    },
+    {
+     "t": 34,
+     "text": "PrestaShop asks you to confirm."
+    },
+    {
+     "t": 37,
+     "text": "If you tick this box, the module files are removed from the server as well. We leave it unticked here, to show the second way."
+    },
+    {
+     "t": 46,
+     "text": "Click Yes, uninstall it."
+    },
+    {
+     "t": 50,
+     "text": "The module is uninstalled: its card now offers Install, and nothing of it runs in your shop any more."
+    },
+    {
+     "t": 58,
+     "text": "The files are still on the server. To remove them too, open the menu again and click Delete."
+    },
+    {
+     "t": 69,
+     "text": "The module is deleted. To use it again later, upload the zip file as shown in the install video."
+    }
+   ],
+   "file": "uninstall-and-delete.html"
+  }
+ ]
+}

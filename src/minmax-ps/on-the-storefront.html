@@ -1,0 +1,12 @@
+<p>Continuing the example (Minimum Quantity = 4 on "Mountain fox &ndash; Vector graphics"), here is the same rule from the shopper's side:</p>
+<img class="shot" src="assets/12_frontend_clean.png">
+<p class="caption">The product page, before the shopper does anything wrong.</p>
+<p>The shopper tries to add just 1 unit to the cart. The Minimum Quantity rule blocks the request, and the exact wording configured is shown back to them:</p>
+<img class="shot shot-narrow" src="assets/12e_blocked_toast_crop.png">
+<p class="caption">"You need to order at least 4 of Mountain fox - Vector graphics (demo_18).".</p>
+<p>With <b>Product page information</b> switched on, the product page states the limits before the shopper tries anything:</p>
+<img class="shot shot-narrow" src="assets/15_product_info.png">
+<p class="caption">The limits stated under the add-to-cart button.</p>
+<p>If the cart still breaks a rule &mdash; for example the shopper lowered a quantity on the cart page &mdash; the cart shows the rule's message, and the <b>Proceed to checkout</b> button stays disabled until the cart is corrected:</p>
+<img class="shot" src="assets/16_cart_blocked.png">
+<p class="caption">The cart page while a rule is broken (PrestaShop 1.7.8 and later).</p>

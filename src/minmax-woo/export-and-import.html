@@ -1,0 +1,33 @@
+<p class="note"><b>Pro add-on.</b> This feature needs the Pro add-on. See <a href="{{page:minmax-woo:free-and-pro}}">Free and Pro</a>.</p>
+<p>Move rules between shops, or keep a backup, using a CSV file. You can edit the file in any spreadsheet.</p>
+<ul class="legend">
+  <li><b>Export Rules</b> &mdash; downloads every saved rule as a CSV file.</li>
+  <li><b>Import Rules</b> &mdash; uploads a CSV in the same column layout. Every line is checked like a rule typed by hand; good lines are saved, bad ones are skipped and reported. A rule that already exists for a product is updated, never duplicated.</li>
+</ul>
+<table class="fieldtable">
+  <tr><th>Column</th><th>Content</th></tr>
+  <tr><td><code>level</code></td><td>The rule level: <code>product</code>, <code>category</code>, <code>brand</code>, <code>tag</code> or <code>role</code>. Required.</td></tr>
+  <tr><td><code>object_id</code></td><td>The product id, or the category, brand or tag id on those levels. Required.</td></tr>
+  <tr><td><code>variation_id</code></td><td>The variation id, for a rule on one variation.</td></tr>
+  <tr><td><code>role</code>, <code>customer_id</code></td><td>The user role or the customer the rule is for.</td></tr>
+  <tr><td><code>min_qty</code>, <code>max_qty</code>, <code>step</code></td><td>Min Qty, Max Qty, Multiple Qty. Required.</td></tr>
+  <tr><td><code>limit_mult</code>, <code>min_amt</code>, <code>max_amt</code></td><td>Limit Mult Qty, Min Amt, Max Amt.</td></tr>
+  <tr><td><code>allowed</code></td><td>Allowed quantities, e.g. <code>6,12,24</code>.</td></tr>
+  <tr><td><code>conditions</code></td><td>The conditions, as exported.</td></tr>
+  <tr><td><code>duration_id</code></td><td>The Duration Rule id.</td></tr>
+  <tr><td><code>status</code></td><td>1 on, 0 off.</td></tr>
+  <tr><td><code>ref</code></td><td>Written by the export to help you read the file: the SKU or product name, the term slug, or the role.</td></tr>
+</table>
+<h2>Step by step</h2>
+<ol class="steps">
+<li><p>Open the Export and Import tab. Export Rules downloads every rule you have saved as a CSV file.</p>
+<img class="shot" src="assets/export-and-import-1.jpg" alt="Export and import (CSV), step 1"></li>
+<li><p>Each line is one rule: the level, the product or term, the limits, the duration rule, the role, the customer and the status. You can edit it in any spreadsheet.</p>
+<img class="shot" src="assets/export-and-import-2.jpg" alt="Export and import (CSV), step 2"></li>
+<li><p>To import, choose a CSV file in the same layout, or drag it onto the box. This one sets a minimum of two and a maximum of ten on two mugs, plus one line with a product that does not exist.</p>
+<img class="shot" src="assets/export-and-import-3.jpg" alt="Export and import (CSV), step 3"></li>
+<li><p>Click Import Rules. Every line is checked like a rule typed by hand. Good lines are saved, bad ones are skipped and reported.</p>
+<img class="shot" src="assets/export-and-import-4.jpg" alt="Export and import (CSV), step 4"></li>
+<li><p>The mugs now have their new rules. A rule that already exists for a product is updated, never duplicated.</p>
+<img class="shot" src="assets/export-and-import-5.jpg" alt="Export and import (CSV), step 5"></li>
+</ol>

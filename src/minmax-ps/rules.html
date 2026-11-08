@@ -1,0 +1,20 @@
+<p>This is the master list of every product in the shop. Rows with combinations (size, color, etc.) expand under a bold parent row. Type directly into a cell and click away &mdash; it saves immediately.</p>
+<img class="shot" src="assets/02_tab1_filtered.png">
+<p class="caption">Filtered to one product and given a real Min/Max/Duration &mdash; exactly what a merchant would do for one item.</p>
+<table class="fieldtable">
+  <tr><th>Field</th><th>What it does</th></tr>
+  <tr><td>Search</td><td>Narrows the table to one product or combination by name.</td></tr>
+  <tr><td>Customer Group</td><td>Narrows the table to rules that belong to one customer group.</td></tr>
+  <tr><td>Customer</td><td>Shows and sets the rules for one customer only. Leave it empty for rules that apply to everyone.</td></tr>
+  <tr><td>Category</td><td>Narrows the table to Product rules whose product belongs to this category (Rule Type = Product only).</td></tr>
+  <tr><td>Rule Type</td><td>Switches the whole table between Product, Category, Brand, Supplier and Customer Group rules. The shop-wide Global rule is set on the Configuration tab.</td></tr>
+  <tr><td>Quantity</td><td>The product's current stock quantity, shown for reference only &mdash; not editable here.</td></tr>
+  <tr><td>Status</td><td>Whether the rule applies right now, with a switch to turn it off and on.</td></tr>
+  <tr><td>Min Qty / Max Qty</td><td>The smallest / largest number of units a customer may order.</td></tr>
+  <tr><td>Min Amt / Max Amt</td><td>The smallest / largest amount a customer may spend. They can be set together with the quantities, on every level including Product.</td></tr>
+  <tr><td>Multiple Qty</td><td>Forces orders in packs of this size, e.g. 3, 6, 9 for a value of 3.</td></tr>
+  <tr><td>Allowed Qty</td><td>The only quantities that can be ordered, separated by commas, e.g. <code>6,12,24</code>. A quantity in between is rounded up to the next allowed one when it is added to the cart. A rule takes either Allowed Qty or Multiple Qty, not both.</td></tr>
+  <tr><td>Duration</td><td>Picks which Duration Rule this row's limit is measured against.</td></tr>
+  <tr><td>Conditions</td><td>Applies the rule only in some situations. The button shows how many conditions are set.</td></tr>
+</table>
+<p class="note">Each column appears only when its feature is switched on in <b>Configuration &gt; General</b>. Min Amt / Max Amt and Limit Mult Qty are switched off after a fresh install; Allowed Qty is switched on after a fresh install and off after an upgrade.</p>

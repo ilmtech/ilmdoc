@@ -1,0 +1,27 @@
+<p>A Duration Rule decides <i>when</i> a Min/Max/Multiple limit resets, and which of the customer's past orders are added up against it. Six built-in presets ship with the module, and you can add more.</p>
+<img class="shot" src="assets/03_duration_list.png">
+<p class="caption">Duration Rule List &mdash; the six presets that ship with the module.</p>
+<p>A rule with dates shows <b>Expired</b> next to Enabled once its dates have passed, and <b>Scheduled</b> while they have not started yet. Either way it applies to nothing at that moment.</p>
+
+<h2>Creating a Duration Rule &mdash; a 3-step wizard</h2>
+<p><span class="step-label">Step 1 &mdash; Name this rule:</span> a short title you will recognise later in the Duration column on the Quantity/Amount Rule tab.</p>
+<img class="shot shot-narrow" src="assets/09a_step1.png">
+
+<p><span class="step-label">Step 2 &mdash; When the limit applies:</span> pick exactly one of six ways to measure the limit.</p>
+<img class="shot" src="assets/09b_step2.png">
+<table class="fieldtable">
+  <tr><th>Type</th><th>Meaning</th></tr>
+  <tr><td><b>Per order &middot; No time limit</b></td><td>Applies to every order on its own, with no time restriction. Each new order starts fresh.</td></tr>
+  <tr><td><b>Per order &middot; Active only in date range</b></td><td>Same as above, but the rule is only active between two fixed dates you pick; outside that window the product is unrestricted.</td></tr>
+  <tr><td><b>Total &middot; All-time (lifetime)</b></td><td>Adds up everything the customer has ever ordered. Once they reach the limit they cannot order the product again.</td></tr>
+  <tr><td><b>Total &middot; Fixed date range</b></td><td>Adds up everything the customer orders between two fixed dates. The total does not reset until you change the dates.</td></tr>
+  <tr><td><b>Total &middot; Rolling window</b></td><td>Adds up what the customer ordered in the last N day(s)/week(s)/month(s)/year(s), counted back from right now. The window keeps moving forward with time.</td></tr>
+  <tr><td><b>Total &middot; Custom start + duration</b></td><td>Adds up what the customer orders starting from a date you pick, for as long as you set &mdash; useful for a launch window or a seasonal campaign.</td></tr>
+</table>
+<p>Types that need extra input reveal a small field group in place, for example the rolling window's day/week/month/year count:</p>
+<img class="shot" src="assets/09c_step2_rolling.png">
+<p class="caption">Only the fields the chosen type actually needs are shown &mdash; the panel below reads the choice back in plain words before you save.</p>
+
+<p><span class="step-label">Step 3 &mdash; Which orders count:</span> tick the order statuses to add up (Delivered, Payment accepted, etc.). Leave every box unticked to count all orders regardless of status. This step only appears for the four "Total" types &mdash; the two "Per order" types don't need it.</p>
+<img class="shot" src="assets/09d_step3.png">
+<p class="caption">This is also where Duration Rules become aware of a customer's <b>real order history</b> &mdash; the "Total" presets look up the customer's actual past orders in these statuses, not synthetic data.</p>

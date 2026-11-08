@@ -1,0 +1,1289 @@
+{
+ "playlist": "https://www.youtube.com/playlist?list=PLC17iYmpEQnM",
+ "pages": [
+  {
+   "slug": "getting-started",
+   "title": "Getting started",
+   "file": "getting-started.html",
+   "pages": [
+    {
+     "slug": "install-and-activate",
+     "title": "Install and activate",
+     "file": "install-and-activate.html",
+     "lead": "Install the free plugin from your WordPress admin.",
+     "video": {
+      "yt": "pK20_opVTyc",
+      "len": "0:48",
+      "clip": "01-install-licence",
+      "start": 10,
+      "end": 58,
+      "note": ""
+     },
+     "intro": "",
+     "steps": [
+      {
+       "t": 10,
+       "text": "In WordPress admin, open Plugins. Click Add New Plugin."
+      },
+      {
+       "t": 20,
+       "text": "The free plugin is in the WordPress plugin directory: search for ILM Size Chart and click Install Now. Here we install it from its zip file with Upload Plugin."
+      },
+      {
+       "t": 31,
+       "text": "Choose the zip file and click Install Now. WordPress uploads it and says: plugin installed successfully."
+      },
+      {
+       "t": 43,
+       "text": "Click Activate Plugin. ILM Size Chart is active, and the Size Charts menu is added on the left."
+      }
+     ]
+    },
+    {
+     "slug": "the-size-chart-list",
+     "title": "The size chart list",
+     "file": "the-size-chart-list.html",
+     "lead": "Find, switch on and off, edit and delete your size charts.",
+     "video": {
+      "yt": "FCokM6YYBeA",
+      "len": "1:57",
+      "clip": "02-size-chart-list"
+     },
+     "intro": "In this video: the size chart list, where every chart of your shop is managed.",
+     "steps": [
+      {
+       "t": 7,
+       "text": "In WordPress admin, open the ILM Size Chart menu. The list shows every chart with its ID, its title and its priority."
+      },
+      {
+       "t": 17,
+       "text": "Shown as tells you how the shopper sees it: Popup is a button that opens a window, On page is a chart directly on the product page."
+      },
+      {
+       "t": 26,
+       "text": "Display rules lists on which products it is shown: here one selected product. A chart without a rule says: not shown."
+      },
+      {
+       "t": 35,
+       "text": "The search box finds a chart by its title, its ID or its rule. Type Mug, and the list shows only the mug chart."
+      },
+      {
+       "t": 44,
+       "text": "The cross clears the search. Per page sets how many charts one page of the list shows."
+      },
+      {
+       "t": 51,
+       "text": "The status is a switch. Enabled means the chart is shown in the shop. Click it to disable the chart."
+      },
+      {
+       "t": 61,
+       "text": "Now it says Disabled. The chart and its design are kept, but no product shows it. Click again to enable it."
+      },
+      {
+       "t": 72,
+       "text": "It is enabled again."
+      },
+      {
+       "t": 76,
+       "text": "The pencil opens the chart to edit it. The next videos show every tab of that form."
+      },
+      {
+       "t": 83,
+       "text": "The magic wand opens the same chart with the AI design assistant, which changes it from a sentence you type. It has its own video."
+      },
+      {
+       "t": 92,
+       "text": "The bin deletes a chart. You are always asked first, because a deleted chart cannot be brought back."
+      },
+      {
+       "t": 99,
+       "text": "Cancel keeps it. To stop showing a chart for a while, disable it instead of deleting it."
+      },
+      {
+       "t": 106,
+       "text": "Add Size Chart starts a new chart, and Create with AI builds one for you in three steps."
+      }
+     ]
+    },
+    {
+     "slug": "your-first-size-chart",
+     "title": "Your first size chart",
+     "file": "your-first-size-chart.html",
+     "lead": "Create a chart, fill a table, choose the product, and see it in the shop.",
+     "video": {
+      "yt": "gaziAqJt6c4",
+      "len": "3:09",
+      "clip": "03-first-size-chart"
+     },
+     "intro": "In this video: your first size chart, from an empty form to the Size Chart button on the product page.",
+     "steps": [
+      {
+       "t": 8,
+       "text": "In WordPress admin, open the ILM Size Chart menu. This is the list of your size charts. Click Add Size Chart."
+      },
+      {
+       "t": 21,
+       "text": "The form opens on the General tab. Give the chart a name. Only you see it, in the list. We call it Men's T-shirts."
+      },
+      {
+       "t": 30,
+       "text": "Show in: Popup puts a button on the product page that opens the chart in a window. Page shows the chart directly on the page. We keep Popup."
+      },
+      {
+       "t": 40,
+       "text": "The status is Enabled, so the chart is shown in the shop as soon as you save it."
+      },
+      {
+       "t": 46,
+       "text": "Now open the Sizechart Designer tab. A new chart is empty."
+      },
+      {
+       "t": 52,
+       "text": "Click Add Row. A row holds one or more columns, and every column shows one component."
+      },
+      {
+       "t": 59,
+       "text": "Click to add component. Choose what this place shows: a table, text, an image, a video, tabs or another web page."
+      },
+      {
+       "t": 69,
+       "text": "We choose Table. The table editor opens with a small sample: the sizes in the first row and one measurement in every row below."
+      },
+      {
+       "t": 79,
+       "text": "The plus buttons add a column or a row, the minus buttons remove one. We add a column for size XL."
+      },
+      {
+       "t": 87,
+       "text": "Then type the values: XL, chest 42 inches, waist 36 inches. Every cell is a plain text box."
+      },
+      {
+       "t": 97,
+       "text": "Click Save in the editor. The table is now in the designer, exactly as the shopper will see it, with an inch and centimetre switch above it."
+      },
+      {
+       "t": 107,
+       "text": "Last, the Display Rule tab: it decides on which products the chart is shown. We start with Products."
+      },
+      {
+       "t": 115,
+       "text": "Set Enable Products Rule to Yes, and Show Sizechart to: Selected Products."
+      },
+      {
+       "t": 122,
+       "text": "Search the product by its name or SKU, and click the search button."
+      },
+      {
+       "t": 132,
+       "text": "Click the T-shirt in the results. It moves to the list of selected products."
+      },
+      {
+       "t": 140,
+       "text": "Click Save and stay. The chart is saved and active."
+      },
+      {
+       "t": 153,
+       "text": "Now the shop. We search for the Hummingbird printed T-shirt and open it. The Size Chart button is on the product page. The Find my size button next to it is a Pro feature with its own video."
+      },
+      {
+       "t": 166,
+       "text": "The shopper clicks it, and the chart opens in a window."
+      },
+      {
+       "t": 171,
+       "text": "With CM, every measurement is converted to centimetres. IN switches back."
+      },
+      {
+       "t": 177,
+       "text": "The cross closes the window. The next videos show every setting of the button, the window and the designer."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "general",
+   "title": "General tab",
+   "file": "general.html",
+   "pages": [
+    {
+     "slug": "show-on-the-page",
+     "title": "Show the chart on the page",
+     "file": "show-on-the-page.html",
+     "lead": "Popup or directly on the product page, with your own heading and place.",
+     "video": {
+      "yt": "rJrvGvYheaw",
+      "len": "2:36",
+      "clip": "04-show-on-page"
+     },
+     "intro": "In this video: showing a size chart directly on the product page instead of in a popup, and choosing where it goes.",
+     "steps": [
+      {
+       "t": 17,
+       "text": "This T-shirt shows its chart as a popup: a button that opens a window. Let us show it directly on the page."
+      },
+      {
+       "t": 36,
+       "text": "In WordPress admin, edit the T-shirt sizes chart. On the General tab, Show in decides how the chart appears."
+      },
+      {
+       "t": 45,
+       "text": "Click Page. Two more settings appear. Page display is the heading shown above the chart."
+      },
+      {
+       "t": 51,
+       "text": "Type the heading. It is shown above the chart on every product that uses it."
+      },
+      {
+       "t": 60,
+       "text": "Page placement is optional. Leave it empty, and the chart goes to the plugin position, under the add to cart button."
+      },
+      {
+       "t": 80,
+       "text": "Save and stay, then reload the product page. The chart is now part of the page, with its heading, its unit switch and its table."
+      },
+      {
+       "t": 106,
+       "text": "To put it somewhere else, type a CSS selector of your theme in Place anywhere. Here: the short description of the product."
+      },
+      {
+       "t": 118,
+       "text": "Position says where, compared with that element: before it, after it, or inside it at the start or the end. We choose Before Element."
+      },
+      {
+       "t": 139,
+       "text": "Save again and reload the shop. The chart now sits just before the short description."
+      },
+      {
+       "t": 146,
+       "text": "Every chart has its own setting, so one product can show a popup while another shows its chart on the page."
+      }
+     ]
+    },
+    {
+     "slug": "status-and-priority",
+     "title": "Status and priority",
+     "file": "status-and-priority.html",
+     "lead": "Which chart a product shows when several charts match it.",
+     "video": {
+      "yt": "h9mnzJJoXRI",
+      "len": "2:08",
+      "clip": "05-status-and-priority"
+     },
+     "intro": "In this video: the Status switch, and the Priority that decides which chart wins when several charts match one product.",
+     "steps": [
+      {
+       "t": 9,
+       "text": "Two charts match our T-shirt: T-shirt sizes, chosen for this product, with priority 10, and Cushion sizes, shown to every product with a certain attribute, with priority 3."
+      },
+      {
+       "t": 33,
+       "text": "A product shows only one chart: the one with the highest priority. So the T-shirt shows T-shirt sizes."
+      },
+      {
+       "t": 51,
+       "text": "Edit Cushion sizes. At the bottom of the General tab, set its priority to 20, higher than 10."
+      },
+      {
+       "t": 69,
+       "text": "Save, and reload the T-shirt. Now the Cushion sizes chart wins."
+      },
+      {
+       "t": 91,
+       "text": "Status turns a chart off without deleting it. Click Disable."
+      },
+      {
+       "t": 108,
+       "text": "Save, and the T-shirt is back to T-shirt sizes. A disabled chart is skipped, whatever its priority."
+      },
+      {
+       "t": 116,
+       "text": "Tip: give specific charts, like one product, a higher priority than general ones, like a whole category."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "popup-button",
+   "title": "Popup Button tab",
+   "file": "popup-button.html",
+   "pages": [
+    {
+     "slug": "popup-button-text-and-place",
+     "title": "Popup button: text and place",
+     "file": "popup-button-text-and-place.html",
+     "lead": "The button title, its direction, alignment and where it goes on the page.",
+     "video": {
+      "yt": "ygkHFThjPXE",
+      "len": "1:49",
+      "clip": "07-popup-button-basics"
+     },
+     "intro": "In this video: the size chart button. Its title, its direction, its alignment and its place on the product page.",
+     "steps": [
+      {
+       "t": 18,
+       "text": "Edit a chart and open the Popup Button tab. At the top is a live preview: a sample product page with your button. Every change shows there at once."
+      },
+      {
+       "t": 29,
+       "text": "In Button, Basic, type the button title. We write: Check your size. Leave it empty to show only the icon."
+      },
+      {
+       "t": 37,
+       "text": "Direction turns the button on its side, like a tab on the edge of the page. Vertical, bottom to top."
+      },
+      {
+       "t": 45,
+       "text": "We go back to Horizontal, the usual look."
+      },
+      {
+       "t": 51,
+       "text": "Alignment places the button left, center or right in its row. Auto keeps what your theme does. We choose Center."
+      },
+      {
+       "t": 60,
+       "text": "Location: Module hook position shows the button where the product page prints the plugin, near add to cart."
+      },
+      {
+       "t": 68,
+       "text": "Next to a page element moves it anywhere: type a CSS selector of your theme, and choose before or after it. We keep the hook position for now."
+      },
+      {
+       "t": 78,
+       "text": "Margin is the space around the button, padding the space inside it, for top, right, bottom and left."
+      },
+      {
+       "t": 98,
+       "text": "Save and stay, then open the product in the shop. The button has its new title, and it is centered."
+      }
+     ]
+    },
+    {
+     "slug": "popup-button-font-and-text",
+     "title": "Popup button: font and text",
+     "file": "popup-button-font-and-text.html",
+     "lead": "Font size, font family, capitals and spacing of the button text.",
+     "video": {
+      "yt": "i8TjrlZcl14",
+      "len": "1:23",
+      "clip": "08-popup-button-text"
+     },
+     "intro": "In this video: the text style of the size chart button.",
+     "steps": [
+      {
+       "t": 14,
+       "text": "Edit the chart, open Popup Button, then the Text tab of the button."
+      },
+      {
+       "t": 26,
+       "text": "Font size: we type 17 pixels. The preview grows with it."
+      },
+      {
+       "t": 33,
+       "text": "Font family: Theme font keeps your shop font, or pick one of the Google Fonts. We choose Montserrat. The shop loads it only on pages that show the button."
+      },
+      {
+       "t": 44,
+       "text": "Text transform writes it in capitals, small letters, or with a capital on every word. We choose Uppercase."
+      },
+      {
+       "t": 52,
+       "text": "Letter spacing adds a little air between the letters: one pixel. Line height and text decoration, like underline, are here too."
+      },
+      {
+       "t": 74,
+       "text": "Save, and the product page shows the same button as the preview."
+      }
+     ]
+    },
+    {
+     "slug": "popup-button-colours-and-border",
+     "title": "Popup button: colours and border",
+     "file": "popup-button-colours-and-border.html",
+     "lead": "Colours, border, rounded corners, shadow and the mouse-over look.",
+     "video": {
+      "yt": "d1DMvB0DICU",
+      "len": "1:43",
+      "clip": "09-popup-button-colours"
+     },
+     "intro": "In this video: the colours and border of the size chart button, and how it looks when the mouse is over it.",
+     "steps": [
+      {
+       "t": 17,
+       "text": "Edit the chart, open Popup Button, then Colors and Border. First choose which look you edit: Normal, or Mouse over."
+      },
+      {
+       "t": 28,
+       "text": "In Normal, set the background colour. Type it or click the swatch to pick one. We use blue, with white text."
+      },
+      {
+       "t": 42,
+       "text": "Border radius rounds the corners. 24 pixels on every corner gives a pill shape. The border width and colour are next to it."
+      },
+      {
+       "t": 61,
+       "text": "Now click Mouse over. The preview shows the mouse-over look while you edit it."
+      },
+      {
+       "t": 66,
+       "text": "We make the background darker on mouse over. Transition duration sets how smoothly it changes."
+      },
+      {
+       "t": 75,
+       "text": "Save. In the shop, the button is blue and rounded, and it turns darker when the mouse is over it."
+      }
+     ]
+    },
+    {
+     "slug": "popup-button-icon",
+     "title": "Popup button: icon",
+     "file": "popup-button-icon.html",
+     "lead": "A sample icon or your own image on the button.",
+     "video": {
+      "yt": "1WRTXL6BcWg",
+      "len": "1:15",
+      "clip": "10-popup-button-icon"
+     },
+     "intro": "In this video: the icon of the size chart button.",
+     "steps": [
+      {
+       "t": 14,
+       "text": "Edit the chart, open Popup Button, then Icon. Upload your own image, or click one of the samples."
+      },
+      {
+       "t": 25,
+       "text": "We click the size sample. The preview button shows it at once."
+      },
+      {
+       "t": 32,
+       "text": "Icon placement puts it before or after the text."
+      },
+      {
+       "t": 38,
+       "text": "Icon size: 26 pixels. Remove white background helps a picture that has a white square around it."
+      },
+      {
+       "t": 47,
+       "text": "None removes the icon. We put the sample back, and save."
+      },
+      {
+       "t": 53,
+       "text": "In the shop, the button shows the icon with its text."
+      }
+     ]
+    },
+    {
+     "slug": "popup-window-size-and-position",
+     "title": "Popup window: size and position",
+     "file": "popup-window-size-and-position.html",
+     "lead": "How big the window is, where it opens, and what happens with a big chart.",
+     "video": {
+      "yt": "jgOT0BNy49Q",
+      "len": "1:34",
+      "clip": "11-popup-window-size"
+     },
+     "intro": "In this video: the size and position of the popup window that shows the chart.",
+     "steps": [
+      {
+       "t": 15,
+       "text": "Edit the chart, open Popup Button, then Popup Window, Size and Position."
+      },
+      {
+       "t": 26,
+       "text": "Click Open popup to see the window with your real chart. It stays open while you change the settings."
+      },
+      {
+       "t": 34,
+       "text": "Width: we type 640 pixels. You can use pixels or percent of the screen. Max width and min width keep it within limits on large and small screens."
+      },
+      {
+       "t": 46,
+       "text": "Position on screen: the middle, or the top, a side, or the bottom. We choose Top center."
+      },
+      {
+       "t": 56,
+       "text": "When the chart is bigger than the window, Scroll adds a scroll bar, Visible lets it grow, and Hidden cuts it. Scroll is best for long charts."
+      },
+      {
+       "t": 79,
+       "text": "Save. In the shop, the window is narrower and opens at the top of the screen."
+      },
+      {
+       "t": 86,
+       "text": "On phones the window always fits the screen width."
+      }
+     ]
+    },
+    {
+     "slug": "popup-window-style-and-animation",
+     "title": "Popup window: style and animation",
+     "file": "popup-window-style-and-animation.html",
+     "lead": "Colours, border, the dimmed page behind it, and how it opens and closes.",
+     "video": {
+      "yt": "Y9_v8Oyi2Pc",
+      "len": "2:03",
+      "clip": "12-popup-window-style"
+     },
+     "intro": "In this video: the look of the popup window, the page overlay behind it, and its animations.",
+     "steps": [
+      {
+       "t": 16,
+       "text": "Edit the chart, open Popup Button, Popup Window, then Style."
+      },
+      {
+       "t": 30,
+       "text": "We give the window a warm background and rounded corners of 18 pixels, and open the preview. Padding and border are here too."
+      },
+      {
+       "t": 56,
+       "text": "Page overlay colour and opacity dim the page behind the window: dark blue, at 70 percent."
+      },
+      {
+       "t": 72,
+       "text": "In Animation, choose how the window opens: fade, slide, zoom or bounce, and its speed in milliseconds. The close animation is set the same way. We choose Zoom."
+      },
+      {
+       "t": 85,
+       "text": "Open popup plays the animation in the preview."
+      },
+      {
+       "t": 108,
+       "text": "Save, and the shop opens the chart the same way."
+      },
+      {
+       "t": 115,
+       "text": "The text colour field sets the colour of all text in the window."
+      }
+     ]
+    },
+    {
+     "slug": "close-button",
+     "title": "Popup window: close button",
+     "file": "close-button.html",
+     "lead": "The button that closes the size chart window.",
+     "video": {
+      "yt": "tcki-l5fj9Q",
+      "len": "1:29",
+      "clip": "13-close-button"
+     },
+     "intro": "In this video: the close button of the popup window.",
+     "steps": [
+      {
+       "t": 14,
+       "text": "Edit the chart, open Popup Button, then Close Button."
+      },
+      {
+       "t": 26,
+       "text": "We make it red with a white cross, and open the preview to see it."
+      },
+      {
+       "t": 44,
+       "text": "Width, height and font size set its size. Button text can be a cross or a word like Close."
+      },
+      {
+       "t": 51,
+       "text": "Offset from corner moves it from the top right corner. A negative value puts it just outside the window."
+      },
+      {
+       "t": 71,
+       "text": "Save. In the shop, the window has the red close button. Escape and a click on the dimmed page close it too."
+      },
+      {
+       "t": 79,
+       "text": "The mouse-over look of the close button is set with the Mouse over switch, like the size chart button."
+      }
+     ]
+    },
+    {
+     "slug": "preview-on-phone-and-tablet",
+     "title": "Preview on phone and tablet",
+     "file": "preview-on-phone-and-tablet.html",
+     "lead": "Check the popup on every screen size, and go back to the default style.",
+     "video": {
+      "yt": "gxQqaSNKjsQ",
+      "len": "1:10",
+      "clip": "14-preview-devices"
+     },
+     "intro": "In this video: previewing the popup on desktop, tablet and phone, and the Apply default style button.",
+     "steps": [
+      {
+       "t": 18,
+       "text": "Edit the chart, open Popup Button, and click Open popup. The bar at the bottom switches the screen size."
+      },
+      {
+       "t": 30,
+       "text": "Tablet shows the chart as a tablet shopper sees it."
+      },
+      {
+       "t": 38,
+       "text": "Phone: a narrow screen. Check that the table scrolls well and the text is readable."
+      },
+      {
+       "t": 45,
+       "text": "Back to desktop. Apply default style puts every button, icon, window and close button setting back to the default look."
+      },
+      {
+       "t": 54,
+       "text": "You are asked first. Nothing is saved until you click Save, so you can still go back by leaving the page."
+      },
+      {
+       "t": 61,
+       "text": "We cancel, and keep our design."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "designer",
+   "title": "Sizechart Designer",
+   "file": "designer.html",
+   "pages": [
+    {
+     "slug": "rows-and-columns",
+     "title": "Designer: rows and columns",
+     "file": "rows-and-columns.html",
+     "lead": "Build the layout of your chart: rows, columns and their settings.",
+     "video": {
+      "yt": "spFyXCjoNkA",
+      "len": "1:26",
+      "clip": "15-rows-and-columns"
+     },
+     "intro": "In this video: the layout of the Sizechart Designer. Rows, columns, and their settings.",
+     "steps": [
+      {
+       "t": 17,
+       "text": "Edit a chart and open the Sizechart Designer. This chart has two rows: the table on top, and a row with the measuring tips and a picture."
+      },
+      {
+       "t": 27,
+       "text": "Point at a row and click its blue button. The row toolbar opens: add a column, add a row, row settings, and delete the row."
+      },
+      {
+       "t": 37,
+       "text": "Add Column puts a third column in the row. A row takes up to six columns, side by side; on phones they stack."
+      },
+      {
+       "t": 45,
+       "text": "Each column has a menu: add a component, duplicate the column, hide it, delete it, or open its options."
+      },
+      {
+       "t": 53,
+       "text": "We delete the empty column again. If a column has content, you are asked first."
+      },
+      {
+       "t": 60,
+       "text": "Row settings set the spacing, the background colour or picture, the border and the shadow of the whole row. Columns have the same options."
+      },
+      {
+       "t": 69,
+       "text": "The dotted handle at the top left drags a row up or down. Columns have their own handle."
+      },
+      {
+       "t": 76,
+       "text": "Undo and Redo take back any change in the designer. Nothing is stored until you save the chart."
+      }
+     ]
+    },
+    {
+     "slug": "table-sizes-and-measurements",
+     "title": "Table: sizes and measurements",
+     "file": "table-sizes-and-measurements.html",
+     "lead": "Type your sizes, add rows and columns, or paste a whole table from Excel.",
+     "video": {
+      "yt": "M7Q77BBnsoQ",
+      "len": "2:01",
+      "clip": "16-table-content"
+     },
+     "intro": "In this video: filling the size table. Typing, adding rows and columns, and pasting from Excel or Google Sheets.",
+     "steps": [
+      {
+       "t": 18,
+       "text": "Edit the chart, open the designer, and click the table. The table editor opens on the Basic tab."
+      },
+      {
+       "t": 30,
+       "text": "The green plus at the start of a row adds a row below it. We add Waist, and type a value for every size."
+      },
+      {
+       "t": 53,
+       "text": "The red minus removes a row; above the table, the same buttons add and remove columns."
+      },
+      {
+       "t": 61,
+       "text": "Already have the sizes in Excel or Google Sheets? Click Paste from Excel, copy the cells there, and paste them here."
+      },
+      {
+       "t": 69,
+       "text": "The pasted cells keep their rows and columns."
+      },
+      {
+       "t": 75,
+       "text": "Replace table content fills the table with them. The style and the units are kept."
+      },
+      {
+       "t": 82,
+       "text": "Save the editor and the chart. In the shop, the chart shows chest, waist, length and sleeve."
+      },
+      {
+       "t": 109,
+       "text": "Every cell is plain text, so you can write sizes, ranges or notes, exactly as your shop needs them."
+      }
+     ]
+    },
+    {
+     "slug": "table-units",
+     "title": "Table: units",
+     "file": "table-units.html",
+     "lead": "A centimetre and inch switch, converted for you.",
+     "video": {
+      "yt": "P56vjvDwSW0",
+      "len": "1:50",
+      "clip": "17-table-units"
+     },
+     "intro": "In this video: table units. Type your sizes once, and the shopper switches between centimetres and inches.",
+     "steps": [
+      {
+       "t": 19,
+       "text": "Edit the chart, click the table in the designer, and open the Units tab."
+      },
+      {
+       "t": 35,
+       "text": "The first unit is the base unit: the unit you typed the numbers in. Here centimetres, so its conversion value is always 1."
+      },
+      {
+       "t": 44,
+       "text": "Every other unit has a conversion value: what one base unit is in that unit. One centimetre is 0.3937 inches. The numbers are converted for you; text cells stay as they are."
+      },
+      {
+       "t": 59,
+       "text": "Add Unit adds another: millimetres. One centimetre is 10 millimetres, so its value is 10. The bin deletes a unit."
+      },
+      {
+       "t": 69,
+       "text": "Save the editor and the chart. In the shop, the switch has three buttons."
+      },
+      {
+       "t": 95,
+       "text": "MM shows every measurement in millimetres. The shopper choice is remembered on the next product."
+      },
+      {
+       "t": 102,
+       "text": "A table with only one unit shows no switch at all."
+      }
+     ]
+    },
+    {
+     "slug": "table-style",
+     "title": "Table: style",
+     "file": "table-style.html",
+     "lead": "Header colours, stripes, lines and the unit buttons.",
+     "video": {
+      "yt": "1xxOamO9Bzo",
+      "len": "1:39",
+      "clip": "18-table-style"
+     },
+     "intro": "In this video: the style of the size table.",
+     "steps": [
+      {
+       "t": 13,
+       "text": "Edit the chart, click the table, and open the Table tab. Its own tabs set the layout, the header, the first column, the body, the lines and the unit buttons."
+      },
+      {
+       "t": 29,
+       "text": "Layout: header row and first column on or off, the width, the alignment, and a scroll bar for wide tables on phones."
+      },
+      {
+       "t": 38,
+       "text": "Header: we give the header row a dark orange background. Text colour, font size and spacing are here too."
+      },
+      {
+       "t": 47,
+       "text": "Body sets the colours of the rows, stripes on every second row, and the colour when the mouse is over a row."
+      },
+      {
+       "t": 54,
+       "text": "Lines and frame: the border around the table and the lines between the cells."
+      },
+      {
+       "t": 61,
+       "text": "Save the editor: the designer shows the new header at once. Apply default style, on the Table tab, puts the original look back."
+      },
+      {
+       "t": 83,
+       "text": "Save the chart, and the shop shows the same table."
+      },
+      {
+       "t": 89,
+       "text": "For a ready-made look in one click, use Themes. It has its own video."
+      }
+     ]
+    },
+    {
+     "slug": "text-editor",
+     "title": "Text editor",
+     "file": "text-editor.html",
+     "lead": "Headings, tips and lists next to your table.",
+     "video": {
+      "yt": "k7FinstEx0c",
+      "len": "1:42",
+      "clip": "19-text-editor"
+     },
+     "intro": "In this video: the text editor component, for measuring tips and notes.",
+     "steps": [
+      {
+       "t": 15,
+       "text": "Edit the chart, open the designer, click Add Row, then Click to add component, and choose Text Editor."
+      },
+      {
+       "t": 36,
+       "text": "Type your text, like any word processor."
+      },
+      {
+       "t": 48,
+       "text": "Select the first line and click Bold. The toolbar also has colours, alignment, lists, links, fonts and sizes."
+      },
+      {
+       "t": 58,
+       "text": "Save the editor. The text is a new row under the chart."
+      },
+      {
+       "t": 84,
+       "text": "Save the chart. In the shop, the note is shown under the table."
+      },
+      {
+       "t": 92,
+       "text": "Use the text editor for measuring tips, fit notes or a short care guide next to the table."
+      }
+     ]
+    },
+    {
+     "slug": "image",
+     "title": "Image",
+     "file": "image.html",
+     "lead": "A measuring guide or a product picture in the chart.",
+     "video": {
+      "yt": "uWP_Qi8CYAU",
+      "len": "1:41",
+      "clip": "20-image"
+     },
+     "intro": "In this video: the image component. Upload a measuring guide and reuse it from the image library.",
+     "steps": [
+      {
+       "t": 17,
+       "text": "Edit the chart, open the designer, add a row and choose Image."
+      },
+      {
+       "t": 36,
+       "text": "Click Select. Upload a new picture, or browse the pictures you uploaded before."
+      },
+      {
+       "t": 43,
+       "text": "We choose a measuring guide from the computer. It is shown before it is uploaded."
+      },
+      {
+       "t": 48,
+       "text": "Click Upload. The picture is stored in your shop and filled in. Next time it is in the Browse Images tab."
+      },
+      {
+       "t": 56,
+       "text": "Alt text describes the picture for search engines and for shoppers who use a screen reader."
+      },
+      {
+       "t": 65,
+       "text": "Save the editor and the chart. The picture is in the size chart in the shop. On the Style tab you can set its size, border and rounded corners."
+      },
+      {
+       "t": 91,
+       "text": "PNG, JPG, GIF and WebP pictures up to 5 megabytes can be uploaded."
+      }
+     ]
+    },
+    {
+     "slug": "video",
+     "title": "Video",
+     "file": "video.html",
+     "lead": "Show a how-to-measure video inside the chart.",
+     "video": {
+      "yt": "RsP3EDh6YN8",
+      "len": "1:08",
+      "clip": "21-video"
+     },
+     "intro": "In this video: the video component.",
+     "steps": [
+      {
+       "t": 14,
+       "text": "Edit the chart, open the designer, add a row and choose Video."
+      },
+      {
+       "t": 34,
+       "text": "Paste the link of the video: a YouTube or Vimeo page."
+      },
+      {
+       "t": 44,
+       "text": "Width and height set its size. 100 percent fills the column."
+      },
+      {
+       "t": 50,
+       "text": "Save the editor. The video is shown in its row; the shopper plays it inside the size chart."
+      },
+      {
+       "t": 58,
+       "text": "Save the chart to keep it. A short video of how to measure answers many questions before they are asked."
+      }
+     ]
+    },
+    {
+     "slug": "tabs",
+     "title": "Tabs",
+     "file": "tabs.html",
+     "lead": "Several tables behind tab titles, like Men and Women.",
+     "video": {
+      "yt": "SziuRJYHVO0",
+      "len": "1:29",
+      "clip": "22-tabs"
+     },
+     "intro": "In this video: the tab component, to put several contents behind tab titles.",
+     "steps": [
+      {
+       "t": 15,
+       "text": "This sweater shows a chart with three tabs: tops, bottoms and size systems. The shopper clicks a title to see its content."
+      },
+      {
+       "t": 37,
+       "text": "To make tabs, edit a chart, add a row and choose Tab."
+      },
+      {
+       "t": 57,
+       "text": "Type the tab titles: Men and Women. Add Tab adds another, the red button removes one."
+      },
+      {
+       "t": 67,
+       "text": "Save the editor. In the designer, click inside a tab to add its content: a table, text or a picture, like in a column."
+      },
+      {
+       "t": 77,
+       "text": "Tab Title and Tab Content, in the editor, style the titles in normal, mouse over and selected state, and the content area."
+      }
+     ]
+    },
+    {
+     "slug": "themes",
+     "title": "Themes",
+     "file": "themes.html",
+     "lead": "Ready-made looks for your tables, in one click.",
+     "video": {
+      "yt": "FZPzEyMO9hI",
+      "len": "1:28",
+      "clip": "23-themes",
+      "note": "Filmed with the Pro add-on installed. Midnight, used in this video, is one of the 5 Pro themes; the 8 free themes work the same way."
+     },
+     "intro": "In this video: themes. Ready-made looks for your size chart.",
+     "steps": [
+      {
+       "t": 15,
+       "text": "Edit the chart, open the designer, and click Themes. Every card shows a sample table in that theme."
+      },
+      {
+       "t": 28,
+       "text": "Each theme has two buttons. Apply to my tables gives your own tables this look. Add as new row adds a complete sample block in this theme."
+      },
+      {
+       "t": 37,
+       "text": "We click Apply to my tables on Midnight. A bar asks to confirm, and says how many tables change."
+      },
+      {
+       "t": 45,
+       "text": "Yes. The table has the Midnight colours; its content and units are kept."
+      },
+      {
+       "t": 52,
+       "text": "Not happy? One click on Undo takes the whole theme back."
+      },
+      {
+       "t": 70,
+       "text": "We keep it and save. The shop shows the new look."
+      },
+      {
+       "t": 77,
+       "text": "The option Also style the popup button and window, in the themes window, matches the button to the theme too."
+      }
+     ]
+    },
+    {
+     "slug": "export-and-import",
+     "title": "Export and import a design",
+     "file": "export-and-import.html",
+     "lead": "Copy a chart design to another chart or another shop.",
+     "video": {
+      "yt": "emdJQ7IKKr4",
+      "len": "1:12",
+      "clip": "24-export-import"
+     },
+     "intro": "In this video: exporting a chart design to a file, and importing it into another chart.",
+     "steps": [
+      {
+       "t": 17,
+       "text": "Edit the chart and open the designer. Export and Import are in the designer toolbar."
+      },
+      {
+       "t": 25,
+       "text": "Export downloads the whole design as a small file: rows, columns, tables, texts, pictures and styles."
+      },
+      {
+       "t": 44,
+       "text": "Now open another chart, here a new one, and click Import in its designer."
+      },
+      {
+       "t": 52,
+       "text": "Choose the exported file. The same design is loaded into this chart."
+      },
+      {
+       "t": 60,
+       "text": "This also copies a design from a test shop to your live shop. Give the chart a title and display rules, and save it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "display-rules",
+   "title": "Display rules",
+   "file": "display-rules.html",
+   "pages": [
+    {
+     "slug": "categories",
+     "title": "Display rule: categories",
+     "file": "categories.html",
+     "lead": "Show one chart on every product of a category.",
+     "video": {
+      "yt": "grRa6hsajgU",
+      "len": "1:40",
+      "clip": "25-rule-categories"
+     },
+     "intro": "In this video: showing a size chart on whole categories, so new products get it automatically.",
+     "steps": [
+      {
+       "t": 15,
+       "text": "This T-shirt is in the category Men, and no size chart is shown for it yet."
+      },
+      {
+       "t": 32,
+       "text": "Edit the Size guide chart, open Display Rule, then Categories. The rule is on, for the selected category Women."
+      },
+      {
+       "t": 43,
+       "text": "All Categories would show it on every product of the shop. Selected Categories limits it to the list below."
+      },
+      {
+       "t": 50,
+       "text": "Search for Men, and click the search button."
+      },
+      {
+       "t": 60,
+       "text": "Click Men in the results. Now the chart is for both categories. A product counts when one of its categories is in the list. Child categories are included."
+      },
+      {
+       "t": 79,
+       "text": "Save, and reload the T-shirt. It now shows the Size guide chart, on the page, because that chart is set to Page."
+      },
+      {
+       "t": 89,
+       "text": "The Delete button takes a category off the list again. Every product added to these categories later shows the chart too."
+      }
+     ]
+    },
+    {
+     "slug": "brands-and-tags",
+     "title": "Display rule: brands and tags",
+     "file": "brands-and-tags.html",
+     "lead": "Show a chart on every product of a brand or with a tag.",
+     "video": {
+      "yt": "w5DSZ3RbMaQ",
+      "len": "1:48",
+      "clip": "26-rule-brands-tags"
+     },
+     "intro": "In this video: size charts by brand and by product tag.",
+     "steps": [
+      {
+       "t": 14,
+       "text": "Edit the Print sizes chart, open Display Rule, then Brands. The rule is on, for the brand Graphic Corner."
+      },
+      {
+       "t": 26,
+       "text": "Search and click a brand to add it, the same way as products and categories. Every product of these brands shows this chart."
+      },
+      {
+       "t": 44,
+       "text": "In the shop, this framed poster is made by Graphic Corner, so it shows the print sizes."
+      },
+      {
+       "t": 69,
+       "text": "Tags work the same way. The Mug sizes chart is shown for products with the tag accessories-supplier."
+      },
+      {
+       "t": 89,
+       "text": "So this mug, which has that tag, shows the mug sizes, with a millilitre and fluid ounce switch."
+      },
+      {
+       "t": 97,
+       "text": "A brand or tag rule is handy when one maker or one product line always uses the same sizes."
+      }
+     ]
+    },
+    {
+     "slug": "attributes",
+     "title": "Display rule: attributes",
+     "file": "attributes.html",
+     "lead": "Show a chart on every product with an attribute.",
+     "video": {
+      "yt": "H0EQpoTXWW4",
+      "len": "1:01",
+      "clip": "27-rule-attributes"
+     },
+     "intro": "In this video: size charts by product attribute.",
+     "steps": [
+      {
+       "t": 14,
+       "text": "Edit the Cushion sizes chart, open Display Rule, then Attributes. The rule is on, for the attribute Property."
+      },
+      {
+       "t": 25,
+       "text": "Every product that uses this global attribute shows the chart. Search and click to add more attributes."
+      },
+      {
+       "t": 42,
+       "text": "In the shop, the Brown bear cushion has that attribute, so it shows the cushion sizes."
+      },
+      {
+       "t": 49,
+       "text": "Attributes are useful when products of many categories share one type of size, like fabric or material."
+      }
+     ]
+    },
+    {
+     "slug": "any-or-all",
+     "title": "Display rule: Any or All",
+     "file": "any-or-all.html",
+     "lead": "When a chart has several rules: one of them, or all of them.",
+     "video": {
+      "yt": "RkQdrM0JWY4",
+      "len": "1:59",
+      "clip": "28-apply-constrain"
+     },
+     "intro": "In this video: Apply Constrain. What happens when one chart has several display rules.",
+     "steps": [
+      {
+       "t": 12,
+       "text": "The Mug sizes chart has a tag rule: the tag accessories-supplier. Notebooks and cushions have that tag too."
+      },
+      {
+       "t": 23,
+       "text": "We add a second rule: Categories, Home Accessories, where the mugs are."
+      },
+      {
+       "t": 45,
+       "text": "With two rules on, a new tab appears: Apply Constrain. Any shows the chart when one rule matches. The other button needs every rule to match."
+      },
+      {
+       "t": 56,
+       "text": "With Any, a notebook with the same tag matches the tag rule, so it shows the mug sizes. That is not what we want."
+      },
+      {
+       "t": 83,
+       "text": "So we choose the second button: the product must match the tag and the category."
+      },
+      {
+       "t": 101,
+       "text": "Save. The notebook is not a home accessory, so it shows its own notebook chart again. The mugs still show the mug sizes."
+      },
+      {
+       "t": 110,
+       "text": "Use Any to add up rules, and All to narrow them down."
+      }
+     ]
+    },
+    {
+     "slug": "shortcode",
+     "title": "Shortcode",
+     "file": "shortcode.html",
+     "lead": "Show a size chart on any page or post.",
+     "video": {
+      "yt": "jI16PSFt_6A",
+      "len": "1:26",
+      "clip": "29-shortcode"
+     },
+     "intro": "In this video: the ilm size chart shortcode, to show a size chart outside the product page, for example on a size guide page.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "Open Pages, Add New Page, and give it a title. We make a size guide page for our T-shirt."
+      },
+      {
+       "t": 21,
+       "text": "In the page, type the shortcode: ilm size chart, in square brackets, with product equals the ID of the product. 92 is our T-shirt. You see the product ID in the product list when the mouse is over a product."
+      },
+      {
+       "t": 37,
+       "text": "Click Publish, check the settings, and click Publish again."
+      },
+      {
+       "t": 45,
+       "text": "The page is live."
+      },
+      {
+       "t": 56,
+       "text": "Open the page in the shop. The shortcode shows the T-shirt chart exactly as on the product page: here its Size Chart button."
+      },
+      {
+       "t": 65,
+       "text": "It opens the same popup, with the same design and unit switch."
+      },
+      {
+       "t": 70,
+       "text": "Without the product part, the shortcode shows the chart of the current product. That is handy in a product description or a page builder template. Products with no matching chart show nothing."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "on-the-storefront",
+   "title": "On the storefront",
+   "file": "on-the-storefront.html"
+  },
+  {
+   "slug": "free-and-pro",
+   "title": "Free and Pro",
+   "file": "free-and-pro.html"
+  },
+  {
+   "slug": "uninstall-and-delete",
+   "title": "Deactivate and delete",
+   "file": "uninstall-and-delete.html",
+   "lead": "Switch the plugin off, or remove it with its size charts.",
+   "video": {
+    "yt": "br1JkSPDqYA",
+    "len": "1:38",
+    "clip": "33-uninstall",
+    "note": "This video also removes the Pro add-on from the demo shop. With the free plugin only, skip those parts: the steps here jump straight to the free plugin."
+   },
+   "intro": "In this video: deactivating ILM Size Chart, and deleting it completely.",
+   "steps": [
+    {
+     "t": 7,
+     "text": "Deleting the plugin deletes all size charts and their settings. To keep a design, export it first with Export in the designer."
+    },
+    {
+     "t": 50,
+     "text": "On the Plugins page, deactivate ILM Size Chart. The shop no longer shows any size chart, but nothing is deleted yet."
+    },
+    {
+     "t": 81,
+     "text": "Then delete ILM Size Chart. This also deletes its size charts, settings and uploaded pictures. To use it again, install it as shown in the install video."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1170 @@
+{
+"/": {
+"d": "2026-11-07",
+"h": "40992e852f90510905ff7bfde3b595224e4d5cb0"
+},
+"/prestashop/all-in-one-captcha/": {
+"d": "2026-11-07",
+"h": "f879f649005ce128cacfbdb369d8f3085421a893"
+},
+"/prestashop/all-in-one-captcha/captcha-types/": {
+"d": "2026-11-07",
+"h": "2256b5fb925c9005aaea01ac780e0f21f6dcac74"
+},
+"/prestashop/all-in-one-captcha/forms/": {
+"d": "2026-11-07",
+"h": "cd9b88485715a01bbc2ab9378e8099838c52bd79"
+},
+"/prestashop/all-in-one-captcha/install-and-open/": {
+"d": "2026-11-07",
+"h": "a7ca7d4cb835d46ba27bf13ec03654d4e5f5544b"
+},
+"/prestashop/all-in-one-captcha/logs/": {
+"d": "2026-11-07",
+"h": "4c867ae437d5a9e06d8249418651c07d84cde3d9"
+},
+"/prestashop/all-in-one-captcha/protect/": {
+"d": "2026-11-07",
+"h": "852e9a1dcac068b6c5cd865d6d553db16fb05824"
+},
+"/prestashop/all-in-one-captcha/uninstall/": {
+"d": "2026-11-07",
+"h": "ff6ea52cd24a79953d693847acf61f2f53725f09"
+},
+"/prestashop/ilm-ai-chat/": {
+"d": "2026-11-06",
+"h": "e21658bab17f2427f584311869fc6334e802e085"
+},
+"/prestashop/ilm-ai-chat/ai-provider/": {
+"d": "2026-11-06",
+"h": "5065717ce565ab87a91cd8ec0c44baaeb3159110"
+},
+"/prestashop/ilm-ai-chat/chat-settings/": {
+"d": "2026-11-06",
+"h": "48a91e34d4d9536b060b106caeacca575d320bef"
+},
+"/prestashop/ilm-ai-chat/install-and-activate/": {
+"d": "2026-11-06",
+"h": "e8daace63acb0afb544d243177d5bce19174a780"
+},
+"/prestashop/ilm-ai-chat/knowledge/": {
+"d": "2026-11-06",
+"h": "80bf5e426436c0773219c03a855579c254a3c92a"
+},
+"/prestashop/ilm-ai-chat/on-your-storefront/": {
+"d": "2026-11-06",
+"h": "bb76086e20a1ddbf5ad28edeb992d600d9cd85ba"
+},
+"/prestashop/ilm-ai-chat/statistics-and-privacy/": {
+"d": "2026-11-06",
+"h": "19ac38940e0afe81dde8e61b4751b61f0ba7cff2"
+},
+"/prestashop/ilm-chat-order-for-whatsapp/": {
+"d": "2026-11-07",
+"h": "7c2abe1561437fe9896e7847842db06a93d9195d"
+},
+"/prestashop/ilm-chat-order-for-whatsapp/cart-order/": {
+"d": "2026-11-07",
+"h": "882d54484e3e2a0291a1090afee2c6507344233f"
+},
+"/prestashop/ilm-chat-order-for-whatsapp/chat-widget/": {
+"d": "2026-11-07",
+"h": "6a631e2bf55ba9cf524eda15a066a1b46b0feff7"
+},
+"/prestashop/ilm-chat-order-for-whatsapp/install-and-open/": {
+"d": "2026-11-07",
+"h": "4e7e3f5ebb4750b6ac90e206da937049507284f2"
+},
+"/prestashop/ilm-chat-order-for-whatsapp/product-buttons/": {
+"d": "2026-11-07",
+"h": "1f550a0f949ea37014da14aabb843bea4de2bd99"
+},
+"/prestashop/ilm-chat-order-for-whatsapp/statistics/": {
+"d": "2026-11-07",
+"h": "c60db55e348b5a30d2d109356bfcf65a09dff90b"
+},
+"/prestashop/ilm-chat-order-for-whatsapp/uninstall/": {
+"d": "2026-11-07",
+"h": "58ddbf9c186ebbd0fb730c773950ddb6525fa150"
+},
+"/prestashop/ilm-size-chart/": {
+"d": "2026-11-06",
+"h": "95e0d0027da5cb6f9351f6873e0066cb1e81f3a5"
+},
+"/prestashop/ilm-size-chart/ai-assistant/": {
+"d": "2026-11-06",
+"h": "5eeda5718454cf288915ee0d3c75428034c6419b"
+},
+"/prestashop/ilm-size-chart/ai-assistant/ai-design-assistant/": {
+"d": "2026-11-06",
+"h": "e2d086b23af95ef7fe8409dd498a952ce4a2cae9"
+},
+"/prestashop/ilm-size-chart/ai-assistant/ai-settings/": {
+"d": "2026-11-06",
+"h": "874d610e197fa369fe44e4fe54436560f75c16cb"
+},
+"/prestashop/ilm-size-chart/ai-assistant/create-with-ai/": {
+"d": "2026-11-06",
+"h": "4a14a8b26dfffc2582aa32cc321bf8a9f9b84623"
+},
+"/prestashop/ilm-size-chart/designer/": {
+"d": "2026-11-06",
+"h": "94459decb606fdbe709c4fa1ce1bcfcc97065ce8"
+},
+"/prestashop/ilm-size-chart/designer/export-and-import/": {
+"d": "2026-11-06",
+"h": "0b57dc4d608230ea32df07742e01c4803c9e7479"
+},
+"/prestashop/ilm-size-chart/designer/iframe/": {
+"d": "2026-11-06",
+"h": "d191a4bdc42094316d5bac928ecfacc3e131d14a"
+},
+"/prestashop/ilm-size-chart/designer/image/": {
+"d": "2026-11-06",
+"h": "e32b10fd98790b5640fa44a4780c4503541a46de"
+},
+"/prestashop/ilm-size-chart/designer/languages/": {
+"d": "2026-11-06",
+"h": "e73eeb26fbdcc8db92272471eef3abe1014d56a0"
+},
+"/prestashop/ilm-size-chart/designer/rows-and-columns/": {
+"d": "2026-11-06",
+"h": "b2e1367779a716ec25db36cdca75b4a3f9df4c9a"
+},
+"/prestashop/ilm-size-chart/designer/table-sizes-and-measurements/": {
+"d": "2026-11-06",
+"h": "2ed2f714da5aed9d3e6e958d5a784a0e4ed412d5"
+},
+"/prestashop/ilm-size-chart/designer/table-style/": {
+"d": "2026-11-06",
+"h": "d33ace4b7d03e191bead649cf9c737e90a90d6b2"
+},
+"/prestashop/ilm-size-chart/designer/table-units/": {
+"d": "2026-11-06",
+"h": "0e803892040a18a62ab5d06c1c7c9c7e3481f00e"
+},
+"/prestashop/ilm-size-chart/designer/tabs/": {
+"d": "2026-11-06",
+"h": "77883ca32a576a74710a2d5a6e94df435a50345e"
+},
+"/prestashop/ilm-size-chart/designer/text-editor/": {
+"d": "2026-11-06",
+"h": "8aad0b5f8a866b46404add6931c0e0c6611afe46"
+},
+"/prestashop/ilm-size-chart/designer/themes/": {
+"d": "2026-11-06",
+"h": "2441e62f144899dbf8d284532173325b5b5f5307"
+},
+"/prestashop/ilm-size-chart/designer/video/": {
+"d": "2026-11-06",
+"h": "01dba09a9d82541f28bc1e067bcd9c87c7e74501"
+},
+"/prestashop/ilm-size-chart/display-rules/": {
+"d": "2026-11-06",
+"h": "b1c1ba8c698bb7240d8e059a5919e11e974f3b91"
+},
+"/prestashop/ilm-size-chart/display-rules/any-or-all/": {
+"d": "2026-11-06",
+"h": "70d517e267306cb7852518f7e934c9b17cff7ed9"
+},
+"/prestashop/ilm-size-chart/display-rules/brands-and-suppliers/": {
+"d": "2026-11-06",
+"h": "463e95ea54e78e7317c16dbb0b863769e459bad1"
+},
+"/prestashop/ilm-size-chart/display-rules/categories/": {
+"d": "2026-11-06",
+"h": "d71b01968514e95c3aaada220e23321173d6a4ba"
+},
+"/prestashop/ilm-size-chart/display-rules/features/": {
+"d": "2026-11-06",
+"h": "d34a6c71b3a69a42f29eb90125fc6970d26a117e"
+},
+"/prestashop/ilm-size-chart/general/": {
+"d": "2026-11-06",
+"h": "e45ebc24cfe81d9bd197ee400052cf70bbf225e9"
+},
+"/prestashop/ilm-size-chart/general/find-my-size/": {
+"d": "2026-11-06",
+"h": "02f294c4e59d78f798a3f52016e990cf94d74f1a"
+},
+"/prestashop/ilm-size-chart/general/show-on-the-page/": {
+"d": "2026-11-06",
+"h": "b7306cf7f3bdb4f2cd7946974b9c72e2baec286e"
+},
+"/prestashop/ilm-size-chart/general/status-and-priority/": {
+"d": "2026-11-06",
+"h": "2bd2c8f5fd7a85e1cb6c6534c3791538c131ae40"
+},
+"/prestashop/ilm-size-chart/getting-started/": {
+"d": "2026-11-06",
+"h": "e07aa0c1a478d46a143457a999d8868525a2726b"
+},
+"/prestashop/ilm-size-chart/getting-started/install-and-activate/": {
+"d": "2026-11-06",
+"h": "e10f40f6b801f7225bfa5622b6a47ce6d1a5ef5a"
+},
+"/prestashop/ilm-size-chart/getting-started/the-size-chart-list/": {
+"d": "2026-11-06",
+"h": "5f057301b76b55bbde8af2975e5c317b6ae44f64"
+},
+"/prestashop/ilm-size-chart/getting-started/your-first-size-chart/": {
+"d": "2026-11-06",
+"h": "8fd1609e5f81b57c40e54ce7086b3c72e4e9c72e"
+},
+"/prestashop/ilm-size-chart/on-the-storefront/": {
+"d": "2026-11-06",
+"h": "56f16e3d2fe6842fdbaeaf99453293fb91858a41"
+},
+"/prestashop/ilm-size-chart/popup-button/": {
+"d": "2026-11-06",
+"h": "9444056765402c48f5028de97e6a47951286b6ea"
+},
+"/prestashop/ilm-size-chart/popup-button/close-button/": {
+"d": "2026-11-06",
+"h": "94fb4432ce04eaad3b66c2760b2a3af69833c477"
+},
+"/prestashop/ilm-size-chart/popup-button/popup-button-colours-and-border/": {
+"d": "2026-11-06",
+"h": "68dc6c0663f74adc3868afb5fd3ed33006eeb394"
+},
+"/prestashop/ilm-size-chart/popup-button/popup-button-font-and-text/": {
+"d": "2026-11-06",
+"h": "3b6bd7f882ad700ff7352e4e7cb90a9aadffc8ea"
+},
+"/prestashop/ilm-size-chart/popup-button/popup-button-icon/": {
+"d": "2026-11-06",
+"h": "b04c50b12fcb92ba85768f8150bc6c0c618017d1"
+},
+"/prestashop/ilm-size-chart/popup-button/popup-button-text-and-place/": {
+"d": "2026-11-06",
+"h": "8103ed108d912204614b114da95bbfa78d5114db"
+},
+"/prestashop/ilm-size-chart/popup-button/popup-window-size-and-position/": {
+"d": "2026-11-06",
+"h": "01c83d7c3816c36bb3fc28209e31a7853579b1f0"
+},
+"/prestashop/ilm-size-chart/popup-button/popup-window-style-and-animation/": {
+"d": "2026-11-06",
+"h": "8a34de78478e15049bdba3df2b9bcac3daa01d07"
+},
+"/prestashop/ilm-size-chart/popup-button/preview-on-phone-and-tablet/": {
+"d": "2026-11-06",
+"h": "b6bdb37a18945fe925e9882bc7791f01b0f3604a"
+},
+"/prestashop/ilm-size-chart/uninstall-and-delete/": {
+"d": "2026-11-06",
+"h": "80734f11c0532ab19db4014644def17ae53ca8fb"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/": {
+"d": "2026-11-08",
+"h": "3041776b62bcf723337444705112841732eefcfd"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/ai-assistant/": {
+"d": "2026-11-08",
+"h": "1d15c4ddc65ee8931913bc88567b979d61170bdc"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/ai-assistant/check-my-rules/": {
+"d": "2026-11-08",
+"h": "40356ee1e1a5e00d91435b0fa49c11b2938101d0"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/ai-assistant/create-rules-with-ai/": {
+"d": "2026-11-08",
+"h": "d214b62f3fe877ed621423a0c05ca54ccdbdd2b6"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/ai-assistant/step-by-step-and-ai-idea/": {
+"d": "2026-11-08",
+"h": "42c37560cdedf073933abf39a6d444e4b27245e7"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/ai-assistant/write-messages-with-ai/": {
+"d": "2026-11-08",
+"h": "107ba0df6dee3790fe615f9b2e9f7af814488b07"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/configuration/": {
+"d": "2026-11-06",
+"h": "d654a8fb0a5313b98eae6dca5a7fe6224d06ce47"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/configuration/allowed-quantities/": {
+"d": "2026-11-06",
+"h": "c9d23bbbdd39d42d08a25e767589eb0b5840a2ae"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/configuration/amounts-include-tax/": {
+"d": "2026-11-06",
+"h": "d2f3dba302c147f4a344931af40622493fe4cc63"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/configuration/attributes/": {
+"d": "2026-11-06",
+"h": "29878f05f4dbb9a4a12f0d324fc61310da81b994"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/configuration/auto-save/": {
+"d": "2026-11-06",
+"h": "c7d1a82b2f78a3e01e75abf6dcb861c5692b5b12"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/configuration/different-products-per-order/": {
+"d": "2026-11-06",
+"h": "442234b6f359b9f798b33c8971410b363fdc2965"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/configuration/limit-multiple-quantity/": {
+"d": "2026-11-06",
+"h": "4ae68d005fd467c08ce558d9cf78c38f46b769c7"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/configuration/maximum-quantity/": {
+"d": "2026-11-06",
+"h": "28b0192462b7921c69ca1f454f60063c57d5c0bd"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/configuration/minimum-and-maximum-amount/": {
+"d": "2026-11-06",
+"h": "4815f6cee9bbe171e57ddba8b938f59c254e5444"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/configuration/minimum-quantity/": {
+"d": "2026-11-06",
+"h": "c335f8a01a8e1a713a21db772b3e71fa2e6ec1e2"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/configuration/multiples-of-quantity/": {
+"d": "2026-11-06",
+"h": "36e8ee01fe885ad0a3ce88c403b731b1bf417f65"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/configuration/rule-priority-order/": {
+"d": "2026-11-06",
+"h": "231a1beda037e6be4537b6c0654fcf045f4fc5d2"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/duration-rules/": {
+"d": "2026-11-06",
+"h": "d79d3f9d2e2c328fa198b036934380f6dd63e78b"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/duration-rules/active-only-in-a-date-range/": {
+"d": "2026-11-06",
+"h": "b9ad735641cd093fe1abc9c20f9c49dd924654f6"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/duration-rules/custom-start-and-length/": {
+"d": "2026-11-06",
+"h": "7f6072007bc185ad0d2ea82666a28201fbe83f29"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/duration-rules/lifetime-total/": {
+"d": "2026-11-06",
+"h": "98bfb78a8332ee363adfc3caaf99deafdeb263fa"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/duration-rules/per-order-no-time-limit/": {
+"d": "2026-11-06",
+"h": "c115e42bc2963e432c8adb7bb14633e7d076d4c8"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/duration-rules/rolling-window/": {
+"d": "2026-11-06",
+"h": "b8c3e3c144cf671502cc89670a2838de43f27124"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/duration-rules/total-in-a-fixed-date-range/": {
+"d": "2026-11-06",
+"h": "414e0c67a02a77c65cd9adecdc8a00c1f91c8d99"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/duration-rules/which-order-statuses-count/": {
+"d": "2026-11-06",
+"h": "055eba594b3a5e2e44c72fbea26ce2deaaa7b80e"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/getting-started/": {
+"d": "2026-11-06",
+"h": "c36e615b30a0254e5d87817f4e896210f61c3005"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/getting-started/install-and-activate/": {
+"d": "2026-11-06",
+"h": "8933652509cb32ee50e6183d2893e176e1f5e169"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/getting-started/the-six-tabs/": {
+"d": "2026-11-06",
+"h": "278fc9f6e69679ac6ad2a7de0eb5140a0ac9cabf"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/messages-and-storefront/": {
+"d": "2026-11-06",
+"h": "7fd3e0b0a868bc7ea214c405b8f542a969c36697"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/messages-and-storefront/checkout-protection/": {
+"d": "2026-11-06",
+"h": "49081baf640a6f4577f1e6949b1ee4d1b9d5f480"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/messages-and-storefront/custom-css/": {
+"d": "2026-11-06",
+"h": "c527ea57712f9d88b70065aac75186b400c665fc"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/messages-and-storefront/customer-messages/": {
+"d": "2026-11-06",
+"h": "8cc887ec821d28aa0d50a0653058c8cd39890363"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/messages-and-storefront/on-the-storefront/": {
+"d": "2026-11-06",
+"h": "4aadf2fc4d8a9e8fae05cc75e6c46eeef04acfcf"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/messages-and-storefront/pack-price-message-and-position/": {
+"d": "2026-11-06",
+"h": "4b33a8b90ad1f440f0a37b6af41fadc9e0ad3f87"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/messages-and-storefront/product-page-information/": {
+"d": "2026-11-06",
+"h": "a70879191f47879ecb952e2ca39cf21b00c3baf8"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/rules/": {
+"d": "2026-11-06",
+"h": "81f2379061928304fffc401ed086dcf587f083b9"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/rules/brand-rule/": {
+"d": "2026-11-06",
+"h": "4f2b40a0b684a0e9788979ce81c52a489f23827b"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/rules/category-rule/": {
+"d": "2026-11-06",
+"h": "cbf2228889ac2dfbe92404421ce3cb843f108e7b"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/rules/conditions/": {
+"d": "2026-11-06",
+"h": "b6eb02fde9ea636923f1ab542e4b3d619401cbeb"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/rules/customer-group-rule/": {
+"d": "2026-11-06",
+"h": "25252484d6c48583d94677789f4e056c3abe4097"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/rules/global-rule/": {
+"d": "2026-11-06",
+"h": "9f888933b7dc2e0e14eea1d204c651d7e821d420"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/rules/product-rules-and-combinations/": {
+"d": "2026-11-06",
+"h": "cf62f9c4b1455ab07d71349858cfb56150a1af19"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/rules/rule-for-one-customer/": {
+"d": "2026-11-06",
+"h": "25cbfb4349467e71f25b4e23d24d9e8482d44dc0"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/rules/rule-table-filters/": {
+"d": "2026-11-06",
+"h": "0d84d79a7ac93fee0bae7be3a2cc7b604328ec19"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/rules/status-and-bulk-actions/": {
+"d": "2026-11-06",
+"h": "e66f1a55d6597ec3a2a459abefd09a4f0b10acae"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/rules/supplier-rule/": {
+"d": "2026-11-06",
+"h": "66d99b33826f1a2cb8a4b707c57a2e065242caf8"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/tools/": {
+"d": "2026-11-06",
+"h": "e9f2049fe20c80f01fecbba0016031ef55a6a62b"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/tools/blocked-attempts/": {
+"d": "2026-11-06",
+"h": "cbd4f7d8030e2b0e400433b17343408c5bcd2c38"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/tools/export-and-import/": {
+"d": "2026-11-06",
+"h": "921324328ec3b1cf5761718415809af1270cc966"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/tools/rule-templates/": {
+"d": "2026-11-06",
+"h": "f5ed0fc84e0febafb9768679543db6d245974a7c"
+},
+"/prestashop/minimum-maximum-multiple-order-quantity-amount/uninstall-and-delete/": {
+"d": "2026-11-06",
+"h": "5ed466be174b9bc6882470cc98a70c9b1498c20a"
+},
+"/shopify/ilm-chat-order-for-whatsapp/": {
+"d": "2026-11-07",
+"h": "008abe7d5252442f30fb4e6ed2cf88b6a2dfba29"
+},
+"/shopify/ilm-chat-order-for-whatsapp/agents/": {
+"d": "2026-11-07",
+"h": "48471fad91686e3b13b509ad377758638c1eb6e1"
+},
+"/shopify/ilm-chat-order-for-whatsapp/chat-widget/": {
+"d": "2026-11-07",
+"h": "2b888c832a1df3f3dc4b4c6298637c7b7fc541dd"
+},
+"/shopify/ilm-chat-order-for-whatsapp/help/": {
+"d": "2026-11-07",
+"h": "e01b7641d992cbb83bea5f1c7fc935ec87262e77"
+},
+"/shopify/ilm-chat-order-for-whatsapp/install-and-setup/": {
+"d": "2026-11-07",
+"h": "52029a5ba21a23532ec0b4370a906881295a55f7"
+},
+"/shopify/ilm-chat-order-for-whatsapp/languages/": {
+"d": "2026-11-07",
+"h": "113273b04c0cd5d6b40844e5c1410e0d6e455fa5"
+},
+"/shopify/ilm-chat-order-for-whatsapp/product-and-cart-buttons/": {
+"d": "2026-11-07",
+"h": "09ba237628b4d544f809a0d361ab90981f8f489c"
+},
+"/shopify/ilm-chat-order-for-whatsapp/statistics-and-uninstall/": {
+"d": "2026-11-07",
+"h": "1661a15809e4d937c0117ef74de69b61b8c07ede"
+},
+"/shopify/ilm-min-max-order-qty-amount/": {
+"d": "2026-11-06",
+"h": "11e1d1d8ed4ab8e7c998fbc0fc3c2477c94a32dc"
+},
+"/shopify/ilm-min-max-order-qty-amount/ai/": {
+"d": "2026-11-06",
+"h": "f7179e603da0188f546c36844233271df3317094"
+},
+"/shopify/ilm-min-max-order-qty-amount/ai/check-rules-and-ask-ilm/": {
+"d": "2026-11-06",
+"h": "7ad54c84a769f556a9e198379038bd5f2fd255f7"
+},
+"/shopify/ilm-min-max-order-qty-amount/ai/create-rules-with-ai/": {
+"d": "2026-11-06",
+"h": "e4dc072d27de973dfe43f9383959afd044daa39a"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/": {
+"d": "2026-11-06",
+"h": "017049c4889dd5361277eede634dbc6eaa56816d"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/allowed-quantities/": {
+"d": "2026-11-06",
+"h": "87fbb15b280f77e5c4cadea1c1584f4525b07d67"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/amounts-include-tax/": {
+"d": "2026-11-06",
+"h": "d56ca6318a7c3359d64d1461318d112a099dfaff"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/attributes/": {
+"d": "2026-11-06",
+"h": "c7e2ee9df9c816fe9d7f52478d4dddff7ec1cd3f"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/auto-save/": {
+"d": "2026-11-06",
+"h": "539dfb0b818fba584c786bfce99049e193462dc7"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/different-products-per-order/": {
+"d": "2026-11-06",
+"h": "cd834ae4dae61b33b67e5f30cd6a996778955ff0"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/limit-multiple-quantity/": {
+"d": "2026-11-06",
+"h": "c8855f5be73ba811c951495c0769f3eed8b15a96"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/maximum-quantity/": {
+"d": "2026-11-06",
+"h": "c6dfc3bd63bd13131f08b21ae30c6ff95e615f09"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/minimum-and-maximum-amount/": {
+"d": "2026-11-06",
+"h": "927695003cb873d499467e8859c2f0143fdc173b"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/minimum-quantity/": {
+"d": "2026-11-06",
+"h": "54aae4251bf3102e5bc1fca147ebece46c98fa09"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/multiples-of-quantity/": {
+"d": "2026-11-06",
+"h": "dba9d6b49231e11bced00c5386d89aa410b74dd3"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/rule-priority-order/": {
+"d": "2026-11-06",
+"h": "639ff0d3c3f80d234869b2de0b197903babcafe1"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/start-from-the-minimum/": {
+"d": "2026-11-06",
+"h": "6d41a131100ed9e6c563e91ddaae9c778ac14ac2"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/status-and-global-value/": {
+"d": "2026-11-06",
+"h": "debee51a46e05facd1bb0912b516d74ec22e514a"
+},
+"/shopify/ilm-min-max-order-qty-amount/configuration/whole-order-limits/": {
+"d": "2026-11-06",
+"h": "b0c7eab62e6b780119d7a5a6454058549e1a1004"
+},
+"/shopify/ilm-min-max-order-qty-amount/duration-rules/": {
+"d": "2026-11-06",
+"h": "ce5f4f8b82e9496b39f559f0d89d8fe7d1db9f1b"
+},
+"/shopify/ilm-min-max-order-qty-amount/duration-rules/active-only-in-a-date-range/": {
+"d": "2026-11-06",
+"h": "41ecfb3d1420890449f613430f4a59e6d2a317dc"
+},
+"/shopify/ilm-min-max-order-qty-amount/duration-rules/totals-over-time/": {
+"d": "2026-11-06",
+"h": "914b31b49366f72216cfa0db3a21be5eed3af0c9"
+},
+"/shopify/ilm-min-max-order-qty-amount/getting-started/": {
+"d": "2026-11-06",
+"h": "d19eef2eed7af1a27061ca37ebbe5e9d172d3dd9"
+},
+"/shopify/ilm-min-max-order-qty-amount/getting-started/install/": {
+"d": "2026-11-06",
+"h": "c8f6c7aecfda679022e425472e6ac0c3c6968a90"
+},
+"/shopify/ilm-min-max-order-qty-amount/getting-started/plans/": {
+"d": "2026-11-06",
+"h": "a2c1cbfd906494a146567c9cdb09e3bb4b90906c"
+},
+"/shopify/ilm-min-max-order-qty-amount/messages-and-storefront/": {
+"d": "2026-11-06",
+"h": "2595d03d380f4f7ab8e151b870e8027f10837b91"
+},
+"/shopify/ilm-min-max-order-qty-amount/messages-and-storefront/checkout-protection/": {
+"d": "2026-11-06",
+"h": "0558adcad1cb7be042163e2c50a7716eaefbdfd6"
+},
+"/shopify/ilm-min-max-order-qty-amount/messages-and-storefront/custom-css/": {
+"d": "2026-11-06",
+"h": "6d1168e3607eb6ad46d17d9b6ba622df9e663dd0"
+},
+"/shopify/ilm-min-max-order-qty-amount/messages-and-storefront/customer-messages/": {
+"d": "2026-11-06",
+"h": "9384fda43e0ed15071fd60a8fd3fb7c120356850"
+},
+"/shopify/ilm-min-max-order-qty-amount/messages-and-storefront/message-block/": {
+"d": "2026-11-06",
+"h": "6f4434253dc15bd55c87932c75420cad0b9dd625"
+},
+"/shopify/ilm-min-max-order-qty-amount/messages-and-storefront/pack-price-message-and-position/": {
+"d": "2026-11-06",
+"h": "d7d9564a55f715a6f612f73a8e6dd3dda991331a"
+},
+"/shopify/ilm-min-max-order-qty-amount/messages-and-storefront/product-page-information/": {
+"d": "2026-11-06",
+"h": "9aed9a179ec106ffeb49e4c672efc038ed668412"
+},
+"/shopify/ilm-min-max-order-qty-amount/rules/": {
+"d": "2026-11-06",
+"h": "8b39a30578adbe3ae67e85bcdd25e2b59727d671"
+},
+"/shopify/ilm-min-max-order-qty-amount/rules/collection-rule/": {
+"d": "2026-11-06",
+"h": "d0438163fe0322d485e80748669c2affeb923bf1"
+},
+"/shopify/ilm-min-max-order-qty-amount/rules/conditions/": {
+"d": "2026-11-06",
+"h": "3475420e8c769496aa5591453d08645e52fbab77"
+},
+"/shopify/ilm-min-max-order-qty-amount/rules/customer-tag-rule/": {
+"d": "2026-11-06",
+"h": "c6bc646217f6f2cdbb1ebe940f566d940f7fd393"
+},
+"/shopify/ilm-min-max-order-qty-amount/rules/global-rule/": {
+"d": "2026-11-06",
+"h": "6ff0337896e627e3af658580929d7ec6229b2820"
+},
+"/shopify/ilm-min-max-order-qty-amount/rules/product-type-rule/": {
+"d": "2026-11-06",
+"h": "35b32305e10598ebc5cb1162e35acb7088e172d8"
+},
+"/shopify/ilm-min-max-order-qty-amount/rules/rule-table-filters/": {
+"d": "2026-11-06",
+"h": "5cfe2a7fcc78f6545c58185e4035891358cffa9f"
+},
+"/shopify/ilm-min-max-order-qty-amount/rules/switch-rules-on-and-off/": {
+"d": "2026-11-06",
+"h": "08f441176b11fbed7c08ce54cf1dc9deca6bfcbc"
+},
+"/shopify/ilm-min-max-order-qty-amount/rules/variant-rule/": {
+"d": "2026-11-06",
+"h": "2ce602290ddffd41dce0d845df0402124e184210"
+},
+"/shopify/ilm-min-max-order-qty-amount/rules/vendor-rule/": {
+"d": "2026-11-06",
+"h": "c4bca372ef4cd76b40028456ee331335b52ec9ab"
+},
+"/shopify/ilm-min-max-order-qty-amount/tools/": {
+"d": "2026-11-06",
+"h": "296167bd966ebcb657822a9296bf0f10a8284fd2"
+},
+"/shopify/ilm-min-max-order-qty-amount/tools/blocked-attempts/": {
+"d": "2026-11-06",
+"h": "61ba09dfb8d4852d0e4d0576fb27165b580a4a5c"
+},
+"/shopify/ilm-min-max-order-qty-amount/tools/blocked-carts-report/": {
+"d": "2026-11-06",
+"h": "80b1047361f53b3b3599c0286a740b87a3f2e939"
+},
+"/shopify/ilm-min-max-order-qty-amount/tools/export-and-import/": {
+"d": "2026-11-06",
+"h": "bf53114f958edcefc85370baa181760b92f2df3f"
+},
+"/shopify/ilm-min-max-order-qty-amount/tools/rule-templates/": {
+"d": "2026-11-06",
+"h": "78901dbded63d21239c7340c441ffee2a08967d3"
+},
+"/shopify/ilm-min-max-order-qty-amount/uninstall/": {
+"d": "2026-11-06",
+"h": "72809f0af5c74cf37e11fbe26a45f33c3704886c"
+},
+"/size-chart-app/": {
+"d": "2026-11-06",
+"h": "78f4288ecba5132552d0a2e4a2aa752c0916e27f"
+},
+"/size-chart-app/getting-started/": {
+"d": "2026-11-06",
+"h": "4e20b82af03f7bee54a82f8b400bfb9c898ba6ba"
+},
+"/size-chart-app/getting-started/how-to-display-the-size-chart-using-smart-selector-advanced-position/": {
+"d": "2026-11-06",
+"h": "19e396e8696f99532e9a564553cda36457adfe89"
+},
+"/size-chart-app/getting-started/how-to-install-size-chart-app/": {
+"d": "2026-11-06",
+"h": "1b7e4f3b0d45ee8930aa21f203f80bb89217914d"
+},
+"/size-chart-app/getting-started/how-to-setup-onboarding-process/": {
+"d": "2026-11-06",
+"h": "44c34870fdb12990ddcf4021f9e7a3271611d85a"
+},
+"/size-chart-app/manage-size-charts/": {
+"d": "2026-11-06",
+"h": "c112f625be0bd2d36042bcb898bbc9ed939d6c19"
+},
+"/size-chart-app/manage-size-charts/how-can-i-add-multiple-size-tables-into-the-same-size-chart/": {
+"d": "2026-11-06",
+"h": "ee3362db7952763f94ff2cf0b4c4e8a9eb699d8a"
+},
+"/size-chart-app/manage-size-charts/how-to-add-a-video/": {
+"d": "2026-11-06",
+"h": "a4f614830362e4f23c81999448ba5194685b3d90"
+},
+"/size-chart-app/manage-size-charts/how-to-add-an-image/": {
+"d": "2026-11-06",
+"h": "0f7a098dbc1980392db2cfa8ae25520d7ef29947"
+},
+"/size-chart-app/manage-size-charts/how-to-create-a-new-size-chart/": {
+"d": "2026-11-06",
+"h": "99b0df761e523e82c23edadc1ec8c42b99da1224"
+},
+"/size-chart-app/manage-size-charts/how-to-delete-size-charts/": {
+"d": "2026-11-06",
+"h": "3f2ee62eec37f5d1389e183894db390b829bf3ed"
+},
+"/size-chart-app/manage-size-charts/how-to-display-a-size-chart-table-first-column-as-header/": {
+"d": "2026-11-06",
+"h": "334efef0fa06a272e3072657e99cbfe971914fc6"
+},
+"/size-chart-app/manage-size-charts/how-to-duplicate-a-size-chart/": {
+"d": "2026-11-06",
+"h": "2c45bfe82c46261b2b8e4e44231a0ea31f215edc"
+},
+"/size-chart-app/manage-size-charts/how-to-set-a-size-chart-to-draft/": {
+"d": "2026-11-06",
+"h": "e0dbea8f390e056b08b4e90cd8ba989b38d6dfe4"
+},
+"/size-chart-app/manage-size-charts/what-are-the-size-chart-display-types/": {
+"d": "2026-11-06",
+"h": "4afc0de84161e9312f95bf56067413244c3635b8"
+},
+"/wordpress/ilm-chat-order-for-whatsapp/": {
+"d": "2026-11-07",
+"h": "836f61875c13e600faae3620e68d58e47b586549"
+},
+"/wordpress/ilm-chat-order-for-whatsapp/agents/": {
+"d": "2026-11-07",
+"h": "2483f935cb540b68a045e367171213cddaef78ce"
+},
+"/wordpress/ilm-chat-order-for-whatsapp/business-hours/": {
+"d": "2026-11-07",
+"h": "3a91a4a5aeb3a8e480cd34caca609b7406dcb7e3"
+},
+"/wordpress/ilm-chat-order-for-whatsapp/cart-order/": {
+"d": "2026-11-07",
+"h": "3d0ffb3b0c751b9c573b64ac47dd0efdcc31ddb4"
+},
+"/wordpress/ilm-chat-order-for-whatsapp/chat-widget/": {
+"d": "2026-11-07",
+"h": "735bd8bbf2ac5846cf8804c532346818bd5307a9"
+},
+"/wordpress/ilm-chat-order-for-whatsapp/display-rules/": {
+"d": "2026-11-07",
+"h": "cef5e3371932731fa885a7da3da35454d88a640a"
+},
+"/wordpress/ilm-chat-order-for-whatsapp/install-and-open/": {
+"d": "2026-11-07",
+"h": "36efbc06cf1bcc90d9306e6e90b936e80c51b448"
+},
+"/wordpress/ilm-chat-order-for-whatsapp/product-page/": {
+"d": "2026-11-07",
+"h": "adae5ea48df13b6667ecb82c75c82aacfc2b4ca8"
+},
+"/wordpress/ilm-chat-order-for-whatsapp/statistics/": {
+"d": "2026-11-07",
+"h": "b5729c5d04ce623a98384e2ee464d7485adfc6d4"
+},
+"/wordpress/ilm-chat-order-for-whatsapp/uninstall/": {
+"d": "2026-11-07",
+"h": "00ab1a6bc5c6f0cf231b2ac799bbf05176d2bb35"
+},
+"/wordpress/ilm-min-max-order-qty-amount/": {
+"d": "2026-11-06",
+"h": "706060ea4a6523bef6babc3cbff7666e7f083b56"
+},
+"/wordpress/ilm-min-max-order-qty-amount/ai-assistant/": {
+"d": "2026-11-06",
+"h": "2c47b05d86d2dea318fbf5741b13d690619a2e1c"
+},
+"/wordpress/ilm-min-max-order-qty-amount/ai-assistant/ai-assistant-rules/": {
+"d": "2026-11-06",
+"h": "466d39816c854a1eaead3f469d66473a932a2695"
+},
+"/wordpress/ilm-min-max-order-qty-amount/configuration/": {
+"d": "2026-11-06",
+"h": "23ce0481f3424f5e1f9745469f3c9e275e5258eb"
+},
+"/wordpress/ilm-min-max-order-qty-amount/configuration/allowed-quantities/": {
+"d": "2026-11-06",
+"h": "3beb304f41b2ec6a50013225336676cd5d69fc7b"
+},
+"/wordpress/ilm-min-max-order-qty-amount/configuration/amounts-include-tax/": {
+"d": "2026-11-06",
+"h": "d8bf3abeccede0da98887d5cfe0399bcb91f4a8f"
+},
+"/wordpress/ilm-min-max-order-qty-amount/configuration/attributes/": {
+"d": "2026-11-06",
+"h": "0f8f1ff391a18c9e676aab21e178e420c441cf36"
+},
+"/wordpress/ilm-min-max-order-qty-amount/configuration/auto-save/": {
+"d": "2026-11-06",
+"h": "53d9062f4264536662f6294a8d4eda96c4b28397"
+},
+"/wordpress/ilm-min-max-order-qty-amount/configuration/different-products-per-order/": {
+"d": "2026-11-06",
+"h": "b7776d896a4f1177fb9601ddf37bc99ca9f3689c"
+},
+"/wordpress/ilm-min-max-order-qty-amount/configuration/limit-multiple-quantity/": {
+"d": "2026-11-06",
+"h": "5e12a47e973eb5abce130653d265f6033292a77d"
+},
+"/wordpress/ilm-min-max-order-qty-amount/configuration/maximum-quantity/": {
+"d": "2026-11-06",
+"h": "18822b4b3f8de52a3d22a0be13b9a052475be8d7"
+},
+"/wordpress/ilm-min-max-order-qty-amount/configuration/minimum-and-maximum-amount/": {
+"d": "2026-11-06",
+"h": "efc6c2ef8769463ffc15aeec6bc5ebb5f18f2a5f"
+},
+"/wordpress/ilm-min-max-order-qty-amount/configuration/minimum-quantity/": {
+"d": "2026-11-06",
+"h": "4eb5eff4b4cc7a1815643022ea31ba8761f72500"
+},
+"/wordpress/ilm-min-max-order-qty-amount/configuration/multiples-of-quantity/": {
+"d": "2026-11-06",
+"h": "e2ba17d8f8ecb742957760a7699d7fde0e07628e"
+},
+"/wordpress/ilm-min-max-order-qty-amount/configuration/rule-priority-order/": {
+"d": "2026-11-06",
+"h": "6325d65693b4fe8952a57e17c6c3fe593b995d24"
+},
+"/wordpress/ilm-min-max-order-qty-amount/duration-rules/": {
+"d": "2026-11-06",
+"h": "4e960a3a4d13af5228e62d4d3cc2e2ade92dcf72"
+},
+"/wordpress/ilm-min-max-order-qty-amount/duration-rules/active-only-in-a-date-range/": {
+"d": "2026-11-06",
+"h": "a5ee42e06b9917893253a7ad2ac0f9796eced083"
+},
+"/wordpress/ilm-min-max-order-qty-amount/duration-rules/custom-start-and-length/": {
+"d": "2026-11-06",
+"h": "da6a00fe741ecd6c82cd2a3936d7778742a60655"
+},
+"/wordpress/ilm-min-max-order-qty-amount/duration-rules/lifetime-total/": {
+"d": "2026-11-06",
+"h": "f412f22f3cc2464b1c10641166833bca50832512"
+},
+"/wordpress/ilm-min-max-order-qty-amount/duration-rules/per-order-no-time-limit/": {
+"d": "2026-11-06",
+"h": "d6dd1aa6355f23f5b9a5faa7a71c5bde71d79b1b"
+},
+"/wordpress/ilm-min-max-order-qty-amount/duration-rules/rolling-window/": {
+"d": "2026-11-06",
+"h": "c3d817312a2ee46e72153d42d6279028e9df078b"
+},
+"/wordpress/ilm-min-max-order-qty-amount/duration-rules/total-in-a-fixed-date-range/": {
+"d": "2026-11-06",
+"h": "8b992c19faed01cf564504991bdaddf0adc9601f"
+},
+"/wordpress/ilm-min-max-order-qty-amount/duration-rules/which-order-statuses-count/": {
+"d": "2026-11-06",
+"h": "3c83a3b35deaaf211b5152aa3c552f7a092213e3"
+},
+"/wordpress/ilm-min-max-order-qty-amount/free-and-pro/": {
+"d": "2026-11-06",
+"h": "d3bcc655e1e26330ebd5a162b6ae3082e19c9ea5"
+},
+"/wordpress/ilm-min-max-order-qty-amount/getting-started/": {
+"d": "2026-11-06",
+"h": "5d65646e192be404917f155fe17bab734d63f701"
+},
+"/wordpress/ilm-min-max-order-qty-amount/getting-started/install-and-activate/": {
+"d": "2026-11-06",
+"h": "90d3271c67147b59845ac44a8df02dd65fda0b2d"
+},
+"/wordpress/ilm-min-max-order-qty-amount/messages-and-storefront/": {
+"d": "2026-11-06",
+"h": "c1dea4096b85dc4096971bc289f9ca5f43ceff44"
+},
+"/wordpress/ilm-min-max-order-qty-amount/messages-and-storefront/checkout-protection/": {
+"d": "2026-11-06",
+"h": "7ae1b3186e36bd7ecb767eef8cab583f3c125d66"
+},
+"/wordpress/ilm-min-max-order-qty-amount/messages-and-storefront/custom-css/": {
+"d": "2026-11-06",
+"h": "8b919fbda136df005eb0cd1dca4fb0346b38616d"
+},
+"/wordpress/ilm-min-max-order-qty-amount/messages-and-storefront/customer-messages/": {
+"d": "2026-11-06",
+"h": "3d6179e2c6c2a58bc0fb4e20d00e96ca4b80c81b"
+},
+"/wordpress/ilm-min-max-order-qty-amount/messages-and-storefront/pack-price-message-and-position/": {
+"d": "2026-11-06",
+"h": "99ec25b16795fd0441420ac78f0f4d9e5571d762"
+},
+"/wordpress/ilm-min-max-order-qty-amount/messages-and-storefront/product-page-information/": {
+"d": "2026-11-06",
+"h": "2faba84a2b699360be6fa1b6a772c7f01acedeb6"
+},
+"/wordpress/ilm-min-max-order-qty-amount/rules/": {
+"d": "2026-11-06",
+"h": "ef378b9776585ec65983139e6950e76a7de641ba"
+},
+"/wordpress/ilm-min-max-order-qty-amount/rules/brand-rule/": {
+"d": "2026-11-06",
+"h": "c7ed68be62f0ef0b22868a2b47380f91d29b435b"
+},
+"/wordpress/ilm-min-max-order-qty-amount/rules/category-rule/": {
+"d": "2026-11-06",
+"h": "14ef661b0b42198d08350ebd6e72823625b4ca4c"
+},
+"/wordpress/ilm-min-max-order-qty-amount/rules/conditions/": {
+"d": "2026-11-06",
+"h": "8dcbc65ebcb0d9c2f5c3979d0d9e2e1602f3f6e8"
+},
+"/wordpress/ilm-min-max-order-qty-amount/rules/global-rule/": {
+"d": "2026-11-06",
+"h": "acab36d56de5ef4e9c1906becc85dde6d0b5e898"
+},
+"/wordpress/ilm-min-max-order-qty-amount/rules/limits-on-the-product-edit-page/": {
+"d": "2026-11-06",
+"h": "cffcc344b1b53ea4b41c96024023345509d8240e"
+},
+"/wordpress/ilm-min-max-order-qty-amount/rules/product-rules-and-variations/": {
+"d": "2026-11-06",
+"h": "5d44256ca3bd8ef5f03054fff112ddbb1957d06e"
+},
+"/wordpress/ilm-min-max-order-qty-amount/rules/rule-for-one-customer/": {
+"d": "2026-11-06",
+"h": "45e7764507aef2a2c3faa8fdcc966104615bc516"
+},
+"/wordpress/ilm-min-max-order-qty-amount/rules/rule-table-filters/": {
+"d": "2026-11-06",
+"h": "f53cc7e7c4f4bb6fb725f927f27990529c1ab551"
+},
+"/wordpress/ilm-min-max-order-qty-amount/rules/status-and-bulk-actions/": {
+"d": "2026-11-06",
+"h": "3c4726939888b8e2f022cce83276a51fc1c71e5a"
+},
+"/wordpress/ilm-min-max-order-qty-amount/rules/tag-rule/": {
+"d": "2026-11-06",
+"h": "03c9c623ec3ee37135c75a81c1973495313587c2"
+},
+"/wordpress/ilm-min-max-order-qty-amount/rules/user-role-rule/": {
+"d": "2026-11-06",
+"h": "e6ebb246dd3d9e1b40983b1ffe0d81b53d03e31d"
+},
+"/wordpress/ilm-min-max-order-qty-amount/tools/": {
+"d": "2026-11-06",
+"h": "0a32577a7928334fe87b7261f2434ad6f9ef23ab"
+},
+"/wordpress/ilm-min-max-order-qty-amount/tools/blocked-attempts/": {
+"d": "2026-11-06",
+"h": "56dbda42175b36136db45c6b55c8318b97a6fa34"
+},
+"/wordpress/ilm-min-max-order-qty-amount/tools/export-and-import/": {
+"d": "2026-11-06",
+"h": "849e810d56720ee39b406fd1b681b88fce712f7c"
+},
+"/wordpress/ilm-min-max-order-qty-amount/tools/rule-templates/": {
+"d": "2026-11-06",
+"h": "48ef68049bc2bf7683ccd92d76856615ec1d790d"
+},
+"/wordpress/ilm-min-max-order-qty-amount/uninstall-and-delete/": {
+"d": "2026-11-06",
+"h": "6ee968e2c92869c4f85dabf0275b887f9efb5528"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/": {
+"d": "2026-11-06",
+"h": "f43afce3bbcd3b5527f9553c0076fb7a103bbca3"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/designer/": {
+"d": "2026-11-06",
+"h": "3806aa37745d5456681ad004a02efa3b2dec4214"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/designer/export-and-import/": {
+"d": "2026-11-06",
+"h": "05b74ed7a571dc633f394da2789f00e6a7b4f0ac"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/designer/image/": {
+"d": "2026-11-06",
+"h": "48557736b655b7c251679994851cd9e04d5e4dec"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/designer/rows-and-columns/": {
+"d": "2026-11-06",
+"h": "89a20c4810c852bb7724d0bf70b697484f49a99a"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/designer/table-sizes-and-measurements/": {
+"d": "2026-11-06",
+"h": "5c4db41757091705d47883cd9d137bfadbad9853"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/designer/table-style/": {
+"d": "2026-11-06",
+"h": "f240a49e5a14fa6645d29f61f20b03f1f07a54a4"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/designer/table-units/": {
+"d": "2026-11-06",
+"h": "333fb34dd8ca1f96409022ffe459a2a0538ae0e1"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/designer/tabs/": {
+"d": "2026-11-06",
+"h": "553c28bc986586ae48eea4439cbf5ee7a82045a1"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/designer/text-editor/": {
+"d": "2026-11-06",
+"h": "faa39e2082e92008013668232e6a95db9fe770e7"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/designer/themes/": {
+"d": "2026-11-06",
+"h": "b4160cb1e7a58d889aec57719085046ce5dfd341"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/designer/video/": {
+"d": "2026-11-06",
+"h": "a2ae5b770e4808d074716ddb3b7ec33fe9c8a648"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/display-rules/": {
+"d": "2026-11-06",
+"h": "ea023c2951ce7c4a32b20aa9bf0f2e9d1e22ff38"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/display-rules/any-or-all/": {
+"d": "2026-11-06",
+"h": "02d0bcea9471e5a1260906a98be28aa8f7c9d22d"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/display-rules/attributes/": {
+"d": "2026-11-06",
+"h": "e03f4fe3d45cdab9eef6d4567094310d0e5d2072"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/display-rules/brands-and-tags/": {
+"d": "2026-11-06",
+"h": "111d6cf771d3689dd1fb1412f981d476fc514146"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/display-rules/categories/": {
+"d": "2026-11-06",
+"h": "631cb939c92486f8eecd7b2bae5725a395336f6e"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/display-rules/shortcode/": {
+"d": "2026-11-06",
+"h": "270b2536466f9d61cb6d6af159321ed564f3b02d"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/free-and-pro/": {
+"d": "2026-11-06",
+"h": "213dc68bbfa2c7494d5703864688802fae6dfe7d"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/general/": {
+"d": "2026-11-06",
+"h": "374bbc4e0a67759482e6f5876c6b27a5cf90d94e"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/general/show-on-the-page/": {
+"d": "2026-11-06",
+"h": "1c53b42fb14da5427dd8341b88e5b9215ff3df27"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/general/status-and-priority/": {
+"d": "2026-11-06",
+"h": "8235c98af6e15f4eff04ca8090f89945e3a39da9"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/getting-started/": {
+"d": "2026-11-06",
+"h": "ced14dc48d7e3fd9f2c9b3e42b6bdfca73a751af"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/getting-started/install-and-activate/": {
+"d": "2026-11-06",
+"h": "abc538324178699e0b6fae39f4e8a72ef042017e"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/getting-started/the-size-chart-list/": {
+"d": "2026-11-06",
+"h": "0f402621dd0f8c1ff6652dac701cdd269cc5089c"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/getting-started/your-first-size-chart/": {
+"d": "2026-11-06",
+"h": "ab1faf6779e8966ed94363bb09b48174b1b765bd"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/on-the-storefront/": {
+"d": "2026-11-06",
+"h": "63c09324e9e1a5979dfd393b27ac57d44afa19ea"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/popup-button/": {
+"d": "2026-11-06",
+"h": "354a7ad00151ea3376e8952000fa862e5dfdc17f"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/popup-button/close-button/": {
+"d": "2026-11-06",
+"h": "c04c60d81fefba950c7174e2a20399e01b5b8654"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/popup-button/popup-button-colours-and-border/": {
+"d": "2026-11-06",
+"h": "9e4f5e248fed294b952a1a0500b42d5a6c84c6eb"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/popup-button/popup-button-font-and-text/": {
+"d": "2026-11-06",
+"h": "fb2e2569dbe642c1ed92b18bf3e288ab8b9e6280"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/popup-button/popup-button-icon/": {
+"d": "2026-11-06",
+"h": "0b7fb80d641ac7f78762c0037413932e0f6c6bb8"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/popup-button/popup-button-text-and-place/": {
+"d": "2026-11-06",
+"h": "138b80ebb4b0f3476b4244f4393ea4ee97eaa30d"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/popup-button/popup-window-size-and-position/": {
+"d": "2026-11-06",
+"h": "76547d64b4fb4d412f279ac0b808fdaba9fc0b42"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/popup-button/popup-window-style-and-animation/": {
+"d": "2026-11-06",
+"h": "e085d2e5797228647fc83bfa9136a092772f9933"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/popup-button/preview-on-phone-and-tablet/": {
+"d": "2026-11-06",
+"h": "f2863b78c9890b664205e3fd6e56476c2439d71e"
+},
+"/wordpress/ilm-size-chart-for-woocommerce/uninstall-and-delete/": {
+"d": "2026-11-06",
+"h": "6b9e59e295b10aa078aba730e93ec725edede2fe"
+},
+"/wordpress/ilm-size-chart-pro/": {
+"d": "2026-11-06",
+"h": "2411704976f95fccfeb4380056661220a863870c"
+},
+"/wordpress/ilm-size-chart-pro/ai-design-assistant/": {
+"d": "2026-11-06",
+"h": "07641c9b361ddd296c5675c51291966ad01b812e"
+},
+"/wordpress/ilm-size-chart-pro/ai-settings/": {
+"d": "2026-11-06",
+"h": "ba57b10bd5937bf8c292f638194d80e39673df0a"
+},
+"/wordpress/ilm-size-chart-pro/create-with-ai/": {
+"d": "2026-11-06",
+"h": "59a42ae9ee3ffe14c233b5761b067402f21171b7"
+},
+"/wordpress/ilm-size-chart-pro/deactivate-and-delete/": {
+"d": "2026-11-06",
+"h": "cfffd20280aac69ee1b573e01c7b7951851bbac3"
+},
+"/wordpress/ilm-size-chart-pro/find-my-size/": {
+"d": "2026-11-06",
+"h": "992bd2429473150df3730ec430af7f9a8bd1f052"
+},
+"/wordpress/ilm-size-chart-pro/installation-and-licence/": {
+"d": "2026-11-06",
+"h": "d8ca07dc8a0a2c0da2d4ac184fc42d66b5562812"
+},
+"/wordpress/ilm-size-chart-pro/privacy-and-services/": {
+"d": "2026-11-06",
+"h": "2e14784759d4bb18f3093d1bfc45f304d094a4eb"
+},
+"/wordpress/ilm-size-chart-pro/pro-designer-and-rules/": {
+"d": "2026-11-06",
+"h": "d30348fda91eb55de2205179ccb20b11ac858024"
+}
+}

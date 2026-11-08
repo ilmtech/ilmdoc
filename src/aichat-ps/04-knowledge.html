@@ -1,0 +1,14 @@
+<h1>Knowledge</h1>
+<p>The assistant answers only from what it knows about your shop. Your active products (with prices) and your CMS pages are always used. It rebuilds its knowledge by itself when you save a product, category or CMS page, or click <b>Rebuild knowledge now</b> in the status panel.</p>
+<ul class="legend">
+<li><b>What your shop sells</b>: a few words, e.g. "handmade leather bags and wallets". It helps the assistant stay on topic.</li>
+<li><b>Extra notes (FAQ)</b>: facts the assistant may use, such as delivery times, payment methods or opening hours. Separate topics with an empty line; the first line of each topic is its title.</li>
+<li><b>Extra rules</b>: how the assistant must behave, e.g. "Always mention the 30-day money-back guarantee when asked about refunds."</li>
+<li><b>Documentation indexes</b>: addresses of JSON lists <code>[{"u": url, "t": title, "x": text}]</code> from a documentation site. Their pages are added to the knowledge.</li>
+</ul>
+
+<h3 class="sub">4.1 Saved answers</h3>
+<p>The same first question on the same page is answered from a saved answer, without a new AI request. Saved answers are cleared when the knowledge is rebuilt, and an answer a shopper marks <b>Not helpful</b> is written again next time. Follow-up questions and questions of signed-in customers are never answered from saved answers. <b>Clear saved answers</b> in the status panel removes them all.</p>
+
+<h3 class="sub">4.2 The chat on another site</h3>
+<p>To show the same chat on your blog or documentation site, type its address in <b>Show the chat on other sites</b> (one per line, e.g. <code>https://doc.example.com</code>) and load the script address shown under the field at the end of the page body on that site. On pages that are in one of your documentation indexes, the assistant also reads the page the visitor is on.</p>

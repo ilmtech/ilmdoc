@@ -1,0 +1,17 @@
+<p><span class="step-label">Step 1:</span> Download <code>ilmsizechart.zip</code></p>
+<p><span class="step-label">Step 2:</span> Go to <b>Backoffice &gt; Modules &gt; Module Manager &gt; Upload a module</b> &gt; choose the <code>ilmsizechart.zip</code> file to upload.</p>
+<p><span class="step-label">Step 3:</span> Search for <code>ilmsizechart</code> in the Module Manager and confirm it is listed as installed, then click <b>Configure</b>.</p>
+<img class="shot" src="assets/01_module_list.png">
+<p class="caption">The module listed in Module Manager, ready to configure.</p>
+<p><span class="step-label">Upgrading:</span> upload the new <code>ilmsizechart.zip</code> the same way, over the installed module. Your size charts, designs and display rules are kept.</p>
+<div class="note"><strong>Upgrading from version 4.x:</strong> your size charts are moved to the new Sizechart Designer automatically: tables (with their cm / inch units), texts, the popup button text and icon, display rules and placement. The old data stays in the database table <code>ilmsizechart_v4_backup</code>. Two things work differently in version 5:
+<ul class="legend">
+<li><strong>Priority:</strong> the chart with the <strong>highest</strong> number now wins (in version 4 the lowest one did). The upgrade renumbers your charts so that each product keeps showing the same chart.</li>
+<li><strong>Combined rules:</strong> a chart that combined several rules (for example a category <em>and</em> a brand) is now shown when <em>any</em> of its rules matches, and a feature rule now matches every value of that feature. Check such charts in the Display Rule tab after upgrading.</li>
+</ul></div>
+<h2>Activating your licence</h2>
+<p>At the top of the Configure screen, the module asks for your licence. Click <b>Enter licence</b> and type the <b>Order ID</b> of your purchase: the order reference on ilmtech.in (in your order e-mail and under <b>My account &gt; Order history</b>), or the Order ID in your PrestaShop Addons account under <b>Orders</b>. The licence gives you updates and support, and switches on the built-in AI (see <a href="{{page:sizechart-ps:ai-assistant}}">AI assistant</a>). <b>Remind me later</b> closes the window without activating.</p>
+<img class="shot" src="assets/19_licence.png">
+<img class="shot shot-narrow" src="assets/19b_licence_activate.png">
+<p class="caption">The licence notice and the activation window.</p>
+<p>Once activated, the bar shows the order, the shop domain and the date until which support and updates run. If the shop moves to another domain, the bar offers <b>Move licence to this domain</b>; <b>Remove licence from this shop</b> frees the licence for another shop. Only employees who may install and uninstall modules see the licence bar.</p>

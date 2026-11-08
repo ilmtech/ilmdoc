@@ -1,0 +1,90 @@
+{
+  "pages": [
+    {
+      "slug": "getting-started",
+      "title": "Getting started",
+      "pages": [
+        {
+          "slug": "how-to-install-size-chart-app",
+          "title": "Install the app",
+          "file": "how-to-install-size-chart-app.html",
+          "lead": "Turn the app on, embed it in your live theme and add the size chart block."
+        },
+        {
+          "slug": "how-to-setup-onboarding-process",
+          "title": "Onboarding setup",
+          "file": "how-to-setup-onboarding-process.html",
+          "lead": "Follow the first-run steps that get your first size chart showing."
+        },
+        {
+          "slug": "how-to-display-the-size-chart-using-smart-selector-advanced-position",
+          "title": "Smart Selector (advanced position)",
+          "file": "how-to-display-the-size-chart-using-smart-selector-advanced-position.html",
+          "lead": "Pick the exact spot on the product page where the size chart button shows."
+        }
+      ],
+      "lead": "Install the app, finish onboarding and choose where the size chart button shows."
+    },
+    {
+      "slug": "manage-size-charts",
+      "title": "Manage size charts",
+      "pages": [
+        {
+          "slug": "how-to-create-a-new-size-chart",
+          "title": "Create a size chart",
+          "file": "how-to-create-a-new-size-chart.html",
+          "lead": "Give the chart a title, fill the table, add a description and image, and choose the products."
+        },
+        {
+          "slug": "how-can-i-add-multiple-size-tables-into-the-same-size-chart",
+          "title": "Several tables in one chart",
+          "file": "how-can-i-add-multiple-size-tables-into-the-same-size-chart.html",
+          "lead": "Show several tables (for example tops and bottoms) in one size chart."
+        },
+        {
+          "slug": "how-to-duplicate-a-size-chart",
+          "title": "Duplicate a size chart",
+          "file": "how-to-duplicate-a-size-chart.html",
+          "lead": "Copy an existing chart to start a new one faster."
+        },
+        {
+          "slug": "how-to-delete-size-charts",
+          "title": "Delete size charts",
+          "file": "how-to-delete-size-charts.html",
+          "lead": "Delete one size chart, or several at once."
+        },
+        {
+          "slug": "how-to-set-a-size-chart-to-draft",
+          "title": "Set a chart to draft",
+          "file": "how-to-set-a-size-chart-to-draft.html",
+          "lead": "Hide a chart from the shop without deleting it."
+        },
+        {
+          "slug": "how-to-display-a-size-chart-table-first-column-as-header",
+          "title": "First column as header",
+          "file": "how-to-display-a-size-chart-table-first-column-as-header.html",
+          "lead": "Make the first column of a table look like a header."
+        },
+        {
+          "slug": "what-are-the-size-chart-display-types",
+          "title": "Display types",
+          "file": "what-are-the-size-chart-display-types.html",
+          "lead": "Inline, block and floating button: how each display type looks."
+        },
+        {
+          "slug": "how-to-add-an-image",
+          "title": "Add an image",
+          "file": "how-to-add-an-image.html",
+          "lead": "Add a picture, such as a measuring guide, to a size chart."
+        },
+        {
+          "slug": "how-to-add-a-video",
+          "title": "Add a video",
+          "file": "how-to-add-a-video.html",
+          "lead": "Add a video to a size chart."
+        }
+      ],
+      "lead": "Create, copy, draft and delete size charts, and add tables, images and videos."
+    }
+  ]
+}

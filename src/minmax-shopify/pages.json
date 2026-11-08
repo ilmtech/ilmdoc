@@ -1,0 +1,1462 @@
+{
+ "playlist": "https://www.youtube.com/playlist?list=PLQCercGzuy5M",
+ "pages": [
+  {
+   "slug": "getting-started",
+   "title": "Getting started",
+   "file": "getting-started.html",
+   "pages": [
+    {
+     "slug": "install",
+     "title": "Install the app",
+     "file": "install.html",
+     "lead": "Install, turn on the app embed, and see your first limit in the shop.",
+     "intro": "This lesson installs ILM Min Max Order Quantity and Amount, and gets it ready in your theme. The app lets you set minimum and maximum order quantities and amounts, so shoppers cannot order too little or too much. Today we install it on the ILM Demo store and set a first rule on the Classic Cotton T-shirt.",
+     "clip": "01-install-en",
+     "steps": [
+      {
+       "t": 21,
+       "text": "In the Shopify App Store, open ILM Min Max and click Install. Shopify shows what the app may do in your store. Click Install to continue."
+      },
+      {
+       "t": 31,
+       "text": "The app opens inside your Shopify admin. The tabs at the top hold everything: rules, durations, templates, export, the blocked log and configuration. We will look at each of these in later lessons."
+      },
+      {
+       "t": 45,
+       "text": "The checkout rule works at once. For the messages on product pages and in the cart, turn on the app embed. In Configuration, under Advanced, click Open theme editor."
+      },
+      {
+       "t": 57,
+       "text": "The theme editor opens with Min Max limits already switched on. If the Save button is active, click Save."
+      },
+      {
+       "t": 64,
+       "text": "Now set a first rule: the Classic Cotton T-shirt, at least three. In the app, search for the T-shirt and set Min Qty to three."
+      },
+      {
+       "t": 73,
+       "text": "The product page shows the minimum. The app is ready. The next lessons show every option."
+      }
+     ],
+     "video": {
+      "yt": "_2kbxJS_Mzg",
+      "len": "1:24",
+      "clip": "01-install"
+     }
+    },
+    {
+     "slug": "plans",
+     "title": "Plans and billing",
+     "file": "plans.html",
+     "lead": "Free, Basic and Pro, billed through Shopify.",
+     "intro": "The app has three plans, and they are billed through Shopify on your normal Shopify bill. Choosing the right plan matters because each one unlocks different rule types and limits. Today we will look at the Plans page in the ILM Demo store and see exactly what Free, Basic and Pro include.",
+     "clip": "02-plans-en",
+     "steps": [
+      {
+       "t": 19,
+       "text": "Open Plans in the app menu. The Free plan covers up to twenty product rules, with minimum, maximum and multiples, plus checkout blocking. A small shop selling just the Classic Cotton T-Shirt and the Everyday Hoodie could set a minimum quantity on each and stay comfortably within that limit."
+      },
+      {
+       "t": 38,
+       "text": "Basic adds unlimited rules, collection, vendor, product type and customer rules, date windows, conditions and every store language. Pro adds the blocked carts report and the most AI credits. For example, a store with the Tea & Coffee collection from ILM Pantry could use Basic to set a rule across that whole collection, while a busy store wanting to review blocked carts would move to Pro."
+      },
+      {
+       "t": 64,
+       "text": "Paid plans start with a free trial. You can change or cancel the plan here at any time. Lessons that need a paid plan say so, so you always know before you start."
+      }
+     ],
+     "video": {
+      "yt": "P9FbEIPmhjo",
+      "len": "1:29",
+      "clip": "02-plans"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "configuration",
+   "title": "Configuration",
+   "file": "configuration.html",
+   "pages": [
+    {
+     "slug": "minimum-quantity",
+     "title": "Minimum quantity",
+     "file": "minimum-quantity.html",
+     "lead": "Make shoppers buy at least a certain number of a product.",
+     "intro": "In this lesson you set a minimum quantity, so a product can only be ordered from a certain number of items. Our example is the Classic Cotton T-Shirt, which must be bought at least three at a time. This is perfect for shops that sell in packs, or want to protect small margins on low-cost items. Let's see how it works in the ILM Demo store.",
+     "clip": "03-minimum-quantity-en",
+     "steps": [
+      {
+       "t": 22,
+       "text": "Open the app. The Quantity / Amount Rule tab lists every product of your store, one row each. There are no rules yet, so every product can be ordered in any quantity."
+      },
+      {
+       "t": 34,
+       "text": "Find the product with the search box. We type T-shirt to narrow the list down to the Classic Cotton T-Shirt."
+      },
+      {
+       "t": 41,
+       "text": "Click the Min Qty field of the Classic Cotton T-Shirt row and type three. When you leave the field, the rule is saved, and its status becomes Active."
+      },
+      {
+       "t": 52,
+       "text": "Now the shop. The product page tells the shopper the minimum, and the quantity box already starts at three. The shopper immediately understands they need to buy at least three."
+      },
+      {
+       "t": 62,
+       "text": "The shopper adds three to the cart. Then, in the cart, the shopper lowers the quantity to one, trying to get around the rule."
+      },
+      {
+       "t": 72,
+       "text": "The cart explains what to change, and the Checkout button is locked. The shopper cannot proceed until the quantity meets the minimum."
+      },
+      {
+       "t": 80,
+       "text": "Even a direct link to checkout does not help: Shopify checkout checks the rule again and refuses the order. This double check means the rule cannot be bypassed."
+      },
+      {
+       "t": 91,
+       "text": "Back in the cart, the shopper sets three again. The message is gone, and the shopper can check out."
+      }
+     ],
+     "video": {
+      "yt": "3MXfILu7Kn0",
+      "len": "1:53",
+      "clip": "03-minimum-quantity"
+     }
+    },
+    {
+     "slug": "maximum-quantity",
+     "title": "Maximum quantity",
+     "file": "maximum-quantity.html",
+     "lead": "Limit how many of a product one order can hold.",
+     "intro": "In this lesson you set a maximum quantity, so nobody can order more than a certain number of a product. This is useful when stock is limited, when you sell a rare or handmade item, or when you want to stop one buyer from clearing your whole shelf. Our example today is the Classic Cotton T-Shirt, capped at five per order. You will see the rule being set in the app, then what the shopper sees on the product page and in the cart.",
+     "clip": "04-maximum-quantity-en",
+     "steps": [
+      {
+       "t": 26,
+       "text": "We start in the Quantity / Amount Rule tab of the app. In the search box we look for the T-Shirt, and the matching product row appears in the list."
+      },
+      {
+       "t": 36,
+       "text": "In the Max Qty field for the T-Shirt we type five. As soon as you leave the field, the rule is saved and the row shows Active, which means the limit is live on the storefront right away. If you ever want to remove the limit, you clear the field and the product goes back to unlimited."
+      },
+      {
+       "t": 53,
+       "text": "Now we open the T-Shirt on the storefront. Next to the quantity box the shopper sees the maximum, so the limit is clear before they even try to order."
+      },
+      {
+       "t": 62,
+       "text": "The shopper tries to type eight into the quantity box. The box does not go above five, so the number stays at the maximum."
+      },
+      {
+       "t": 71,
+       "text": "Five T-Shirts go into the cart. When the shopper tries to add one more, Shopify refuses it and shows the maximum message."
+      },
+      {
+       "t": 82,
+       "text": "Finally, in the cart the shopper raises the quantity to seven. That change is refused the same way, and the cart keeps five."
+      }
+     ],
+     "video": {
+      "yt": "W967aToOwc0",
+      "len": "1:52",
+      "clip": "04-maximum-quantity"
+     }
+    },
+    {
+     "slug": "multiples-of-quantity",
+     "title": "Multiples of quantity",
+     "file": "multiples-of-quantity.html",
+     "lead": "Sell a product only in packs, like 3, 6, 9.",
+     "intro": "In this lesson you sell a product only in packs, so shoppers can buy three, six, nine and so on, but never a single piece. This is perfect for wholesale-style bundles, party favours, or any item that is packed and shipped in fixed sets. Today we use the Classic Cotton T-Shirt with a multiple of three, and you will see the pack message, the stepped quantity box, and the cart refusing a quantity that is not a multiple.",
+     "clip": "05-multiples-of-quantity-en",
+     "steps": [
+      {
+       "t": 27,
+       "text": "First, open the app and search for the Classic Cotton T-Shirt in the rule grid. The grid lists every product with its own row of settings, so you can find the exact item you want to sell in packs."
+      },
+      {
+       "t": 40,
+       "text": "In the Multiple Qty field for the Classic Cotton T-Shirt, type three and then leave the field. The rule is saved automatically, and the Active label confirms the rule is live."
+      },
+      {
+       "t": 52,
+       "text": "Now open the product page in the storefront. A line appears near the quantity box that tells the shopper this item is sold in a pack of three, and it shows the pack price."
+      },
+      {
+       "t": 62,
+       "text": "The plus button in the quantity box now goes up in steps of three. Each click adds a full pack, so the shopper sees three, then six, then nine, and never an invalid number like four or five."
+      },
+      {
+       "t": 75,
+       "text": "The shopper adds one pack of three to the cart, then goes to the cart page and changes the quantity to four. This is the moment the rule is tested, because four is not a multiple of three."
+      },
+      {
+       "t": 88,
+       "text": "The cart shows a notice explaining that the quantity must be a multiple of three, and the Checkout button is locked. The shopper cannot proceed until the quantity is corrected, which protects you from receiving orders you cannot fulfil as packs."
+      },
+      {
+       "t": 103,
+       "text": "When the shopper changes the quantity to six, the notice disappears and the Checkout button is active again. Six is a valid multiple of three, so the cart is happy and the order can go through."
+      }
+     ],
+     "video": {
+      "yt": "iItHB4K3Z50",
+      "len": "2:17",
+      "clip": "05-multiples-of-quantity"
+     }
+    },
+    {
+     "slug": "limit-multiple-quantity",
+     "title": "Limit Multiple Quantity",
+     "file": "limit-multiple-quantity.html",
+     "lead": "Packs for small orders, single units for big ones.",
+     "intro": "Limit Multiple Quantity is a setting that tells the app where your pack rule should stop applying. Without it, a pack rule like multiples of three would force every shopper to buy in threes, even someone ordering a large amount. Many shops want small orders to follow the pack size, but big orders to be free of it. Today we use the Classic Cotton T-Shirt, sold in packs of three, but with any quantity allowed above nine.",
+     "clip": "06-limit-multiple-quantity-en",
+     "steps": [
+      {
+       "t": 27,
+       "text": "The limit is switched off when you first install the app. To turn it on, open the Configuration tab in the app menu."
+      },
+      {
+       "t": 35,
+       "text": "On the General page, find the card called Limit Multiple Quantity and click Enable. Once it is on, the app will watch for a limit value on each rule. Nothing changes in your store until you also fill in a limit for a product."
+      },
+      {
+       "t": 50,
+       "text": "Now go back to the Quantity / Amount Rule tab. In the rule grid there is a new column called Limit Mult Qty. This column only appears because you enabled the setting, and it is where you type the quantity above which the pack rule stops."
+      },
+      {
+       "t": 65,
+       "text": "Search for the T-shirt in the grid. Type three in Multiple Qty, so the T-shirt is sold in packs of three. Then type nine in Limit Mult Qty, meaning that above nine units the pack rule no longer applies."
+      },
+      {
+       "t": 79,
+       "text": "Let us see it in the store. The shopper adds four T-shirts to the cart. Because four is below the limit of nine, the pack rule still applies, and four is refused since it is not a multiple of three. The shopper sees a notice explaining the allowed quantities."
+      },
+      {
+       "t": 95,
+       "text": "Now the shopper changes the quantity to ten. Ten is above nine, so the pack rule is skipped and the shopper can go straight to checkout. This is handy for wholesale buyers or anyone stocking up, while still keeping small orders in tidy packs."
+      }
+     ],
+     "video": {
+      "yt": "gnt-fv6S21g",
+      "len": "2:10",
+      "clip": "06-limit-multiple-quantity"
+     }
+    },
+    {
+     "slug": "start-from-the-minimum",
+     "title": "Start from the minimum",
+     "file": "start-from-the-minimum.html",
+     "lead": "Count the packs from the minimum: 5, 7, 9 instead of 6, 8, 10.",
+     "intro": "When a product has both a minimum quantity and a multiple quantity, the Start from the minimum setting decides where the allowed steps begin. Without it, shoppers can only buy exact multiples of the step, even if that skips over the minimum. With it, the steps begin at your minimum, so the first allowed quantity is the minimum itself. Today we look at the Spiral Notebook, which needs at least five units and sells in steps of two.",
+     "clip": "07-start-from-minimum-en",
+     "steps": [
+      {
+       "t": 27,
+       "text": "Here is the Spiral Notebook rule in the app. Min Qty is set to five, and Multiple Qty is set to two. So the shop wants at least five notebooks, and quantities should move in steps of two."
+      },
+      {
+       "t": 40,
+       "text": "With Start from the minimum switched off, the allowed quantities are plain multiples of two: six, eight, ten, and so on. A shopper who tries to buy five notebooks is refused, because five is not a multiple of two. The cart shows the warning notice and the shopper has to change the quantity."
+      },
+      {
+       "t": 59,
+       "text": "Now open the Configuration tab and find the Multiplies of Quantity card. Next to Start from the minimum, set the switch to Enable. This tells the app to count the steps from your minimum instead of from zero."
+      },
+      {
+       "t": 72,
+       "text": "Back in the cart, the shopper can now check out with five notebooks. The allowed quantities start at the minimum and then step by two: five, seven, nine, and so on. Five is accepted because it is the minimum itself."
+      },
+      {
+       "t": 87,
+       "text": "And six is now refused, because it is not five plus a multiple of two. The next valid quantity after five is seven, then nine. The warning notice appears again so the shopper knows to adjust the quantity."
+      }
+     ],
+     "video": {
+      "yt": "Vy7KcWUEvS0",
+      "len": "1:54",
+      "clip": "07-start-from-minimum"
+     }
+    },
+    {
+     "slug": "allowed-quantities",
+     "title": "Allowed quantities",
+     "file": "allowed-quantities.html",
+     "lead": "Allow only a fixed list of quantities, like 6, 12 or 24.",
+     "intro": "Allowed quantities is a rule that lets you list the exact quantities a shopper can order for a product. Instead of any number, you allow only a fixed set, like six, twelve or twenty-four. This is handy for products sold in packs or cases, where odd numbers don't make sense. Today we'll set it up for the Baseball Cap and see what happens when a shopper tries seven.",
+     "clip": "08-allowed-quantities-en",
+     "steps": [
+      {
+       "t": 24,
+       "text": "First, we search for the Baseball Cap in the rule grid. Typing part of the name filters the list so you can find the product quickly. This is the same grid where all your quantity and amount rules live."
+      },
+      {
+       "t": 36,
+       "text": "In the Allowed Qty field for the Baseball Cap, we type the allowed quantities separated by commas: six, twelve, twenty-four. Then we click outside the field to save. The rule becomes active right away, as you can see from the Active label."
+      },
+      {
+       "t": 52,
+       "text": "On the storefront, the product page now shows an info line listing the allowed quantities. The quantity box also starts at six, the first allowed value. Shoppers know exactly which quantities they can choose before adding to cart."
+      },
+      {
+       "t": 67,
+       "text": "We add six to the cart, which is allowed. Then we go to the cart page and change the quantity to seven. This simulates a shopper trying an invalid number."
+      },
+      {
+       "t": 77,
+       "text": "Seven is not in the allowed list, so the cart shows a notice explaining which quantities are allowed. Checkout is locked until the shopper fixes the quantity. This prevents orders that don't match your rules."
+      },
+      {
+       "t": 90,
+       "text": "We change the quantity to twelve, which is in the list. The notice disappears and the checkout button becomes active again. The shopper can now complete the order."
+      }
+     ],
+     "video": {
+      "yt": "6wHlD18PQtU",
+      "len": "2:01",
+      "clip": "08-allowed-quantities"
+     }
+    },
+    {
+     "slug": "minimum-and-maximum-amount",
+     "title": "Minimum and maximum amount",
+     "file": "minimum-and-maximum-amount.html",
+     "lead": "Limit how much a shopper spends on a product.",
+     "intro": "Amount limits let you control how much money a shopper must spend on a product, rather than how many items they buy. This is perfect for gift boxes, premium items, or wholesale-style products where you want a minimum spend and a maximum cap. In this lesson, the Luxury Gift Box costs ten dollars, and we will set a minimum of thirty dollars and a maximum of sixty dollars. Watch how the cart reacts when a shopper tries to buy too few or too many.",
+     "clip": "09-minimum-maximum-amount-en",
+     "steps": [
+      {
+       "t": 29,
+       "text": "First, we search for the Luxury Gift Box in the product list. The search finds it quickly so we can open its settings."
+      },
+      {
+       "t": 36,
+       "text": "Now we type thirty into the Min Amt field and sixty into the Max Amt field for the Luxury Gift Box. These amounts are in your store currency, so thirty means thirty dollars. This means a shopper must spend at least thirty dollars and no more than sixty dollars on this product."
+      },
+      {
+       "t": 55,
+       "text": "We add two Luxury Gift Boxes to the cart, which comes to twenty dollars. That is below the thirty dollar minimum, so the cart shows a notice telling the shopper how much more they need to spend. The checkout button is locked, so they cannot proceed until they meet the minimum."
+      },
+      {
+       "t": 72,
+       "text": "Next, we try to change the quantity to seven boxes, which would be seventy dollars. That is above the sixty dollar maximum, so Shopify refuses the change and the cart keeps the last valid quantity. The shopper sees that the quantity did not update, and the cart stays within the allowed amount."
+      },
+      {
+       "t": 90,
+       "text": "Finally, we set the quantity to four boxes, which comes to forty dollars. That is between thirty and sixty, so the rule is satisfied and the checkout button becomes active. The shopper can now complete their purchase."
+      }
+     ],
+     "video": {
+      "yt": "8d9sE0ekvfU",
+      "len": "2:05",
+      "clip": "09-minimum-maximum-amount"
+     }
+    },
+    {
+     "slug": "amounts-include-tax",
+     "title": "Amounts include tax and discounts",
+     "file": "amounts-include-tax.html",
+     "lead": "Measure amount limits before or after discounts.",
+     "intro": "This switch decides which amount the Minimum and Maximum Amount limits measure: the price before discounts, or what the shopper really pays. Our Luxury Gift Box costs ten, and a shopper may spend at most thirty-three on it. Today we will see how the same cart is refused before the switch and allowed after it.",
+     "clip": "10-amounts-include-tax-en",
+     "steps": [
+      {
+       "t": 20,
+       "text": "Here is the Luxury Gift Box rule: Max Amt thirty-three. That means a shopper can buy up to thirty-three dollars worth of this product in one order."
+      },
+      {
+       "t": 30,
+       "text": "The shopper has three boxes in the cart and enters the discount code SAVE20, twenty percent off. The cart now shows the discount applied."
+      },
+      {
+       "t": 40,
+       "text": "Now the shopper changes the cart to four boxes. Before the discount, that is forty, so it is refused, even though the shopper would only pay thirty-two after the discount."
+      },
+      {
+       "t": 51,
+       "text": "In Configuration, find Amounts include tax, and click Enable. Now the limits measure the amount after discounts, and with tax when your prices include tax."
+      },
+      {
+       "t": 62,
+       "text": "The same change works now: four boxes cost thirty-two after the discount, under thirty-three, so the cart is allowed and the shopper can continue to checkout."
+      }
+     ],
+     "video": {
+      "yt": "kjFaZycoR6U",
+      "len": "1:24",
+      "clip": "10-amounts-include-tax"
+     }
+    },
+    {
+     "slug": "whole-order-limits",
+     "title": "Whole order limits",
+     "file": "whole-order-limits.html",
+     "lead": "A minimum or maximum for the whole cart.",
+     "intro": "Whole order limits look at the entire cart, not just one product. This is perfect when you want every shopper to buy a minimum number of items or keep the order under a certain amount. In today's example, every order must have at least three items and may cost at most one hundred dollars. We'll set this up on the ILM Demo store and see how it works on the storefront.",
+     "clip": "11-whole-order-limits-en",
+     "steps": [
+      {
+       "t": 23,
+       "text": "First, open the Configuration tab. On the General page, find the Whole order card. This is where you control limits that apply to the entire cart."
+      },
+      {
+       "t": 33,
+       "text": "Type three in the Min items field and one hundred in the Max amount field. If you leave a field empty, that means no limit for that rule. So here, shoppers must have at least three items and spend no more than one hundred dollars."
+      },
+      {
+       "t": 48,
+       "text": "Now let's test it. A cart with one Classic Cotton T-shirt and one Baseball Cap has only two items. The cart shows a notice asking for at least three items, and the checkout button is locked. The shopper cannot proceed until they add more items."
+      },
+      {
+       "t": 64,
+       "text": "If the shopper adds a second Classic Cotton T-shirt, the cart now has three items. The notice disappears and the checkout button becomes active. The order meets the minimum item requirement."
+      },
+      {
+       "t": 76,
+       "text": "Next, the shopper adds ten Luxury Gift Boxes. The cart total goes over one hundred dollars, so the order is refused. A notice appears explaining the maximum amount limit, and checkout is blocked again."
+      }
+     ],
+     "video": {
+      "yt": "J6GC5Yo2dGM",
+      "len": "1:45",
+      "clip": "11-whole-order-limits"
+     }
+    },
+    {
+     "slug": "different-products-per-order",
+     "title": "Different products per order",
+     "file": "different-products-per-order.html",
+     "lead": "Limit how many different products one order holds.",
+     "intro": "This lesson is about limiting how many different products a single order can contain, no matter how many units of each one the shopper buys. It is a simple way to keep one order from turning into a mixed basket of many unrelated items. In our example, the store allows at most two different products per order. We will see the setting, then watch a shopper try to add a third product and get stopped.",
+     "clip": "12-different-products-per-order-en",
+     "steps": [
+      {
+       "t": 25,
+       "text": "We start in the app's Configuration area, on the General page. Scroll down to the card called Different products per order. This is the section that controls the limit on how many distinct products can sit in one cart."
+      },
+      {
+       "t": 39,
+       "text": "In the Maximum field we type two. That means an order may hold up to two different products. There is also a Minimum field here, which works the same way in reverse: leave it empty and there is no lower limit, so a shopper can buy just one product. We leave it empty for now."
+      },
+      {
+       "t": 56,
+       "text": "Now we move to the storefront. The cart already contains a Classic Cotton T-shirt and a Baseball Cap, which is two different products. The shopper opens the Ceramic Coffee Mug page and clicks Add to cart to try for a third."
+      },
+      {
+       "t": 70,
+       "text": "Shopify refuses the add. An error appears on the product page explaining that a third different product is not allowed. The cart keeps its two products, the T-shirt and the Baseball Cap, and nothing is lost."
+      },
+      {
+       "t": 84,
+       "text": "Back in Configuration, we look at the Per combination option. When this is on, every variant counts as its own product, so a hoodie in size small and the same hoodie in size medium are treated as two separate products. We click Enable to turn it on."
+      },
+      {
+       "t": 100,
+       "text": "To test it, the cart holds a Classic Cotton T-shirt and an Everyday Hoodie in size small, which is two products. The shopper opens the Everyday Hoodie page again and adds size medium. Because Per combination is on, that variant counts as a third product, so the add is refused and the error appears again."
+      }
+     ],
+     "video": {
+      "yt": "3BIhsnUJnL8",
+      "len": "2:22",
+      "clip": "12-different-products-per-order"
+     }
+    },
+    {
+     "slug": "auto-save",
+     "title": "Auto Save",
+     "file": "auto-save.html",
+     "lead": "Save rule changes straight away, or with a Save button.",
+     "intro": "Auto Save decides when a change in the rule grid is saved. When you install the app it is on, so a value is saved as soon as you leave the field. Some merchants prefer to review their edits first and save each row with a click, and this setting gives you that choice. Today we will turn Auto Save off, edit the minimum quantity for the Classic Cotton T-Shirt, and save it manually.",
+     "clip": "13-auto-save-en",
+     "steps": [
+      {
+       "t": 24,
+       "text": "We start in Configuration, on the General page. Find the Auto Save setting and click Disable. From now on, changes in the rule grid will wait for you instead of saving themselves."
+      },
+      {
+       "t": 37,
+       "text": "Back in the Quantity / Amount Rule tab, we search for the T-shirt. Every row now has a Save button in the Action column, and the note at the top reminds you to save each row after editing."
+      },
+      {
+       "t": 48,
+       "text": "Type two in the Min Qty field of the Classic Cotton T-Shirt row and leave the field. Nothing is saved yet, so the shopper still sees the old rule until you confirm the change."
+      },
+      {
+       "t": 60,
+       "text": "Click Save in the T-shirt row. The rule is now saved and shows as Active, so shoppers must buy at least two Classic Cotton T-Shirts before checkout."
+      },
+      {
+       "t": 70,
+       "text": "If you prefer saving without a click, turn Auto Save on again. Every field change will then be saved the moment you leave it."
+      }
+     ],
+     "video": {
+      "yt": "COp_b-s2roc",
+      "len": "1:30",
+      "clip": "13-auto-save"
+     }
+    },
+    {
+     "slug": "status-and-global-value",
+     "title": "Limit status and global values",
+     "file": "status-and-global-value.html",
+     "lead": "Switch a limit off for the whole store, or give every product a default.",
+     "intro": "Every limit on the General page has two extra controls: a Status and a Global value. The Status lets you switch a whole limit type off for the entire store without deleting any rules, and the Global value gives every product a default limit when it has no rule of its own. Today we will disable the maximum quantity limit so the Classic Cotton T-Shirt can be bought in larger amounts, then set a global minimum so even products with no rule, like the Steel Water Bottle, still have a floor.",
+     "clip": "14-limit-status-global-value-en",
+     "steps": [
+      {
+       "t": 32,
+       "text": "The Classic Cotton T-Shirt currently has a product rule with a maximum of two. In the storefront cart, when the shopper tries to set the quantity to three, the app refuses it and shows the limit message."
+      },
+      {
+       "t": 44,
+       "text": "Now open the Configuration tab in the app. Find the Maximum Quantity card and set its Status to Disable. This turns off maximum quantity checking for the whole store at once, while all the individual maximum rules stay saved in the background."
+      },
+      {
+       "t": 60,
+       "text": "Back on the Quantity / Amount Rule tab, the Max Qty column has disappeared from the rule grid. That is because the maximum limit type is disabled, so the app no longer shows or enforces any maximum values. The rule itself is not deleted, it is just paused."
+      },
+      {
+       "t": 78,
+       "text": "Return to the cart and set the Classic Cotton T-Shirt quantity to three again. This time it is accepted, and the shopper can continue to checkout. If you ever re-enable the Maximum Quantity status in Configuration, the old maximum of two comes straight back into effect."
+      },
+      {
+       "t": 95,
+       "text": "Now go back to Configuration and re-enable the Maximum Quantity status, then type two into the Minimum Quantity global value field. This global value is a default minimum that applies to every product that does not have its own minimum rule. Products with their own rule keep their own value instead."
+      },
+      {
+       "t": 115,
+       "text": "Add a single Steel Water Bottle to the cart. This product has no rule of its own, but because the global minimum is two, the cart now shows a notice that at least two are required."
+      }
+     ],
+     "video": {
+      "yt": "-tai_dokzhg",
+      "len": "2:20",
+      "clip": "14-limit-status-global-value"
+     }
+    },
+    {
+     "slug": "attributes",
+     "title": "Attributes: variants alone or together",
+     "file": "attributes.html",
+     "lead": "Check a product rule per variant, or for all variants together.",
+     "intro": "The Attributes setting decides whether a product rule counts each variant on its own, or all variants together. This matters when a product comes in sizes or colors, because three of each size is a very different rule from three in total. Today we use the Everyday Hoodie with a Min Qty of three to see both behaviors in action.",
+     "clip": "16-attributes-en",
+     "steps": [
+      {
+       "t": 21,
+       "text": "We start in the app on the product rules list. The Everyday Hoodie row shows Min Qty set to three, so this product requires at least three units in the cart. Nothing else is changed here; the rule is simply attached to the product."
+      },
+      {
+       "t": 37,
+       "text": "Attributes is enabled by default when you install the app. With it on, the rule is checked per variant, so each size must reach three on its own. A shopper who adds one small and two medium hoodies sees the cart refused, because neither size reaches the minimum by itself."
+      },
+      {
+       "t": 54,
+       "text": "Now we open Configuration and scroll to the Attributes card, then click Disable. Turning Attributes off changes the meaning of every product rule: quantities of all variants are added together before the minimum is checked."
+      },
+      {
+       "t": 69,
+       "text": "Back in the cart, the same one small plus two medium hoodies now passes. The sizes are summed to three, which meets the Min Qty of three, and the shopper can continue to checkout."
+      }
+     ],
+     "video": {
+      "yt": "bunoFjfa9mM",
+      "len": "1:45",
+      "clip": "16-attributes"
+     }
+    },
+    {
+     "slug": "rule-priority-order",
+     "title": "Rule priority",
+     "file": "rule-priority-order.html",
+     "lead": "Decide which rule wins when a product matches several.",
+     "intro": "When a product matches more than one rule, the app needs to know which rule wins. That is what the Rule Priority Order is for: it decides whether the product rule, the collection rule, the vendor rule, or the global rule takes charge. Today we use the Classic Cotton T-Shirt, which has its own minimum of one, while the Global rule asks for three. Watch how simply reordering the list changes what the shopper is allowed to buy.",
+     "clip": "22-rule-priority-en",
+     "steps": [
+      {
+       "t": 27,
+       "text": "Here we set up the conflict. The Classic Cotton T-Shirt has its own product rule with Min Qty set to one, and the Global rule has Min Qty set to three. With one T-shirt in the cart, the shopper is currently allowed to check out, because the product rule is winning."
+      },
+      {
+       "t": 44,
+       "text": "Now we open Configuration and scroll down to Enable/Disable Rules. This section holds the Rule Priority Order list, and Product sits at the top. Because Product comes first, the T-shirt's own rule wins, so a single T-shirt is fine even though the Global rule asks for three."
+      },
+      {
+       "t": 64,
+       "text": "Next we drag Global to the front of the list. We grab the Global row, move it above Product, and drop it in first place. The list now reads Global first, then Product, and the highlight confirms the new order has been saved."
+      },
+      {
+       "t": 79,
+       "text": "Back in the cart, the same single T-shirt is now refused. Because Global comes first in the priority order, the global minimum of three applies, and the notice tells the shopper they need three T-shirts to continue. Nothing about the cart changed; only the rule order did."
+      }
+     ],
+     "video": {
+      "yt": "QUk8rOeGfuY",
+      "len": "1:56",
+      "clip": "22-rule-priority"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "rules",
+   "title": "Quantity / Amount rules",
+   "file": "rules.html",
+   "pages": [
+    {
+     "slug": "variant-rule",
+     "title": "Rules for one variant",
+     "file": "variant-rule.html",
+     "lead": "Give one size or colour its own limit.",
+     "intro": "Sometimes one size or colour of a product needs its own limit, even when the rest of the product is free to sell. The ILM Min Max Order Qty/Amount app lets you set a rule on a single variant row, right under the product. Today we use the Everyday Hoodie: size M will be capped at two per order, while size S stays unlimited.",
+     "clip": "15-variant-rule-en",
+     "steps": [
+      {
+       "t": 23,
+       "text": "We start in the app and search for Hoodie. The Everyday Hoodie appears as a product row, and directly under it you can see its variants: S, M and L. Each variant has its own row, so you can give one size a rule without touching the others."
+      },
+      {
+       "t": 39,
+       "text": "In the row for size M, we type two into the Max Qty field. That means a shopper can buy at most two Everyday Hoodies in size M in a single order. Size S and size L are left empty."
+      },
+      {
+       "t": 52,
+       "text": "Now we open the storefront cart with one hoodie in size M and three in size S. The shopper changes the size M quantity to three, and Shopify refuses it, because size M allows at most two. The cart row for size M is highlighted so the shopper can see which item broke the rule."
+      },
+      {
+       "t": 70,
+       "text": "Size S has no rule of its own, so three hoodies in size S are perfectly fine. The limit on size M does not spill over to the other variants of the same product."
+      }
+     ],
+     "video": {
+      "yt": "vgwHzwZ1nXc",
+      "len": "1:33",
+      "clip": "15-variant-rule"
+     }
+    },
+    {
+     "slug": "collection-rule",
+     "title": "Collection rules",
+     "file": "collection-rule.html",
+     "lead": "One rule for every product of a collection.",
+     "intro": "A collection rule lets you set one minimum or maximum for every product inside a Shopify collection, instead of editing each product one by one. This is perfect when you sell related items that shoppers often mix and match, like tea and coffee. In this lesson we use the Tea and Coffee collection, which holds the Green Tea Tin and the Coffee Beans Tin, and we ask for at least four items in total. You will see how the rule behaves when it is applied to each product separately, and how to switch it so the collection is counted together.",
+     "clip": "17-collection-rule-en",
+     "steps": [
+      {
+       "t": 33,
+       "text": "In the rule grid, change Rule Type to Collection. Every collection in your store now gets its own row, so you can give each collection its own quantity or amount rule. Here we are working on the Tea and Coffee collection row."
+      },
+      {
+       "t": 47,
+       "text": "Type four in the Min Qty field for the Tea and Coffee collection. That means a shopper must have at least four items from this collection in the cart before checkout is allowed."
+      },
+      {
+       "t": 58,
+       "text": "Apply rule to individual products is on by default when you install the app, so the minimum of four applies to each tin on its own. A shopper who adds two Green Tea Tins and two Coffee Beans Tins is refused, because neither tin reaches four by itself. The cart notice explains the rule so the shopper knows what to change."
+      },
+      {
+       "t": 78,
+       "text": "Open the Configuration tab and scroll to the Collection Rule card. Set Apply rule to individual products to Disable. This tells the app to count all products from the collection together instead of checking each product separately."
+      },
+      {
+       "t": 93,
+       "text": "Back in the cart, two Green Tea Tins plus two Coffee Beans Tins now make four items from the collection, so the cart is valid and the checkout button works. The same logic applies to maximum rules and to amount rules, and you can combine a collection rule with product or vendor rules if you need tighter control."
+      }
+     ],
+     "video": {
+      "yt": "eR_M38pb-IY",
+      "len": "2:11",
+      "clip": "17-collection-rule"
+     }
+    },
+    {
+     "slug": "vendor-rule",
+     "title": "Vendor rules",
+     "file": "vendor-rule.html",
+     "lead": "One rule for every product of a vendor (brand).",
+     "intro": "Vendor rules let you set one quantity limit for every product that belongs to the same brand, without editing each product one by one. This is perfect when a supplier or brand has a packaging or shipping limit you must respect across their whole catalog. In today's example, every product from the vendor HomeCo will be capped at four units per order. We will set the rule once and then check it on a product page and in the cart.",
+     "clip": "18-vendor-rule-en",
+     "steps": [
+      {
+       "t": 27,
+       "text": "First, change the Rule Type to Vendor (brand). The table below now lists every vendor in your store, each with its own row, so you can apply limits brand by brand."
+      },
+      {
+       "t": 38,
+       "text": "Next, type four in the Max Qty field for the HomeCo row. That means any single order can contain at most four units of any HomeCo product."
+      },
+      {
+       "t": 49,
+       "text": "Now we open the product page for the Ceramic Coffee Mug, which is made by HomeCo. The page shows the maximum of four, so the shopper knows the limit before adding to cart. This message comes from the vendor rule, not from a product-specific rule."
+      },
+      {
+       "t": 64,
+       "text": "Finally, in the cart we try to buy five Ceramic Coffee Mugs. The cart refuses the quantity of five because it exceeds the HomeCo maximum of four. The shopper sees the limit enforced at checkout, and the order cannot proceed until the quantity is reduced."
+      }
+     ],
+     "video": {
+      "yt": "DCvCZr8rh_s",
+      "len": "1:42",
+      "clip": "18-vendor-rule"
+     }
+    },
+    {
+     "slug": "product-type-rule",
+     "title": "Product type rules",
+     "file": "product-type-rule.html",
+     "lead": "One rule for every product of a product type.",
+     "intro": "A product type rule lets you set one minimum or maximum for every product that shares the same product type in Shopify. Instead of editing products one by one, you write the rule once and it applies to the whole group. In this store the Steel Water Bottle has the product type Bottles, and we want shoppers to buy at least two bottles. Watch how one rule covers the Steel Water Bottle and leaves products without that type alone.",
+     "clip": "19-product-type-rule-en",
+     "steps": [
+      {
+       "t": 27,
+       "text": "First, change Rule Type to Product type. The table now lists every product type in your store as its own row, so you can give each type its own quantity or amount limits. This is handy when a whole category, like all your apparel or all your pantry items, should follow the same buying rule."
+      },
+      {
+       "t": 45,
+       "text": "Next, type two in the Min Qty field for the Bottles row. That means any product with the product type Bottles must be bought in a quantity of at least two."
+      },
+      {
+       "t": 55,
+       "text": "Now we test it. The cart has one Steel Water Bottle and one Classic Cotton T-Shirt. Because the Steel Water Bottle has the product type Bottles, one bottle is not enough, and the cart shows a notice telling the shopper the minimum for that product."
+      },
+      {
+       "t": 70,
+       "text": "The Classic Cotton T-Shirt has the product type T-Shirts, so the Bottles rule does not cover it: one T-shirt is fine and no message appears for it. Notice that only the Steel Water Bottle is named in the notice, because only that product is covered by the Demo rule."
+      }
+     ],
+     "video": {
+      "yt": "DtucR4h6x1s",
+      "len": "1:49",
+      "clip": "19-product-type-rule"
+     }
+    },
+    {
+     "slug": "customer-tag-rule",
+     "title": "Customer tag rules",
+     "file": "customer-tag-rule.html",
+     "lead": "Different limits for wholesale or other tagged customers.",
+     "intro": "Customer tags in Shopify group your customers, for example wholesale buyers. A customer tag rule only applies to customers who carry that tag, so you can give different order limits to different groups. In this lesson our wholesale customers must order at least five of each product, while regular shoppers stay free to buy just one. You will see the rule set up in the app, then watch a guest and a logged in wholesale customer get different results.",
+     "clip": "20-customer-tag-rule-en",
+     "steps": [
+      {
+       "t": 28,
+       "text": "Here we change Rule Type to Customer tag. The app now lists every customer tag in your store as its own row, so you can set limits per tag. This is the place to use when, for example, you sell both to the public and to shops that resell your goods."
+      },
+      {
+       "t": 44,
+       "text": "In the row for the wholesale tag we type five into Min Qty. That means any customer tagged wholesale must have at least five units of a product in the cart before checkout."
+      },
+      {
+       "t": 56,
+       "text": "Now we test as a shopper who is not logged in. This visitor has one Classic Cotton T-Shirt in the cart and is not affected by the tag rule, so checkout is allowed. Guests and customers without the tag keep the normal limits."
+      },
+      {
+       "t": 70,
+       "text": "Next a wholesale customer signs in to the shop with their e-mail address. Because this account carries the wholesale tag, the rule we just saved will apply to them. The customer enters the address and continues."
+      },
+      {
+       "t": 84,
+       "text": "Shopify sends a one time code to that e-mail. The customer types the six digits and presses Enter to finish logging in. Once signed in, the store knows which tags belong to this customer."
+      },
+      {
+       "t": 96,
+       "text": "Back in the cart with the same single Classic Cotton T-Shirt, the shopper now sees a notice asking for at least five. The tag rule is working: the same cart that was fine for a guest is blocked for a wholesale buyer. The shopper must add more units or remove the item."
+      }
+     ],
+     "video": {
+      "yt": "YXZ_zcYhaS0",
+      "len": "2:12",
+      "clip": "20-customer-tag-rule"
+     }
+    },
+    {
+     "slug": "global-rule",
+     "title": "Global rule",
+     "file": "global-rule.html",
+     "lead": "One rule for every product of the store.",
+     "intro": "The Global rule type lets you set one minimum order quantity for your entire store, covering every product that does not have its own rule. It is perfect when you want a simple store-wide policy, like requiring at least two items per order. In this example, we set a global minimum of two, then test it with a Steel Water Bottle and a Classic Cotton T-Shirt.",
+     "clip": "21-global-rule-en",
+     "steps": [
+      {
+       "t": 23,
+       "text": "First, change the Rule Type to Global. You will see just one row appear, representing the whole store."
+      },
+      {
+       "t": 31,
+       "text": "Now type two in the Min Qty field for the Global rule. This means every product without its own rule must be ordered in a quantity of at least two."
+      },
+      {
+       "t": 41,
+       "text": "We add one Steel Water Bottle to the cart, and the store refuses it. Because the bottle has no rule of its own, the global rule applies, and one is below the minimum of two. The shopper sees a notice explaining the minimum requirement."
+      },
+      {
+       "t": 56,
+       "text": "The Classic Cotton T-Shirt has its own product rule with a minimum of one, so that product rule wins over the global rule. One T-shirt is allowed, showing that product-specific rules take priority."
+      }
+     ],
+     "video": {
+      "yt": "yIZ9QyThCOU",
+      "len": "1:22",
+      "clip": "21-global-rule"
+     }
+    },
+    {
+     "slug": "switch-rules-on-and-off",
+     "title": "Switch rules on and off",
+     "file": "switch-rules-on-and-off.html",
+     "lead": "Pause a rule without losing it, one by one or many at once.",
+     "intro": "Sometimes you want to pause a rule without losing the values you set. That is exactly what switching rules on and off does in the ILM Min Max Order Qty/Amount app. In this lesson you will switch rules off and on, one at a time and in bulk, using the ILM Demo store. We start with the Steel Water Bottle, which currently has a minimum quantity rule.",
+     "clip": "23-switch-rules-bulk-en",
+     "steps": [
+      {
+       "t": 24,
+       "text": "The Steel Water Bottle rule says a shopper must buy at least three. In the storefront cart, adding just one bottle is refused, so the shopper sees the minimum quantity message and cannot check out."
+      },
+      {
+       "t": 37,
+       "text": "Back in the app, find the Steel Water Bottle row in the rule grid and click its Active badge. The badge changes to Off, but the minimum quantity value of three stays saved in the row. The rule is now paused, not deleted, so you can switch it back on later without retyping anything."
+      },
+      {
+       "t": 55,
+       "text": "Now return to the storefront cart with the same single bottle. This time the cart is fine and the checkout button is available, because the rule is off. The shopper can buy one bottle again, exactly as they could before the rule existed."
+      },
+      {
+       "t": 70,
+       "text": "To change many rules at once, tick the checkboxes on their rows. Here we select the Spiral Notebook and the Classic Cotton T-Shirt. A bar appears above the table with Switch on, Switch off and Delete, so you can apply one action to every selected rule together."
+      },
+      {
+       "t": 86,
+       "text": "We click Switch off in that bar, and both the Spiral Notebook and the Classic Cotton T-Shirt rules turn Off while keeping their values. Then we deselect the Spiral Notebook, keep the Classic Cotton T-Shirt selected, and click Delete. After confirming, the Classic Cotton T-Shirt rule is removed completely and its row disappears from the grid."
+      }
+     ],
+     "video": {
+      "yt": "DZl4Qw6_5NY",
+      "len": "2:06",
+      "clip": "23-switch-rules-bulk"
+     }
+    },
+    {
+     "slug": "conditions",
+     "title": "Conditions",
+     "file": "conditions.html",
+     "lead": "Apply a rule only for some prices, countries, currencies, languages or customers.",
+     "intro": "Conditions let a rule apply only to some shoppers, products or situations, instead of everyone. Our global rule asks for at least two of every product, which is great for wholesale-style minimums but too strict for cheap items. Today we add a condition so the rule only applies to products that cost ten or more. Watch how the Steel Water Bottle at seven dollars becomes free to buy alone, while the Classic Cotton T-Shirt at twelve dollars still needs two.",
+     "clip": "24-conditions-en",
+     "steps": [
+      {
+       "t": 29,
+       "text": "First we open the storefront cart with one Steel Water Bottle in it. Because the global rule has no condition yet, it applies to every product, so the cart shows a notice refusing a single bottle."
+      },
+      {
+       "t": 42,
+       "text": "Back in the app, we set the rule type to Global and open the Conditions panel for that rule."
+      },
+      {
+       "t": 49,
+       "text": "In the Conditions panel we type ten into Product price from. The same panel also lets you limit the rule to certain currencies, delivery countries, languages, or new versus returning customers, and then we click Apply."
+      },
+      {
+       "t": 63,
+       "text": "Now we return to the cart with the Steel Water Bottle. Since it costs seven, below the ten dollar threshold, the rule no longer applies and one bottle is allowed."
+      },
+      {
+       "t": 74,
+       "text": "Next we add one Classic Cotton T-Shirt, which costs twelve. That is above the threshold, so the global minimum of two still applies and the cart shows the refusal notice again."
+      }
+     ],
+     "video": {
+      "yt": "N2nvkgSmI4M",
+      "len": "1:49",
+      "clip": "24-conditions"
+     }
+    },
+    {
+     "slug": "rule-table-filters",
+     "title": "Table filters",
+     "file": "rule-table-filters.html",
+     "lead": "Find the products and rules you need quickly.",
+     "intro": "The filters above the rule grid help you find products and rules in a big store. When a shop has hundreds of products and many quantity rules, scrolling to find one rule is slow and error prone. These filters narrow the table down to exactly the products or rules you want to edit. Today we will use the ILM Demo store, where the T-shirt and the Green Tea Tin both have minimum quantity rules, to see how each filter works.",
+     "clip": "25-table-filters-en",
+     "steps": [
+      {
+       "t": 27,
+       "text": "Search finds products by name or SKU. We type Tin, and the table immediately narrows down to the matching products, such as the Green Tea Tin and the Coffee Beans Tin. Use this when you remember part of a product name or its SKU and want to jump straight to its rule."
+      },
+      {
+       "t": 44,
+       "text": "Now we clear the search box, so the full list comes back. The Collection filter shows only the products of one collection, here Tea and Coffee. Pick a collection and the table shows just the rules for products inside it, which is handy when you set the same limits for a whole category."
+      },
+      {
+       "t": 62,
+       "text": "Rule Type switches the whole table between products, collections, vendors, product types, customer tags and the global rule. We cycle through Vendor (brand), then Customer tag, then back to Product. Each choice changes what the rows mean, so you always know whether you are looking at a product rule or a store wide rule."
+      },
+      {
+       "t": 83,
+       "text": "Customer tag shows the rules for customers with one tag, for example your wholesale customers. We select wholesale, and the table shows only the rules that apply to shoppers with that tag. Rules made here only apply to those customers, so your retail shoppers keep their normal limits."
+      }
+     ],
+     "video": {
+      "yt": "_5MekLGZBxY",
+      "len": "1:55",
+      "clip": "25-table-filters"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "duration-rules",
+   "title": "Duration rules",
+   "file": "duration-rules.html",
+   "pages": [
+    {
+     "slug": "active-only-in-a-date-range",
+     "title": "Duration rules: date range",
+     "file": "active-only-in-a-date-range.html",
+     "lead": "A limit that is only active between two dates.",
+     "intro": "A Duration rule decides when a limit applies. Per order, No time limit is the normal case. In this lesson, a limit is only active during a one-week sale. We will create a Sale week rule and use it to cap the Christmas Scented Candle at one per order during the sale.",
+     "clip": "26-duration-date-range-en",
+     "steps": [
+      {
+       "t": 18,
+       "text": "Open the Duration Rule tab and click Create Rule. You will see the Duration Rule List grid behind the new rule form."
+      },
+      {
+       "t": 25,
+       "text": "Give the rule a title, like Sale week, and keep the status on. Then click Next. The title is what you will pick later in the Duration column of a product rule, so make it easy to recognise."
+      },
+      {
+       "t": 37,
+       "text": "Choose Per order, Active only in date range, and pick the dates: from today, for one week. The first date field is the start and the second is the end. Outside those dates the rule simply does not apply."
+      },
+      {
+       "t": 52,
+       "text": "In plain words tells you what the rule will do, so read it before saving. Click Save. Back in the rule grid, Sale week now appears in the list and is ready to be attached to a product."
+      },
+      {
+       "t": 64,
+       "text": "Open the Quantity / Amount Rule tab, search for Candle, and give the Christmas Scented Candle a maximum of one. Then pick Sale week in its Duration column. The badge on the row confirms the rule is linked to that product."
+      },
+      {
+       "t": 78,
+       "text": "During the sale, two candles are refused in the cart and the shopper sees the limit message. After the last day, the limit stops by itself. Before the first day, the rule shows as Scheduled."
+      }
+     ],
+     "video": {
+      "yt": "pgfdwgO2T10",
+      "len": "1:40",
+      "clip": "26-duration-date-range"
+     }
+    },
+    {
+     "slug": "totals-over-time",
+     "title": "Duration rules: totals over time",
+     "file": "totals-over-time.html",
+     "lead": "Limit what a customer buys in total: ever, in a date range, or in the last days or months.",
+     "intro": "Total duration rules count what a logged-in customer has already ordered, not only what is in the cart right now. This lets you cap repeat purchases over time, so one shopper cannot keep buying the same item again and again. Today we set up each kind of total rule with a real example, using the Steel Water Bottle. You will see what each option means, when a shop would use it, and what the shopper experiences.",
+     "clip": "27-duration-totals-en",
+     "steps": [
+      {
+       "t": 25,
+       "text": "We start on the Duration Rule tab and click Create Rule. We name the rule One per customer, then click Next. This name is what you will later pick in a product's Duration column, so keep it short and clear."
+      },
+      {
+       "t": 38,
+       "text": "The first choice is Total, All-time, lifetime. This counts everything the customer has ever ordered, with no end date. With a maximum of one, each customer can buy the product only once, ever. A shop selling limited collectibles would use this so nobody buys the whole stock."
+      },
+      {
+       "t": 57,
+       "text": "Next is Total, Fixed date range. Here we set a start date of the first of November and an end date of the thirtieth of November, so only orders inside that window count. A shop running a one-month promotion would use this to limit each customer to a set number during the campaign. The plain-words line confirms exactly what the rule will do."
+      },
+      {
+       "t": 78,
+       "text": "Then we choose Total, Rolling window. We type thirty in the Look back over the last field and pick the unit, so the rule counts orders from the last thirty days. Older orders drop out by themselves as time passes. A shop selling consumables, like the Green Tea Tin, might use this to stop a customer from stocking up too far ahead."
+      },
+      {
+       "t": 99,
+       "text": "The last kind is Total, Custom start plus duration. We set Starting from the first of November and lasting three, with the unit chosen. This counts orders from that start date for the length you pick, for example three months from the first of November. A shop with a seasonal subscription, like the Christmas Scented Candle, would use this to cap purchases during the season. We then switch back to Rolling window to keep that as our example."
+      },
+      {
+       "t": 126,
+       "text": "On the next step we choose which orders count. We tick Paid, so only paid orders are counted, and leaving all boxes empty would count every order. The plain-words line again says in simple language what the rule will do. We click Save, and the rule appears in the Duration Rule List."
+      },
+      {
+       "t": 143,
+       "text": "Finally we go to the Quantity / Amount Rule tab and search for Water. We set Max Qty for the Steel Water Bottle to two, then in the Duration column we pick One per customer. A customer who has already bought two cannot buy more until the window allows it. This is how a duration rule combines with a quantity limit on the same product."
+      }
+     ],
+     "video": {
+      "yt": "lQFTSXZz4q4",
+      "len": "3:01",
+      "clip": "27-duration-totals"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "tools",
+   "title": "Templates, export and reports",
+   "file": "tools.html",
+   "pages": [
+    {
+     "slug": "rule-templates",
+     "title": "Rule templates",
+     "file": "rule-templates.html",
+     "lead": "Save a combination of limits once, fill any row with one pick.",
+     "intro": "Rule templates let you save a combination of limits once, then apply it to any product row with a single pick. Today we will build a template called Case of 6, which enforces a minimum of six items and orders in steps of six, and apply it to the Baseball Cap. This is perfect for shops that sell some products only in cases or packs.",
+     "clip": "32-rule-templates-en",
+     "steps": [
+      {
+       "t": 21,
+       "text": "We start on the Rule Templates tab. This is where all your saved templates live, ready to be picked from any product row. Click the tab to open it."
+      },
+      {
+       "t": 31,
+       "text": "Now we name the template Case of 6. In the Min Qty field we type six, and in the Multiple Qty field we also type six. Then we click Save. The new template appears in the list below, ready to use."
+      },
+      {
+       "t": 45,
+       "text": "Back on the Quantity / Amount Rule tab, we search for Cap to find the Baseball Cap row. Every row now has a template picker. We open it and choose Case of 6. The row is filled in automatically with the saved limits."
+      },
+      {
+       "t": 60,
+       "text": "The row now shows Min Qty six and Multiple Qty six for the Baseball Cap, and it is saved. This means shoppers must buy at least six caps, and the quantity must go up in steps of six."
+      },
+      {
+       "t": 72,
+       "text": "In the storefront, we try to add four caps to the cart. The shop refuses it, because the Baseball Cap now comes in cases of six. The shopper sees a notice explaining the minimum and multiple requirement."
+      }
+     ],
+     "video": {
+      "yt": "du8OcySh7-0",
+      "len": "1:39",
+      "clip": "32-rule-templates"
+     }
+    },
+    {
+     "slug": "export-and-import",
+     "title": "Export and import",
+     "file": "export-and-import.html",
+     "lead": "Back up your rules, edit them in a spreadsheet, or copy them to another store.",
+     "intro": "Export and Import let you move all your minimum, maximum and multiple order rules in and out of the app as a single CSV file. It is the fastest way to back up your rules before a big change, to edit dozens of products at once in a spreadsheet, or to copy your setup to another store. Today we will export the rules from the ILM Demo store, change the minimum quantity for the Classic Cotton T-shirt from three to four in the file, and import it back.",
+     "clip": "33-export-import-en",
+     "steps": [
+      {
+       "t": 29,
+       "text": "Open the Export / Import tab and click Export Rules. The app builds the file and your browser downloads it straight away, with no waiting screen. Keep this file somewhere safe, because it is a full snapshot of every rule in the store."
+      },
+      {
+       "t": 44,
+       "text": "Here is the downloaded file, minmax-rules.csv, opened in a simple editor. Each rule is one line, with the product handle and its settings, so you can read and change them like a spreadsheet. We find the Classic Cotton T-shirt line and change its minimum quantity from three to four, then save the file."
+      },
+      {
+       "t": 64,
+       "text": "Under Import rules, click the file picker and choose your edited CSV. Then click Import Rules, and the app checks every line exactly as if you had typed that rule by hand, so a bad value is caught instead of saved. A confirmation message tells you how many rules were created or updated."
+      },
+      {
+       "t": 83,
+       "text": "Back in the Quantity / Amount Rule tab, we search for the T-shirt and open its Min Qty field. It now shows four, so the existing rule was updated in place rather than duplicated. Shoppers must now add at least four Classic Cotton T-shirts before checkout."
+      }
+     ],
+     "video": {
+      "yt": "eQYdz6R7l_A",
+      "len": "1:57",
+      "clip": "33-export-import"
+     }
+    },
+    {
+     "slug": "blocked-attempts",
+     "title": "Blocked Attempts log",
+     "file": "blocked-attempts.html",
+     "lead": "See when your rules stopped a shopper, and what they were told.",
+     "intro": "The Blocked Attempts log shows the latest times your rules stopped a shopper in the cart. In the demo store, the Baseball Cap is sold only as six, twelve or twenty-four. This log helps you see exactly when a rule blocked a shopper and what message they saw. Today we will look at a shopper who tried to buy five caps.",
+     "clip": "34-blocked-attempts-en",
+     "steps": [
+      {
+       "t": 20,
+       "text": "A shopper puts five Baseball Caps in the cart. The cart shows the message and locks checkout."
+      },
+      {
+       "t": 27,
+       "text": "In the app, open the Blocked Attempts tab. The newest line is this cart: the date, what happened, the customer, and the exact message the shopper saw."
+      },
+      {
+       "t": 37,
+       "text": "Shopify checkout also refuses every order that breaks a rule, but Shopify does not tell apps about those, so they are not in this log. Clear Log empties the list."
+      }
+     ],
+     "video": {
+      "yt": "CJvDDOTsfh8",
+      "len": "1:03",
+      "clip": "34-blocked-attempts"
+     }
+    },
+    {
+     "slug": "blocked-carts-report",
+     "title": "Blocked carts report",
+     "file": "blocked-carts-report.html",
+     "lead": "Pro: what blocked carts were worth, and how to win them back.",
+     "intro": "On the Pro plan, the blocked carts report shows how often your rules stop shoppers, and what those carts were worth. It helps you see whether your minimum and maximum limits are turning away real sales. Today we look at the report in the ILM Demo store, where rules apply to products like the Classic Cotton T-Shirt and the Everyday Hoodie.",
+     "clip": "35-blocked-carts-report-en",
+     "steps": [
+      {
+       "t": 21,
+       "text": "The report sits at the top of the Blocked Attempts tab. Click the tab to open it, then look at the Blocked carts report heading. Use the Period field to choose the date range you want to review."
+      },
+      {
+       "t": 32,
+       "text": "The report shows the value of those carts, so you can see the money your rules held back. It also lists the products that are blocked most often, which points to rules that may be too strict. No customer data is stored for this report, so shopper privacy is protected."
+      },
+      {
+       "t": 49,
+       "text": "Suggest changes with AI reads the report and proposes rule changes that could win those sales back. It uses one credit each time you run it."
+      }
+     ],
+     "video": {
+      "yt": "osKcUjztCEI",
+      "len": "1:15",
+      "clip": "35-blocked-carts-report"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "messages-and-storefront",
+   "title": "Messages and storefront",
+   "file": "messages-and-storefront.html",
+   "pages": [
+    {
+     "slug": "customer-messages",
+     "title": "Messages",
+     "file": "customer-messages.html",
+     "lead": "Change what shoppers are told when a rule stops them.",
+     "intro": "Every message a shopper sees when a rule stops them can be changed, so your store never has to sound like a robot. Instead of a generic warning, you can explain the minimum in your own friendly words. In this lesson you rewrite the minimum quantity message for the Classic Cotton T-Shirt, which has a minimum of three. You will see the new wording in the cart, then learn how to restore the original.",
+     "clip": "36-messages-en",
+     "steps": [
+      {
+       "t": 24,
+       "text": "Here is the message as it stands now. The cart holds one Classic Cotton T-Shirt, but the rule needs three, so the shopper sees the default minimum quantity notice."
+      },
+      {
+       "t": 35,
+       "text": "In the admin, open Configuration and then the Messages page. The messages are grouped by the kind of product and by the rule, so you can find the right one quickly. The left side lists the message groups, and the Minimum Quantity message sits under Standard Product."
+      },
+      {
+       "t": 51,
+       "text": "Under Standard Product, change the Minimum Quantity message to your own sentence. The placeholders in curly brackets, like QTY and NAME, are filled in by the app with the real quantity and product name. The preview below the field shows exactly how the finished message will read, so you can check it before saving."
+      },
+      {
+       "t": 71,
+       "text": "Back in the cart, the shopper now sees your new wording instead of the default. The message still explains that the Classic Cotton T-Shirt needs three pieces, but in your own voice."
+      },
+      {
+       "t": 82,
+       "text": "The round arrow next to a message brings back the wording the app ships with, so you can undo a change at any time. On the Basic plan, you can pick another language at the top of the page, or let AI translate every message for you."
+      }
+     ],
+     "video": {
+      "yt": "63FX5jzSWz0",
+      "len": "1:51",
+      "clip": "36-messages"
+     }
+    },
+    {
+     "slug": "pack-price-message-and-position",
+     "title": "Pack price message and position",
+     "file": "pack-price-message-and-position.html",
+     "lead": "Show the price of a pack, and choose where it appears.",
+     "intro": "When a product comes in packs, the app can show the price of one pack right next to the product price, so shoppers instantly understand what they are buying. Our Classic Cotton T-shirt comes in packs of three, and today we will see how the pack price message looks and how to control where it appears. You will learn to edit the message text and choose its position on the product page and in product lists.",
+     "clip": "37-pack-price-position-en",
+     "steps": [
+      {
+       "t": 24,
+       "text": "Here is the pack line on the product page, sitting above the price. It tells the shopper that the T-shirt is sold in packs of three and shows the pack price. This helps avoid surprises at checkout and makes bulk buying clear."
+      },
+      {
+       "t": 38,
+       "text": "In Configuration, open the Advanced page. Under Multiple Quantity Configuration, you can change the text of this message. The field shown here lets you customize the wording, so you can say something like pack of three or bundle price in your own words."
+      },
+      {
+       "t": 53,
+       "text": "Product Position decides where the message goes on the product page. You enter the CSS selector of your theme price element, then choose before or after it. Here we click A I, which means after the element, so the pack line will appear below the price."
+      },
+      {
+       "t": 70,
+       "text": "Now the pack line is under the price. Shoppers see the pack price right below the regular price, making the offer clear at a glance. This is exactly what we set with the after position."
+      },
+      {
+       "t": 82,
+       "text": "Product List Position does the same on collection pages. You can set a selector and before or after there too. Switch either one off to hide the message on that page type."
+      }
+     ],
+     "video": {
+      "yt": "hACItRFkBBM",
+      "len": "1:50",
+      "clip": "37-pack-price-position"
+     }
+    },
+    {
+     "slug": "message-block",
+     "title": "Where the messages appear",
+     "file": "message-block.html",
+     "lead": "Drag the Min Max message block to any place on the product and cart page.",
+     "intro": "By default the app places its messages itself: the minimum and maximum under the quantity box, and the cart warning above the checkout button. With the Min Max message block you decide the place yourself, without any code. It works with Online Store 2.0 themes like Horizon and Dawn. Our example: show the T-shirt limits right under its price.",
+     "clip": "37b-message-block-en",
+     "steps": [
+      {
+       "t": 25,
+       "text": "In Configuration, open Advanced. The card Where the messages appear explains the two ways. The easy way is the block. The CSS selector positions further down are only needed for product lists, cart drawers and older themes."
+      },
+      {
+       "t": 41,
+       "text": "Click Add the block to the product page. Shopify opens the theme editor on the product template and adds the Min Max message block to the product information section."
+      },
+      {
+       "t": 52,
+       "text": "New blocks are added at the end of the section. Drag the block up, right under the Header block, which holds the product title and the price."
+      },
+      {
+       "t": 62,
+       "text": "Click Save. The block is now part of your theme. Its settings let you show the minimum and maximum information, the pack price message, or both."
+      },
+      {
+       "t": 72,
+       "text": "In the store, the product page now shows Minimum order three and the pack price exactly under the price, where we placed the block."
+      },
+      {
+       "t": 82,
+       "text": "Now the cart page. Back in Advanced, click Add the block to the cart page. On this theme the block comes as its own section at the end of the page, so we drag the section up, right under the cart, and save."
+      },
+      {
+       "t": 101,
+       "text": "When the cart breaks a rule, the warning now appears in the block on the cart page. A slide-out cart drawer keeps the automatic place above its checkout button."
+      }
+     ],
+     "video": {
+      "yt": "mP8Cj1vqSyY",
+      "len": "2:03",
+      "clip": "37b-message-block"
+     }
+    },
+    {
+     "slug": "product-page-information",
+     "title": "Product page information",
+     "file": "product-page-information.html",
+     "lead": "Tell shoppers the limits before they add to cart.",
+     "intro": "The product page is where shoppers decide how many to buy, so it should tell them the limits before anything is blocked. With Product page information, you can show a friendly minimum and maximum message right next to the quantity box. Today we use the Classic Cotton T-Shirt, which has a rule of at least three and at most twelve. You will see how the message appears, how to change its wording, and how to switch it off.",
+     "clip": "38-product-page-information-en",
+     "steps": [
+      {
+       "t": 25,
+       "text": "Here is the Classic Cotton T-Shirt product page with the information line shown next to the quantity box. The message tells the shopper the minimum and maximum, and the quantity box already starts at the minimum of three."
+      },
+      {
+       "t": 39,
+       "text": "Now we go to the admin, open Configuration, then Advanced, and find the Product page information card. The text for Minimum quantity is changed to Buy at least, so the line reads in a friendlier way. Each line here is a message template, and you can reword it to match your store's tone."
+      },
+      {
+       "t": 57,
+       "text": "Next, the Quantity selector setting is set to Disable. This means the quantity box no longer starts at the minimum, it starts at one again. Use this when you want the message to inform shoppers but you do not want the box pre-filled."
+      },
+      {
+       "t": 72,
+       "text": "Back on the Classic Cotton T-Shirt product page, the new text Buy at least is shown, and the quantity box now starts at one. The rule itself is still active, so if a shopper tries to add fewer than three, the app will still block it at add to cart. The message is just information, the enforcement happens later."
+      },
+      {
+       "t": 91,
+       "text": "Finally, we return to Configuration, Advanced, Product page information, and set the Status to Disable. This hides the information lines completely from the product page. The quantity rules still apply, shoppers just no longer see the message before they add to cart."
+      }
+     ],
+     "video": {
+      "yt": "T_6ryuYrNg0",
+      "len": "2:08",
+      "clip": "38-product-page-information"
+     }
+    },
+    {
+     "slug": "checkout-protection",
+     "title": "Checkout protection",
+     "file": "checkout-protection.html",
+     "lead": "Cart messages, a locked Checkout button, and Shopify checkout itself.",
+     "intro": "Checkout protection decides what the cart page does while a rule is broken, and it makes sure the shopper cannot slip past your limits. Even if someone tries an express checkout, Shopify checks the rules again, so an order that breaks your minimum can never get through. Today we will use a rule that asks for at least three of the Classic Cotton T-Shirt, and we will watch the cart and the checkout react.",
+     "clip": "39-checkout-protection-en",
+     "steps": [
+      {
+       "t": 24,
+       "text": "Here is the cart with just one Classic Cotton T-Shirt in it. The cart shows a message explaining the problem, the Checkout button is locked, and a short note sits right next to it."
+      },
+      {
+       "t": 35,
+       "text": "Now in the app, open Configuration and then the Advanced tab, and find the Checkout protection card. In the field Note by the disabled button, type the sentence you want shoppers to read beside the locked button. Here we type a friendly reminder to fix the cart first and check the messages above, then press Tab to save it."
+      },
+      {
+       "t": 55,
+       "text": "Still in the Checkout protection card, find the Status group and choose Disable. This turns the button lock off, so the Checkout button stays clickable and the shopper is allowed to continue toward checkout."
+      },
+      {
+       "t": 68,
+       "text": "Back on the storefront cart, the Checkout button is now active and can be clicked."
+      },
+      {
+       "t": 74,
+       "text": "Shopify checkout refuses the order and shows the same message, asking for at least three of the item. This also covers Shop Pay and other express checkout buttons, so there is no way around your rule."
+      },
+      {
+       "t": 87,
+       "text": "Finally, the Cart messages group at the top of the card switches the messages on the cart page on or off. Turn it off if you only want the block at checkout, or keep it on so shoppers see the problem early."
+      }
+     ],
+     "video": {
+      "yt": "6whCuEno4Pk",
+      "len": "2:00",
+      "clip": "39-checkout-protection"
+     }
+    },
+    {
+     "slug": "custom-css",
+     "title": "Custom CSS",
+     "file": "custom-css.html",
+     "lead": "Fine-tune how the messages look in your theme.",
+     "intro": "Custom CSS lets you fine-tune how the app's messages look inside your theme, without touching your theme code. If the default notice blends into your design or is too easy to miss, a few lines of CSS make it stand out. In this lesson we set a minimum of three Classic Cotton T-Shirts, then give the cart message a red border and bold text. You will see the cart before and after the change.",
+     "clip": "40-custom-css-en",
+     "steps": [
+      {
+       "t": 26,
+       "text": "First we look at the cart as it is now. The shopper has one Classic Cotton T-Shirt in the cart, and the app shows its notice there. This is the plain default look you are about to restyle."
+      },
+      {
+       "t": 37,
+       "text": "Now open Configuration, then the Advanced tab, and scroll down to the Custom CSS field. The class of the cart message is ilm minmax notice, so we type a rule for that class: a two pixel solid red border and bold font weight. The field saves as you type, so there is no save button to press."
+      },
+      {
+       "t": 58,
+       "text": "Back on the cart, reload the page. The same notice now has a red border and bold text, so the shopper cannot miss it. Nothing else in your theme changed, only the app's message."
+      }
+     ],
+     "video": {
+      "yt": "EDKl9-y3ucw",
+      "len": "1:30",
+      "clip": "40-custom-css"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "ai",
+   "title": "AI assistant",
+   "file": "ai.html",
+   "pages": [
+    {
+     "slug": "check-rules-and-ask-ilm",
+     "title": "Check my rules and Ask ILM",
+     "file": "check-rules-and-ask-ilm.html",
+     "lead": "Find rules that can never be met, and ask questions in your own words.",
+     "intro": "Two helpers keep your rules right. Check my rules finds mistakes, and Ask ILM answers questions about your own store. Today we look at a T-shirt that has a minimum of ten and a maximum of five, so nobody could ever buy it. We will find that mistake, then ask a question in plain words about the Baseball Cap.",
+     "clip": "41-check-rules-ask-ilm-en",
+     "steps": [
+      {
+       "t": 20,
+       "text": "Here on the rules list, the Classic Cotton T-Shirt has a minimum of ten and a maximum of five. That is a mistake, because no shopper can ever order ten and also stay at five or below. A shop might set this by accident after changing a limit, and the product quietly stops selling."
+      },
+      {
+       "t": 38,
+       "text": "Click Check my rules at the top of the app. It lists the rules that can never be met, and it does not use any AI credits. The result points at the T-shirt rule, so you know exactly what to fix."
+      },
+      {
+       "t": 51,
+       "text": "Close the results, then click Ask ILM at the bottom right of any page. Type your question in your own words, here asking why a customer cannot buy one Baseball Cap, and send it. The app reads this store's own rules to answer, so you do not need to know which setting to look at."
+      },
+      {
+       "t": 68,
+       "text": "The answer appears in the chat and explains which rule is blocking the Baseball Cap, in this case its minimum of two. The reply comes from this store's rules, but AI can make mistakes, so always check what it says against the rule itself. Use it as a quick guide, not as the final word."
+      }
+     ],
+     "video": {
+      "yt": "yf1coKUoydQ",
+      "len": "1:43",
+      "clip": "41-check-rules-ask-ilm"
+     }
+    },
+    {
+     "slug": "create-rules-with-ai",
+     "title": "Create rules with AI",
+     "file": "create-rules-with-ai.html",
+     "lead": "Describe your limits in your own words.",
+     "intro": "The quickest way to set up the app is to describe your limits in your own words, and AI turns them into rules for you to check. Today we will set limits for the Classic Cotton T-Shirt: sold in packs of three, from three up to twelve, with a minimum order of twenty-five. You will see exactly what AI creates, review it, and then watch the rules work in the shop.",
+     "clip": "42-create-with-ai-en",
+     "steps": [
+      {
+       "t": 22,
+       "text": "Click Create with AI at the top of the app, and choose In my own words. This opens a simple text box where you can describe your limits the way you would explain them to a colleague. No special formatting is needed."
+      },
+      {
+       "t": 36,
+       "text": "Type your limits into the text box. For our example we type: sell the T-shirt only in packs of three, from three up to twelve, and every order must be at least twenty-five. This tells AI the multiple, the minimum, and the maximum all at once."
+      },
+      {
+       "t": 52,
+       "text": "Click Show me the rules. AI prepares the rules and shows them to you first, before anything is saved. This preview step is your chance to check that AI understood you correctly."
+      },
+      {
+       "t": 63,
+       "text": "Each line says what it will do, so read the list carefully. AI can make mistakes, so check that the quantities and limits match what you intended. Nothing is saved yet at this point."
+      },
+      {
+       "t": 74,
+       "text": "When the list looks right, click Create rules. The rules are saved and appear in the grid, where you can change any value by hand later."
+      },
+      {
+       "t": 83,
+       "text": "In the shop, we add two T-shirts to the cart and the store refuses them. The new rules are live, and the shopper sees a notice explaining the minimum and multiple requirements. This confirms that AI created working rules."
+      }
+     ],
+     "video": {
+      "yt": "3NcPPHKsBbc",
+      "len": "1:51",
+      "clip": "42-create-with-ai"
+     }
+    }
+   ]
+  },
+  {
+   "slug": "uninstall",
+   "title": "Uninstall the app",
+   "file": "uninstall.html",
+   "lead": "Remove the app cleanly. Nothing is left in your theme.",
+   "intro": "This lesson shows how to uninstall the app from your store and what happens to your shop and your rules afterwards. Uninstalling is useful when you want to stop using the app, switch to another solution, or simply start fresh. We will use the Classic Cotton T-shirt as our example, which currently has a minimum order quantity of three. You will see the rule disappear from the storefront and learn how long your saved rules are kept.",
+   "clip": "44-uninstall-en",
+   "steps": [
+    {
+     "t": 25,
+     "text": "With the app still installed, the Classic Cotton T-shirt product page shows its minimum of three. When a shopper adds just one T-shirt to the cart, the cart page displays a notice that the minimum quantity is not met."
+    },
+    {
+     "t": 39,
+     "text": "Now go to your Shopify admin. Open Settings, then click Apps. This is where all installed apps are listed, including ILM Min Max Order Qty/Amount."
+    },
+    {
+     "t": 52,
+     "text": "Find ILM Min Max Order Qty/Amount in the list and open its More actions menu, then click Uninstall. Shopify asks why you are uninstalling: select a reason such as Testing multiple apps, then confirm by clicking Uninstall. The app is now removed from your store."
+    },
+    {
+     "t": 70,
+     "text": "Back in your shop, the Classic Cotton T-shirt no longer shows the minimum quantity line. A shopper can now add just one T-shirt and proceed to checkout without any restriction. Shopify automatically removes the app embed and the checkout rule, so no code is left behind in your theme."
+    },
+    {
+     "t": 88,
+     "text": "Your rules are kept for forty-eight hours after uninstalling. If you reinstall the app within that time, your rules will be restored. After forty-eight hours, the app deletes your store data permanently."
+    }
+   ],
+   "video": {
+    "yt": "YHw5-ZwEUOI",
+    "len": "1:57",
+    "clip": "44-uninstall"
+   }
+  }
+ ]
+}

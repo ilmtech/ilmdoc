@@ -1,0 +1,1715 @@
+{
+ "playlist": "https://www.youtube.com/playlist?list=PLYzWgeOGYn94",
+ "pages": [
+  {
+   "slug": "getting-started",
+   "title": "Getting started",
+   "file": "getting-started.html",
+   "pages": [
+    {
+     "slug": "install-and-activate",
+     "title": "Install and activate",
+     "file": "install-and-activate.html",
+     "lead": "Install the plugin and the Pro add-on, and activate your licence.",
+     "video": {
+      "yt": "nCVNcZKnRg0",
+      "len": "1:57",
+      "clip": "01-install-licence"
+     },
+     "intro": "In this video: installing ILM Min Max Multiple Order Quantity for WooCommerce and its Pro add-on, upgrading them, and activating your licence.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "In WordPress admin, open Plugins. Click Add New Plugin."
+      },
+      {
+       "t": 22,
+       "text": "Here we install the free plugin from its zip file with Upload Plugin."
+      },
+      {
+       "t": 28,
+       "text": "Choose the zip file and click Install Now. WordPress uploads it and says: plugin installed successfully."
+      },
+      {
+       "t": 40,
+       "text": "Click Activate Plugin. The free plugin is active: product minimum, maximum and multiple quantities, with ILM Min Max under the WooCommerce menu."
+      },
+      {
+       "t": 57,
+       "text": "The Pro add-on, from ilmtech.in, is installed the same way: Add New Plugin, Upload Plugin, choose its zip, and Install Now. Pro adds amounts, category, brand, tag, role and global rules, durations, templates and the AI Assistant."
+      },
+      {
+       "t": 78,
+       "text": "Activate it. To upgrade later, upload the new zip the same way and choose Replace current with uploaded: your rules and settings are kept."
+      },
+      {
+       "t": 93,
+       "text": "Open WooCommerce, ILM Min Max. Pro asks for your licence: paste the order ID from your ilmtech.in order e-mail and click Activate. It turns on the Pro features, updates, support and the AI."
+      },
+      {
+       "t": 108,
+       "text": "Remind me later closes the window. The bar keeps the Enter licence button for later."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "configuration",
+   "title": "Configuration",
+   "file": "configuration.html",
+   "pages": [
+    {
+     "slug": "minimum-quantity",
+     "title": "Minimum Quantity",
+     "file": "minimum-quantity.html",
+     "lead": "Make customers order at least a set number of units.",
+     "video": {
+      "yt": "0KC9Gt-6F9c",
+      "len": "3:06",
+      "clip": "03-minimum-quantity"
+     },
+     "intro": "In this video: the Minimum Quantity setting. How to switch it on and off, how to give a product a minimum, and what your customer sees.",
+     "steps": [
+      {
+       "t": 12,
+       "text": "In WordPress admin, open WooCommerce, then ILM Min Max, and the Configuration tab. The Minimum Quantity card has a status switch and a global value."
+      },
+      {
+       "t": 29,
+       "text": "Because it is enabled, the Quantity and Amount Rule tab shows a Min Qty column for every product."
+      },
+      {
+       "t": 42,
+       "text": "Now click Disable. The change is saved straight away."
+      },
+      {
+       "t": 59,
+       "text": "Back on the rule table, the Min Qty column is gone, and no minimum is checked anywhere in the shop."
+      },
+      {
+       "t": 73,
+       "text": "Click Enable to switch it back on."
+      },
+      {
+       "t": 88,
+       "text": "The column is back. Let us give the Mountain fox notebook a minimum. Search for it."
+      },
+      {
+       "t": 103,
+       "text": "Type three in Min Qty and click away. The rule is saved and active."
+      },
+      {
+       "t": 124,
+       "text": "On the product page, the customer sees: minimum order three. The quantity box already starts at three."
+      },
+      {
+       "t": 132,
+       "text": "If they type one and click Add to cart, the box itself asks for three or more."
+      },
+      {
+       "t": 141,
+       "text": "With three, the product goes into the cart."
+      },
+      {
+       "t": 154,
+       "text": "In the cart, the quantity is three."
+      },
+      {
+       "t": 158,
+       "text": "Now they try to lower it to two. The cart keeps three: the order can never go below the minimum."
+      },
+      {
+       "t": 172,
+       "text": "Finally, the global value on the card is the minimum for every product that has no rule of its own. It is shown in the Global rule video."
+      }
+     ]
+    },
+    {
+     "slug": "maximum-quantity",
+     "title": "Maximum Quantity",
+     "file": "maximum-quantity.html",
+     "lead": "Limit how many units of a product one order may hold.",
+     "video": {
+      "yt": "FXh74QbLBMI",
+      "len": "1:43",
+      "clip": "04-maximum-quantity"
+     },
+     "intro": "In this video: the Maximum Quantity setting, and what the customer sees when they try to order more.",
+     "steps": [
+      {
+       "t": 9,
+       "text": "On the Configuration tab, Maximum Quantity is enabled. Like the minimum, it adds a Max Qty column to the rule table."
+      },
+      {
+       "t": 22,
+       "text": "Let us give the Mountain fox cushion a maximum. Search for it."
+      },
+      {
+       "t": 31,
+       "text": "Type five in Max Qty and click away. The rule is saved."
+      },
+      {
+       "t": 50,
+       "text": "On the product page, the customer sees: maximum order five."
+      },
+      {
+       "t": 56,
+       "text": "If they type eight and click Add to cart, the box itself says five is the most."
+      },
+      {
+       "t": 63,
+       "text": "Five is fine, so that goes into the cart."
+      },
+      {
+       "t": 75,
+       "text": "In the cart, the quantity is five."
+      },
+      {
+       "t": 79,
+       "text": "The plus button is greyed out at five, so the cart can never hold more than the maximum."
+      },
+      {
+       "t": 90,
+       "text": "And if they come back to the product page and add two more, the shop refuses: five are already in the cart, and five is the maximum."
+      }
+     ]
+    },
+    {
+     "slug": "multiples-of-quantity",
+     "title": "Multiples of Quantity",
+     "file": "multiples-of-quantity.html",
+     "lead": "Sell a product in packs: 3, 6, 9 and so on.",
+     "video": {
+      "yt": "lkbbZ9FMml8",
+      "len": "2:32",
+      "clip": "05-multiples-of-quantity"
+     },
+     "intro": "In this video: Multiples of Quantity. Selling in packs, and how packs work together with a minimum.",
+     "steps": [
+      {
+       "t": 9,
+       "text": "Let us sell the Mountain fox notebook in packs of three. Search for it."
+      },
+      {
+       "t": 18,
+       "text": "Type three in Multiple Qty and click away."
+      },
+      {
+       "t": 33,
+       "text": "On the product page, one pack of three is the smallest order, so the quantity box starts at three."
+      },
+      {
+       "t": 40,
+       "text": "Under the price, the pack price is shown as well. Its wording and position are set on the Advanced tab."
+      },
+      {
+       "t": 48,
+       "text": "The arrows of the quantity box jump a whole pack at a time: six, then nine."
+      },
+      {
+       "t": 55,
+       "text": "If they type four, the box asks for a whole pack: three or six."
+      },
+      {
+       "t": 68,
+       "text": "Now a minimum together with packs. On the Multiples of Quantity card, we enable Start from the minimum: the steps then count from the minimum."
+      },
+      {
+       "t": 80,
+       "text": "On the Brown bear notebook we set a minimum of five, in steps of two."
+      },
+      {
+       "t": 104,
+       "text": "So the customer can order five, seven, nine, and so on. Let us add six and see what happens."
+      },
+      {
+       "t": 116,
+       "text": "The cart says which quantities are possible, and checkout stays locked until the quantity fits."
+      },
+      {
+       "t": 122,
+       "text": "They change it to seven, and the message is gone."
+      },
+      {
+       "t": 134,
+       "text": "With Start from the minimum disabled, the quantities are whole multiples of the pack, and the minimum must be a multiple of it too: for example a minimum of six in steps of two gives six, eight, ten."
+      }
+     ]
+    },
+    {
+     "slug": "limit-multiple-quantity",
+     "title": "Limit Multiple Quantity",
+     "file": "limit-multiple-quantity.html",
+     "lead": "Packs for small orders, single units for big ones.",
+     "video": {
+      "yt": "hK5bJFs-290",
+      "len": "1:21",
+      "clip": "06-limit-multiple-quantity"
+     },
+     "intro": "In this video: Limit Multiple Quantity. Above this quantity, the pack rule stops and single units are allowed.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "On the Configuration tab, enable Limit Multiple Quantity. It adds a Limit Mult Qty column to the rule table."
+      },
+      {
+       "t": 22,
+       "text": "Take the Brown bear cushion. Search for it."
+      },
+      {
+       "t": 30,
+       "text": "We set Multiple Qty to six and Limit Mult Qty to twelve. So it is sold in packs of six, up to twelve."
+      },
+      {
+       "t": 49,
+       "text": "On the product page, the quantity starts at one pack of six."
+      },
+      {
+       "t": 54,
+       "text": "Below the limit, packs still apply. Let us add nine, which is not a whole pack."
+      },
+      {
+       "t": 65,
+       "text": "The cart asks for packs of six, and checkout stays locked."
+      },
+      {
+       "t": 70,
+       "text": "From twelve upwards the limit is reached, so the pack rule stops: thirteen is fine, one unit at a time."
+      }
+     ]
+    },
+    {
+     "slug": "allowed-quantities",
+     "title": "Allowed Quantities",
+     "file": "allowed-quantities.html",
+     "lead": "Only the quantities you list can be ordered.",
+     "video": {
+      "yt": "XIWOicOLPSw",
+      "len": "1:35",
+      "clip": "07-allowed-quantities"
+     },
+     "intro": "In this video: Allowed Quantities. Only the quantities you list can be ordered, for example six, twelve or twenty four.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "On the Configuration tab, Allowed Quantities is enabled, so the rule table has an Allowed Qty column."
+      },
+      {
+       "t": 23,
+       "text": "Take the Customizable mug. Search for it."
+      },
+      {
+       "t": 31,
+       "text": "Type the quantities, separated by commas: six, twelve, twenty four. A rule uses either Allowed Qty or Multiple Qty, not both."
+      },
+      {
+       "t": 49,
+       "text": "The product page lists the quantities the customer can order, and the box starts at six."
+      },
+      {
+       "t": 55,
+       "text": "Let us try a quantity in between, eight."
+      },
+      {
+       "t": 65,
+       "text": "The cart lists the allowed quantities, and checkout stays locked until the quantity is one of them."
+      },
+      {
+       "t": 72,
+       "text": "Twelve is on the list, so the message is gone."
+      },
+      {
+       "t": 85,
+       "text": "The global value on the card is the allowed list for products with no rule of their own."
+      }
+     ]
+    },
+    {
+     "slug": "minimum-and-maximum-amount",
+     "title": "Minimum and Maximum Amount",
+     "file": "minimum-and-maximum-amount.html",
+     "lead": "Ask customers to spend at least, or at most, an amount on a product.",
+     "video": {
+      "yt": "UmAKnaYSvU0",
+      "len": "1:41",
+      "clip": "08-minimum-maximum-amount"
+     },
+     "intro": "In this video: Minimum and Maximum Amount. How much a customer must spend, or may spend, on one product.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "On the Configuration tab, enable Minimum Amount. It adds a Min Amt column to the rule table."
+      },
+      {
+       "t": 19,
+       "text": "Maximum Amount is switched on the same way."
+      },
+      {
+       "t": 28,
+       "text": "Now there is a Max Amt column too. Let us use the Mountain fox notebook, at twelve dollars ninety."
+      },
+      {
+       "t": 37,
+       "text": "The customer must spend at least thirty dollars on it, and at most sixty. Amounts are in your shop currency."
+      },
+      {
+       "t": 56,
+       "text": "A customer adds one notebook, twelve dollars ninety."
+      },
+      {
+       "t": 66,
+       "text": "The cart explains that they need to spend at least thirty dollars on this product. Checkout refuses the order while the rule is broken."
+      },
+      {
+       "t": 75,
+       "text": "They raise the quantity to three notebooks, thirty eight dollars seventy. The message is gone."
+      },
+      {
+       "t": 82,
+       "text": "Now they try five notebooks, sixty four dollars fifty. That is more than sixty, so the cart refuses it and says they can spend at most sixty dollars."
+      },
+      {
+       "t": 93,
+       "text": "The cart stays within the range, and checkout stays open."
+      }
+     ]
+    },
+    {
+     "slug": "amounts-include-tax",
+     "title": "Amounts include tax",
+     "file": "amounts-include-tax.html",
+     "lead": "Measure amounts with or without tax.",
+     "video": {
+      "yt": "rbL7-XXqWkc",
+      "len": "1:22",
+      "clip": "09-amounts-include-tax"
+     },
+     "intro": "In this video: Amounts include tax. Whether minimum and maximum amounts are measured with tax or without.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "The Mountain fox cushion has a minimum amount of twenty dollars. It costs eighteen ninety without tax, and twenty seventy nine with ten percent tax."
+      },
+      {
+       "t": 24,
+       "text": "Amounts include tax is enabled, so amounts are measured with tax."
+      },
+      {
+       "t": 37,
+       "text": "A customer adds one to the cart."
+      },
+      {
+       "t": 45,
+       "text": "Twenty seventy nine with tax is more than twenty, so there is no message."
+      },
+      {
+       "t": 53,
+       "text": "Now disable Amounts include tax. Amounts are measured without tax."
+      },
+      {
+       "t": 65,
+       "text": "The same cart now counts eighteen ninety, below twenty, so the customer is asked to spend at least twenty dollars. The setting also applies to past orders counted by duration rules."
+      }
+     ]
+    },
+    {
+     "slug": "different-products-per-order",
+     "title": "Different products per order",
+     "file": "different-products-per-order.html",
+     "lead": "How many different products one order must or may hold.",
+     "video": {
+      "yt": "ExsEWckJk28",
+      "len": "1:47",
+      "clip": "10-different-products-per-order"
+     },
+     "intro": "In this video: Different products per order. A minimum or maximum number of different products in one order.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "This card is on the Configuration tab, General section. Zero means no limit, for both the minimum and the maximum."
+      },
+      {
+       "t": 19,
+       "text": "Type two in Maximum. An order may now hold at most two different products, whatever their quantities."
+      },
+      {
+       "t": 34,
+       "text": "A customer adds a first mug,"
+      },
+      {
+       "t": 44,
+       "text": "and a second mug."
+      },
+      {
+       "t": 55,
+       "text": "A third different product is refused: they can order at most two different products."
+      },
+      {
+       "t": 64,
+       "text": "Now the other way round: no maximum, and a minimum of three different products."
+      },
+      {
+       "t": 82,
+       "text": "With only two different products, the cart asks for at least three, and checkout refuses the order until a third product is added."
+      },
+      {
+       "t": 93,
+       "text": "Per variation decides how variations count. Enabled: two sizes of one shirt count as two products. Disabled: they count as one."
+      }
+     ]
+    },
+    {
+     "slug": "auto-save",
+     "title": "Auto Save",
+     "file": "auto-save.html",
+     "lead": "Save rule changes at once, or with a Save button.",
+     "video": {
+      "yt": "iYha52Dm02M",
+      "len": "1:13",
+      "clip": "11-auto-save"
+     },
+     "intro": "In this video: Auto Save, and editing rules with a Save button instead.",
+     "steps": [
+      {
+       "t": 8,
+       "text": "Auto Save is enabled after installation."
+      },
+      {
+       "t": 15,
+       "text": "So when you change a value in the rule table and click away, it is saved at once. There is no Save button."
+      },
+      {
+       "t": 31,
+       "text": "Now disable Auto Save."
+      },
+      {
+       "t": 45,
+       "text": "The rule table now has a Save button on every row."
+      },
+      {
+       "t": 56,
+       "text": "Changing a value no longer saves it. If you leave the page now, the change is lost."
+      },
+      {
+       "t": 62,
+       "text": "Click Save to store the row. This is useful when you want to edit several values first, and save them together."
+      }
+     ]
+    },
+    {
+     "slug": "rule-priority-order",
+     "title": "Rule priority order",
+     "file": "rule-priority-order.html",
+     "lead": "Which rule wins when a product matches several.",
+     "video": {
+      "yt": "X5Vqa59_JQA",
+      "len": "1:20",
+      "clip": "18-rule-priority"
+     },
+     "intro": "In this video: the Rule Priority Order. Which rule wins when a product matches more than one.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "The Home Accessories category has a maximum of four."
+      },
+      {
+       "t": 19,
+       "text": "And the brand Studio Design has a maximum of two. Our mugs belong to both."
+      },
+      {
+       "t": 32,
+       "text": "On the Configuration tab, the Rule Priority Order decides. By default: product, category, brand, tag, user role, then global."
+      },
+      {
+       "t": 51,
+       "text": "Category comes before brand, so the mug shows maximum order four."
+      },
+      {
+       "t": 58,
+       "text": "Move Brand Rule in front of Category Rule, with its up arrow or by dragging it. The new order is saved at once."
+      },
+      {
+       "t": 71,
+       "text": "Now the brand rule wins, and the same mug shows maximum order two."
+      }
+     ]
+    },
+    {
+     "slug": "attributes",
+     "title": "Attributes setting",
+     "file": "attributes.html",
+     "lead": "Count each variation on its own, or all together.",
+     "video": {
+      "yt": "G_IoAs8wwTs",
+      "len": "1:35",
+      "clip": "19-attributes"
+     },
+     "intro": "In this video: the Attributes setting. Whether a product rule counts each variation on its own, or all variations together.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "The Cotton Shirt 3-Pack has a rule on two of its variations: sizes S and M, each a maximum of three."
+      },
+      {
+       "t": 26,
+       "text": "Attributes is enabled. Each variation is checked on its own against its rule."
+      },
+      {
+       "t": 39,
+       "text": "So a customer can take three in size S,"
+      },
+      {
+       "t": 49,
+       "text": "and three more in size M."
+      },
+      {
+       "t": 60,
+       "text": "Six shirts in the cart, and no message."
+      },
+      {
+       "t": 66,
+       "text": "Now disable Attributes. The variations of a product are counted together."
+      },
+      {
+       "t": 78,
+       "text": "The same cart now has six of one product, so it asks for at most three in total, and checkout refuses the order until it is three. A rule on the product row itself always counts all variations together."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "rules",
+   "title": "Quantity / Amount rules",
+   "file": "rules.html",
+   "pages": [
+    {
+     "slug": "product-rules-and-variations",
+     "title": "Product rules and variations",
+     "file": "product-rules-and-variations.html",
+     "lead": "A rule for a whole product, or for one variation.",
+     "video": {
+      "yt": "j93sHmrVkco",
+      "len": "1:28",
+      "clip": "12-product-rule-variations"
+     },
+     "intro": "In this video: product rules, and rules for single variations, like one size of a shirt.",
+     "steps": [
+      {
+       "t": 9,
+       "text": "The Quantity and Amount Rule tab opens on Product rules. Every product of the shop is listed."
+      },
+      {
+       "t": 16,
+       "text": "Search for the Cotton Shirt 3-Pack. It has variations: one per size."
+      },
+      {
+       "t": 26,
+       "text": "The bold row is the product itself. A rule here applies to the product as a whole."
+      },
+      {
+       "t": 32,
+       "text": "Each row below it is one variation, and can have a rule of its own."
+      },
+      {
+       "t": 37,
+       "text": "We give size S a maximum of two. The other sizes stay free."
+      },
+      {
+       "t": 52,
+       "text": "On the product page, with size S selected, the quantity box goes up to two at most."
+      },
+      {
+       "t": 59,
+       "text": "Two of them go into the cart."
+      },
+      {
+       "t": 66,
+       "text": "One more of size S is refused, and the message names the size."
+      },
+      {
+       "t": 75,
+       "text": "Size M has no rule, so three of them go into the cart without any message."
+      }
+     ]
+    },
+    {
+     "slug": "limits-on-the-product-edit-page",
+     "title": "Limits on the product edit page",
+     "file": "limits-on-the-product-edit-page.html",
+     "lead": "Set a product’s limits where you edit the product.",
+     "video": {
+      "yt": "ocVk1iSn3FM",
+      "len": "1:15",
+      "clip": "40-product-edit-fields"
+     },
+     "intro": "In this video: setting a product’s minimum, maximum and multiple right on the WooCommerce product edit page.",
+     "steps": [
+      {
+       "t": 9,
+       "text": "Open Products and edit the Brown bear notebook. Scroll to the Product data box."
+      },
+      {
+       "t": 15,
+       "text": "On the Inventory tab, the plugin adds three fields: minimum, maximum and multiple quantity."
+      },
+      {
+       "t": 23,
+       "text": "We type a minimum of two, a maximum of ten, in steps of two."
+      },
+      {
+       "t": 32,
+       "text": "Click Update. The values are saved as the product rule, the same one you see in the rule table."
+      },
+      {
+       "t": 44,
+       "text": "In ILM Min Max, the rule table shows the same values. Change them in either place."
+      },
+      {
+       "t": 61,
+       "text": "And the product page shows minimum order two, maximum order ten, and the box steps in pairs. Variable products have the same fields on every variation."
+      }
+     ]
+    },
+    {
+     "slug": "category-rule",
+     "title": "Category rule",
+     "file": "category-rule.html",
+     "lead": "One rule for every product of a category.",
+     "video": {
+      "yt": "obCN_3lNmpA",
+      "len": "2:04",
+      "clip": "13-category-rule"
+     },
+     "intro": "In this video: a category rule. One rule for every product of a category, each product on its own or added up.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "On the Quantity and Amount Rule tab, set Rule Type to Category. The table now lists your categories."
+      },
+      {
+       "t": 19,
+       "text": "Search for the Home Accessories category. It holds our mugs and cushions."
+      },
+      {
+       "t": 27,
+       "text": "Type four in Max Qty. Every product in this category now has a maximum of four."
+      },
+      {
+       "t": 37,
+       "text": "On the Configuration tab, the Category Rule card must be enabled. Apply Rule to Individual Products is enabled too: each product is checked on its own."
+      },
+      {
+       "t": 57,
+       "text": "So each mug shows maximum order four."
+      },
+      {
+       "t": 60,
+       "text": "Four of this mug go into the cart."
+      },
+      {
+       "t": 72,
+       "text": "And four of a second mug are fine too, because each product counts on its own."
+      },
+      {
+       "t": 83,
+       "text": "Now disable Apply Rule to Individual Products. All products of the category are added up into one total."
+      },
+      {
+       "t": 98,
+       "text": "The same cart now holds eight mugs from the category, so it says: at most four in total from Home Accessories. Checkout refuses the order until the total is four or less."
+      },
+      {
+       "t": 110,
+       "text": "They remove the second mug. Four in total: the message is gone."
+      }
+     ]
+    },
+    {
+     "slug": "brand-rule",
+     "title": "Brand rule",
+     "file": "brand-rule.html",
+     "lead": "One rule for every product of a brand.",
+     "video": {
+      "yt": "0b7lZO5d5vs",
+      "len": "1:29",
+      "clip": "14-brand-rule"
+     },
+     "intro": "In this video: a brand rule, with the brand products added up.",
+     "steps": [
+      {
+       "t": 7,
+       "text": "Set Rule Type to Brand. The table lists your brands."
+      },
+      {
+       "t": 12,
+       "text": "Graphic Corner makes our notebooks and prints. Type three in Min Qty."
+      },
+      {
+       "t": 22,
+       "text": "On the Brand Rule card, disable Apply Rule to Individual Products. The brand products are added up: three in total, in any mix."
+      },
+      {
+       "t": 41,
+       "text": "A customer adds one Mountain fox notebook,"
+      },
+      {
+       "t": 55,
+       "text": "and one Brown bear notebook."
+      },
+      {
+       "t": 66,
+       "text": "Two products of the brand are not enough. The cart asks for at least three in total from the brand, and checkout refuses the order."
+      },
+      {
+       "t": 75,
+       "text": "They add one more notebook. Three in total: the message is gone. With Apply Rule to Individual Products enabled, each product would need three on its own."
+      }
+     ]
+    },
+    {
+     "slug": "tag-rule",
+     "title": "Tag rule",
+     "file": "tag-rule.html",
+     "lead": "One rule for every product with a tag.",
+     "video": {
+      "yt": "kGa77_Z-6Yo",
+      "len": "0:57",
+      "clip": "15-tag-rule"
+     },
+     "intro": "In this video: a tag rule. Product tags group products across categories and brands.",
+     "steps": [
+      {
+       "t": 9,
+       "text": "Set Rule Type to Tag. The table lists your product tags."
+      },
+      {
+       "t": 14,
+       "text": "The Accessories tag is on our mugs, cushions and notebooks. Type two in Multiple Qty: they are sold in pairs."
+      },
+      {
+       "t": 26,
+       "text": "The Tag Rule card is enabled, and Apply Rule to Individual Products is enabled: each product is sold in pairs on its own."
+      },
+      {
+       "t": 42,
+       "text": "So the cushion starts at two, the smallest pair."
+      },
+      {
+       "t": 46,
+       "text": "And the arrows go up a pair at a time. A tag rule is handy for products from one supplier or one product line."
+      }
+     ]
+    },
+    {
+     "slug": "user-role-rule",
+     "title": "User role rule",
+     "file": "user-role-rule.html",
+     "lead": "Different limits for different kinds of customers.",
+     "video": {
+      "yt": "Da8cgyIldf8",
+      "len": "1:09",
+      "clip": "16-user-role-rule"
+     },
+     "intro": "In this video: a user role rule. Customers with one role, like wholesale buyers, get limits of their own.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "Set Rule Type to User Role. The table lists the roles of your shop, and Guest for visitors who are not logged in."
+      },
+      {
+       "t": 18,
+       "text": "In this demo, our wholesale buyer has the role Shop manager. For that role, type ten in Min Qty."
+      },
+      {
+       "t": 29,
+       "text": "The User Role Rule card is enabled, and the rule applies to each product on its own."
+      },
+      {
+       "t": 44,
+       "text": "A visitor who is not logged in sees no minimum. They can order one mug."
+      },
+      {
+       "t": 56,
+       "text": "Now the wholesale buyer logs in. The same mug shows minimum order ten, and the box starts at ten. Other roles can have limits of their own."
+      }
+     ]
+    },
+    {
+     "slug": "global-rule",
+     "title": "Global rule",
+     "file": "global-rule.html",
+     "lead": "One rule for the whole shop.",
+     "video": {
+      "yt": "xOaXx_mNtQA",
+      "len": "1:52",
+      "clip": "17-global-rule"
+     },
+     "intro": "In this video: the Global rule. A limit for every product, or for the whole order.",
+     "steps": [
+      {
+       "t": 8,
+       "text": "The Global rule is set right on the Configuration tab, with the global value of each limit."
+      },
+      {
+       "t": 16,
+       "text": "Type two in the global value of Minimum Quantity. Every product now has a minimum of two."
+      },
+      {
+       "t": 30,
+       "text": "The Mountain fox notebook has no rule of its own, so it shows minimum order two."
+      },
+      {
+       "t": 41,
+       "text": "The Brown bear notebook has its own product rule, a minimum of five. A more specific rule always comes before the global one."
+      },
+      {
+       "t": 51,
+       "text": "Now a minimum order value. We set the global minimum back to zero, and enable Minimum Amount."
+      },
+      {
+       "t": 63,
+       "text": "Its global value is thirty dollars."
+      },
+      {
+       "t": 70,
+       "text": "Further down, on the Global Rule card, disable Apply Rule to Individual Products. The whole cart is added up, so this is a minimum order value of thirty dollars."
+      },
+      {
+       "t": 89,
+       "text": "A customer adds two notebooks, twenty five dollars eighty,"
+      },
+      {
+       "t": 100,
+       "text": "and the cart asks them to spend at least thirty dollars in total. Checkout refuses the order until it reaches thirty dollars."
+      }
+     ]
+    },
+    {
+     "slug": "rule-table-filters",
+     "title": "Rule table filters",
+     "file": "rule-table-filters.html",
+     "lead": "Find products fast, and give a rule to one customer group.",
+     "video": {
+      "yt": "zwo-wP47l8E",
+      "len": "1:22",
+      "clip": "23-table-filters"
+     },
+     "intro": "In this video: the filters above the rule table.",
+     "steps": [
+      {
+       "t": 6,
+       "text": "Above the rule table are the filters. Search narrows the table to products or variations by name or SKU."
+      },
+      {
+       "t": 15,
+       "text": "For example, mug."
+      },
+      {
+       "t": 22,
+       "text": "Category shows only the products of one category, which helps in a large catalogue. Rule Type switches to category, brand, tag, role or global rules."
+      },
+      {
+       "t": 34,
+       "text": "Customer Group is the interesting one: it lets you give a product a rule for one user role only. We pick Shop manager, our wholesale buyers."
+      },
+      {
+       "t": 43,
+       "text": "Search for the Customizable mug, and type ten in Min Qty. This rule is for that role only."
+      },
+      {
+       "t": 65,
+       "text": "A guest can still order one."
+      },
+      {
+       "t": 74,
+       "text": "A wholesale buyer must order at least ten."
+      }
+     ]
+    },
+    {
+     "slug": "status-and-bulk-actions",
+     "title": "Status, switching off and bulk actions",
+     "file": "status-and-bulk-actions.html",
+     "lead": "See what each rule does now; switch rules off and on.",
+     "video": {
+      "yt": "hysDU9cQRgc",
+      "len": "1:44",
+      "clip": "20-status-bulk"
+     },
+     "intro": "In this video: the Status column, switching a rule off and on, and actions on many rules at once.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "The Status column tells you what the cart does with each rule right now. Active: the rule applies now."
+      },
+      {
+       "t": 17,
+       "text": "Scheduled: its duration rule starts later, here in December. Until then the rule does nothing."
+      },
+      {
+       "t": 25,
+       "text": "Expired: its duration rule has ended. Edit the duration rule to give it new dates."
+      },
+      {
+       "t": 32,
+       "text": "Off: the rule was switched off. Its values are kept, so it can be switched back on exactly as it was."
+      },
+      {
+       "t": 41,
+       "text": "Let us switch the Mountain fox notebook rule off, with the switch in its Status cell."
+      },
+      {
+       "t": 60,
+       "text": "On the product page, the minimum of three is gone, and the customer can order one."
+      },
+      {
+       "t": 67,
+       "text": "Switch it on again, and the minimum of three is back, unchanged."
+      },
+      {
+       "t": 74,
+       "text": "For many rules at once, tick their boxes. The bar above the table shows how many are selected."
+      },
+      {
+       "t": 86,
+       "text": "Switch off turns them all off together. Switch on turns them back on."
+      },
+      {
+       "t": 91,
+       "text": "Delete removes the selected rules, after you confirm. A deleted rule cannot be brought back, so switching off is often the better choice."
+      }
+     ]
+    },
+    {
+     "slug": "conditions",
+     "title": "Conditions",
+     "file": "conditions.html",
+     "lead": "Apply a rule only when the cart meets your conditions.",
+     "video": {
+      "yt": "7c9QauHyahw",
+      "len": "1:31",
+      "clip": "21-conditions"
+     },
+     "intro": "In this video: conditions. A rule that only applies to some products, customers or places.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "The Art category has a minimum of three, for every product in it."
+      },
+      {
+       "t": 18,
+       "text": "Click Add in the Conditions column. The rule then only applies when the cart meets every condition you set."
+      },
+      {
+       "t": 26,
+       "text": "You can limit it to a product price range, or a stock range."
+      },
+      {
+       "t": 32,
+       "text": "To products with some attributes, or to delivery countries and zones."
+      },
+      {
+       "t": 38,
+       "text": "To new or returning customers, or to customers whose last order is recent."
+      },
+      {
+       "t": 44,
+       "text": "We type ten as the highest price. Leave a field empty to accept any value."
+      },
+      {
+       "t": 51,
+       "text": "Click Save. The button now shows one condition."
+      },
+      {
+       "t": 66,
+       "text": "The framed poster costs twenty nine dollars, more than ten, so there is no minimum for it."
+      },
+      {
+       "t": 78,
+       "text": "The vector print costs nine dollars, so the minimum of three applies. When the conditions are not met, the next rule in line applies instead."
+      }
+     ]
+    },
+    {
+     "slug": "rule-for-one-customer",
+     "title": "A rule for one customer",
+     "file": "rule-for-one-customer.html",
+     "lead": "Give one customer limits of their own.",
+     "video": {
+      "yt": "rHTyjaBd7D8",
+      "len": "1:08",
+      "clip": "22-one-customer-rule"
+     },
+     "intro": "In this video: a rule for one customer. One customer gets their own limits, different from everyone else.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "The Brown bear cushion has a maximum of ten, for everyone."
+      },
+      {
+       "t": 19,
+       "text": "In the Customer filter, search for a customer by name or e-mail."
+      },
+      {
+       "t": 26,
+       "text": "Pick the customer. The table now shows this customer’s own rules, and everything you type is saved for them only."
+      },
+      {
+       "t": 34,
+       "text": "Type two in Max Qty. A customer’s own rule always comes before the rule for everyone."
+      },
+      {
+       "t": 48,
+       "text": "Other customers see maximum order ten."
+      },
+      {
+       "t": 59,
+       "text": "When Demo logs in, the same product shows maximum order two."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "duration-rules",
+   "title": "Duration rules",
+   "file": "duration-rules.html",
+   "pages": [
+    {
+     "slug": "per-order-no-time-limit",
+     "title": "Duration: per order, no time limit",
+     "file": "per-order-no-time-limit.html",
+     "lead": "The default: each order starts fresh.",
+     "video": {
+      "yt": "MLxJvoC8EBY",
+      "len": "1:06",
+      "clip": "24-duration-per-order"
+     },
+     "intro": "In this video: duration rules, and the default one, per order with no time limit.",
+     "steps": [
+      {
+       "t": 9,
+       "text": "The Duration Rule tab lists the rules that decide over which time a limit is counted. Six come with the plugin."
+      },
+      {
+       "t": 16,
+       "text": "The first one, Per order, no time limit, is what every rule uses unless you pick another."
+      },
+      {
+       "t": 26,
+       "text": "You pick it in the Duration column of the rule table. The Mountain fox cushion has a maximum of two, per order."
+      },
+      {
+       "t": 44,
+       "text": "Demo is logged in. Five days ago they ordered two of these. With Per order, that does not matter: each order starts fresh."
+      },
+      {
+       "t": 53,
+       "text": "So they can order two again today. The limit is only checked inside one order."
+      }
+     ]
+    },
+    {
+     "slug": "active-only-in-a-date-range",
+     "title": "Duration: active only in a date range",
+     "file": "active-only-in-a-date-range.html",
+     "lead": "A rule that only works between two dates.",
+     "video": {
+      "yt": "20mHvKGgPSc",
+      "len": "1:21",
+      "clip": "25-duration-date-range"
+     },
+     "intro": "In this video: per order, active only in a date range. A limit for a sale or a campaign.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "On the Duration Rule tab, click Create Rule. Name it, for example Black Friday. It is enabled."
+      },
+      {
+       "t": 19,
+       "text": "In step two, pick Per order, active only in date range, and choose the dates: November twenty seventh to thirtieth."
+      },
+      {
+       "t": 29,
+       "text": "In plain words sums the rule up. This type needs no order statuses."
+      },
+      {
+       "t": 35,
+       "text": "Click Save."
+      },
+      {
+       "t": 44,
+       "text": "In the rule table, pick Black Friday in the Duration column of the Mountain fox cushion. Its status becomes Scheduled, with the start date."
+      },
+      {
+       "t": 64,
+       "text": "Before the sale, the maximum of two does not apply at all."
+      },
+      {
+       "t": 70,
+       "text": "During the dates, it works like a normal per order rule. After the end date, the rule shows Expired, and stops again."
+      }
+     ]
+    },
+    {
+     "slug": "lifetime-total",
+     "title": "Duration: lifetime total",
+     "file": "lifetime-total.html",
+     "lead": "Count everything a customer has ever ordered.",
+     "video": {
+      "yt": "Xf0LtNIBsdU",
+      "len": "1:18",
+      "clip": "26-duration-lifetime"
+     },
+     "intro": "In this video: Total, all-time. The limit counts everything the customer has ever ordered.",
+     "steps": [
+      {
+       "t": 9,
+       "text": "The Mountain fox cushion has a maximum of three."
+      },
+      {
+       "t": 18,
+       "text": "In its Duration column, pick Total, all-time. Now the three are counted over the customer’s whole order history."
+      },
+      {
+       "t": 35,
+       "text": "Demo already bought two, a month ago. So the product page tells them they can order only one more."
+      },
+      {
+       "t": 42,
+       "text": "One more is fine."
+      },
+      {
+       "t": 50,
+       "text": "Another one is refused: with the one in the cart, the limit of three is used up for good."
+      },
+      {
+       "t": 66,
+       "text": "Which past orders count is set in step three of the duration rule, by order status. That is shown in its own video."
+      }
+     ]
+    },
+    {
+     "slug": "total-in-a-fixed-date-range",
+     "title": "Duration: total in a fixed date range",
+     "file": "total-in-a-fixed-date-range.html",
+     "lead": "Add up what a customer orders between two dates.",
+     "video": {
+      "yt": "G5ijtIljV54",
+      "len": "1:29",
+      "clip": "27-duration-fixed-range"
+     },
+     "intro": "In this video: Total, fixed date range. While today is between two dates, the customer’s orders are added up against the limit.",
+     "steps": [
+      {
+       "t": 13,
+       "text": "Create a duration rule, and name it November campaign."
+      },
+      {
+       "t": 21,
+       "text": "Pick Total, fixed date range, from the first to the thirtieth of November. The total does not reset until you change the dates."
+      },
+      {
+       "t": 32,
+       "text": "Keep the order statuses as they are, and save."
+      },
+      {
+       "t": 42,
+       "text": "Give the Mountain fox cushion, maximum three, this duration rule."
+      },
+      {
+       "t": 65,
+       "text": "Demo ordered two earlier this month, so one is left for November."
+      },
+      {
+       "t": 70,
+       "text": "They add the one that is left, and a second one is refused. After the thirtieth, the rule shows Expired and no longer applies."
+      }
+     ]
+    },
+    {
+     "slug": "rolling-window",
+     "title": "Duration: rolling window",
+     "file": "rolling-window.html",
+     "lead": "Add up what a customer ordered in the last days, weeks or months.",
+     "video": {
+      "yt": "sw3WeIrNZbQ",
+      "len": "1:19",
+      "clip": "28-duration-rolling"
+     },
+     "intro": "In this video: Total, rolling window. The limit counts what the customer ordered in the last thirty days, counted back from today.",
+     "steps": [
+      {
+       "t": 13,
+       "text": "Create a duration rule named Last thirty days."
+      },
+      {
+       "t": 21,
+       "text": "Pick Total, rolling window, and set it to thirty days. It could also be weeks, months or years."
+      },
+      {
+       "t": 31,
+       "text": "Save it."
+      },
+      {
+       "t": 40,
+       "text": "The Mountain fox cushion, maximum three, now uses it: at most three in any thirty days."
+      },
+      {
+       "t": 63,
+       "text": "Demo bought two forty days ago, and two ten days ago. Only the order from ten days ago is inside the window, so one is left. As days pass, older orders drop out of the window."
+      }
+     ]
+    },
+    {
+     "slug": "custom-start-and-length",
+     "title": "Duration: custom start and length",
+     "file": "custom-start-and-length.html",
+     "lead": "Count orders from a start date, for a set time.",
+     "video": {
+      "yt": "r0eoQiX2XSw",
+      "len": "1:22",
+      "clip": "29-duration-custom-start"
+     },
+     "intro": "In this video: Total, custom start plus duration. Orders count from a date you pick, for as long as you set, for example a product launch.",
+     "steps": [
+      {
+       "t": 14,
+       "text": "Create a duration rule named Launch month."
+      },
+      {
+       "t": 22,
+       "text": "Pick Total, custom start plus duration. Start on November first, and last one month."
+      },
+      {
+       "t": 34,
+       "text": "Save it."
+      },
+      {
+       "t": 43,
+       "text": "Give it to the Mountain fox cushion, maximum three."
+      },
+      {
+       "t": 66,
+       "text": "Demo bought two in October, before the start, and one this month. Only this month’s order counts, so two are left. Before the start date and after the month ends, the rule does not apply."
+      }
+     ]
+    },
+    {
+     "slug": "which-order-statuses-count",
+     "title": "Duration: which order statuses count",
+     "file": "which-order-statuses-count.html",
+     "lead": "Only count past orders in the statuses you choose.",
+     "video": {
+      "yt": "R1J3ljyV7bs",
+      "len": "1:24",
+      "clip": "30-duration-order-statuses"
+     },
+     "intro": "In this video: step three of a duration rule, which orders count. Here only paid orders are added up.",
+     "steps": [
+      {
+       "t": 11,
+       "text": "Create a duration rule named Paid orders, thirty days, and pick Total, rolling window, thirty days."
+      },
+      {
+       "t": 27,
+       "text": "Step three lists the order statuses. Only orders in the ticked statuses are added up: here Processing, Completed and On hold. Pending payment and cancelled orders are ignored."
+      },
+      {
+       "t": 40,
+       "text": "The summary lists them. Save."
+      },
+      {
+       "t": 49,
+       "text": "The Mountain fox cushion, maximum three, uses it."
+      },
+      {
+       "t": 72,
+       "text": "Demo ordered two, five days ago, but that order is still Pending payment. It does not count, so the maximum is still three."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tools",
+   "title": "Templates, CSV and log",
+   "file": "tools.html",
+   "pages": [
+    {
+     "slug": "rule-templates",
+     "title": "Rule templates",
+     "file": "rule-templates.html",
+     "lead": "Save a set of limits once, apply it to any product.",
+     "video": {
+      "yt": "0_Hok5HxVnE",
+      "len": "1:14",
+      "clip": "31-rule-templates"
+     },
+     "intro": "In this video: rule templates. A set of limits with a name, applied to a product in one pick.",
+     "steps": [
+      {
+       "t": 9,
+       "text": "Open the Rule Templates tab. A template is a set of Min, Max, Multiple and Amount values with a name."
+      },
+      {
+       "t": 17,
+       "text": "For example: Pack of ten. Minimum ten, maximum fifty, in multiples of ten."
+      },
+      {
+       "t": 30,
+       "text": "Click Save. The template appears in the list. You can delete it here at any time."
+      },
+      {
+       "t": 40,
+       "text": "On the Quantity and Amount Rule tab, every row now has a template picker."
+      },
+      {
+       "t": 49,
+       "text": "Pick Pack of ten for the Mountain fox notebook, and the row is filled in with the template values and saved."
+      },
+      {
+       "t": 64,
+       "text": "On the product page, the notebook now starts at ten, and is sold in tens, up to fifty."
+      }
+     ]
+    },
+    {
+     "slug": "export-and-import",
+     "title": "Export and import (CSV)",
+     "file": "export-and-import.html",
+     "lead": "Back up your rules, edit them in a spreadsheet, or move them to another shop.",
+     "video": {
+      "yt": "3dSSAb4TFfE",
+      "len": "1:07",
+      "clip": "32-export-import"
+     },
+     "intro": "In this video: exporting your rules to a CSV file, and importing rules from one.",
+     "steps": [
+      {
+       "t": 9,
+       "text": "Open the Export and Import tab. Export Rules downloads every rule you have saved as a CSV file."
+      },
+      {
+       "t": 17,
+       "text": "Each line is one rule: the level, the product or term, the limits, the duration rule, the role, the customer and the status. You can edit it in any spreadsheet."
+      },
+      {
+       "t": 29,
+       "text": "To import, choose a CSV file in the same layout, or drag it onto the box. This one sets a minimum of two and a maximum of ten on two mugs, plus one line with a product that does not exist."
+      },
+      {
+       "t": 43,
+       "text": "Click Import Rules. Every line is checked like a rule typed by hand. Good lines are saved, bad ones are skipped and reported."
+      },
+      {
+       "t": 55,
+       "text": "The mugs now have their new rules. A rule that already exists for a product is updated, never duplicated."
+      }
+     ]
+    },
+    {
+     "slug": "blocked-attempts",
+     "title": "Blocked attempts log",
+     "file": "blocked-attempts.html",
+     "lead": "See when and how your rules stopped a customer.",
+     "video": {
+      "yt": "qVPUAUF4JU4",
+      "len": "1:17",
+      "clip": "33-blocked-attempts"
+     },
+     "intro": "In this video: the Blocked Attempts log.",
+     "steps": [
+      {
+       "t": 12,
+       "text": "A customer has five Mountain fox cushions in the cart, where the maximum is five, and tries to add two more. The shop refuses."
+      },
+      {
+       "t": 34,
+       "text": "Then they add one notebook, below its minimum amount, and the cart shows the message."
+      },
+      {
+       "t": 49,
+       "text": "On the Blocked Attempts tab, the attempts are listed, newest first. It keeps the last fifty."
+      },
+      {
+       "t": 57,
+       "text": "Each line shows the date, what happened, the customer, and the exact message they saw. What happened tells you whether a message was shown, or whether adding to cart or the order itself was stopped."
+      },
+      {
+       "t": 69,
+       "text": "Clear Log empties the list when you no longer need it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "messages-and-storefront",
+   "title": "Messages and storefront",
+   "file": "messages-and-storefront.html",
+   "pages": [
+    {
+     "slug": "customer-messages",
+     "title": "Customer messages",
+     "file": "customer-messages.html",
+     "lead": "Write the messages your customers see in your own words.",
+     "video": {
+      "yt": "2NnyXbTvxV4",
+      "len": "1:29",
+      "clip": "34-messages"
+     },
+     "intro": "In this video: the messages customers see when a rule stops them, and how to write your own.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "Open Configuration, then Messages. On the left, pick the level: standard product, variation, category, brand, tag, user role or global."
+      },
+      {
+       "t": 22,
+       "text": "At the top, pick the language you are editing."
+      },
+      {
+       "t": 26,
+       "text": "Each message has a field, with the wording that comes with the plugin."
+      },
+      {
+       "t": 31,
+       "text": "Type your own wording. Placeholders in curly brackets, like QTY and NAME, are replaced with the real values. The preview below shows the result straight away."
+      },
+      {
+       "t": 50,
+       "text": "In the shop, the customer now sees your wording."
+      },
+      {
+       "t": 75,
+       "text": "Restore default goes back to the wording that comes with the plugin. Write with AI, above, can write every message of a language for you in one go."
+      }
+     ]
+    },
+    {
+     "slug": "pack-price-message-and-position",
+     "title": "Pack price message and position",
+     "file": "pack-price-message-and-position.html",
+     "lead": "Show the price of one pack next to the product price.",
+     "video": {
+      "yt": "nC44_T5UpXE",
+      "len": "1:14",
+      "clip": "35-pack-price"
+     },
+     "intro": "In this video: the pack price message, and where it is shown.",
+     "steps": [
+      {
+       "t": 13,
+       "text": "The Mountain fox notebook is sold in packs of three, so the product page shows the price of one pack after the price."
+      },
+      {
+       "t": 26,
+       "text": "On Configuration, Advanced, Product Position switches it on or off for the product page, and Position places it before or after the price."
+      },
+      {
+       "t": 37,
+       "text": "We pick Before the price."
+      },
+      {
+       "t": 47,
+       "text": "Now the pack price is shown above the price."
+      },
+      {
+       "t": 57,
+       "text": "Product List Position does the same in the shop, category and related product lists, so customers see the pack size before they open the product. The wording itself is on the Messages tab, under Shop pages."
+      }
+     ]
+    },
+    {
+     "slug": "product-page-information",
+     "title": "Product page information",
+     "file": "product-page-information.html",
+     "lead": "Tell customers the limits before they add to cart.",
+     "video": {
+      "yt": "Ji-RJghjpX8",
+      "len": "1:15",
+      "clip": "36-product-page-info"
+     },
+     "intro": "In this video: the information line on the product page.",
+     "steps": [
+      {
+       "t": 13,
+       "text": "Above the add to cart button, the Mountain fox cushion tells the customer: minimum order two, maximum order eight."
+      },
+      {
+       "t": 27,
+       "text": "This is set on Configuration, Advanced. A rule that adds up a whole category, brand, tag or role is not shown on each product."
+      },
+      {
+       "t": 37,
+       "text": "Disable it,"
+      },
+      {
+       "t": 48,
+       "text": "and the line is gone. The limits still apply, the customer just is not told in advance."
+      },
+      {
+       "t": 61,
+       "text": "Enable it again. The wording of each line is on the Messages tab, under Shop pages: minimum, maximum, allowed quantities, and limit used up."
+      }
+     ]
+    },
+    {
+     "slug": "checkout-protection",
+     "title": "Checkout protection",
+     "file": "checkout-protection.html",
+     "lead": "A cart that breaks a rule can never become an order.",
+     "video": {
+      "yt": "amZYjLSWjZE",
+      "len": "1:07",
+      "clip": "37-checkout-protection"
+     },
+     "intro": "In this video: checkout protection.",
+     "steps": [
+      {
+       "t": 7,
+       "text": "Checkout protection is on Configuration, Advanced. WooCommerce checks the cart again before any payment method creates the order, so every checkout is protected. No payment method list is needed."
+      },
+      {
+       "t": 20,
+       "text": "Proceed to checkout button disables that button on the classic cart page while a rule is broken, and shows a note next to it. This shop uses the block cart, where the checkout page itself refuses the order."
+      },
+      {
+       "t": 46,
+       "text": "Here the Mountain fox notebook needs thirty dollars, and the cart has twelve ninety."
+      },
+      {
+       "t": 52,
+       "text": "When the customer goes on to checkout, the checkout page checks the rules first and shows the message. So a broken cart can never become an order."
+      }
+     ]
+    },
+    {
+     "slug": "custom-css",
+     "title": "Custom CSS",
+     "file": "custom-css.html",
+     "lead": "Fit the plugin’s messages to your theme.",
+     "video": {
+      "yt": "j1_VcuNp1SQ",
+      "len": "0:55",
+      "clip": "38-custom-css"
+     },
+     "intro": "In this video: the Custom CSS box.",
+     "steps": [
+      {
+       "t": 12,
+       "text": "This is the product page information line in its default look."
+      },
+      {
+       "t": 22,
+       "text": "On Configuration, Advanced, the Custom CSS box takes your own CSS. It is loaded after the plugin’s own styles."
+      },
+      {
+       "t": 31,
+       "text": "For example, give the information line an orange background and a border."
+      },
+      {
+       "t": 48,
+       "text": "The product page now shows it in your style."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ai-assistant",
+   "title": "AI Assistant",
+   "file": "ai-assistant.html",
+   "pages": [
+    {
+     "slug": "ai-assistant-rules",
+     "title": "AI Assistant: describe your rules",
+     "file": "ai-assistant-rules.html",
+     "lead": "Describe your limits in your own words; the AI builds the rules.",
+     "video": {
+      "yt": "yOJUSWsljxc",
+      "len": "1:12",
+      "clip": "39-ai-assistant"
+     },
+     "intro": "In this video: the AI Assistant. Describe your limits in plain words, check the rules it builds, and apply them.",
+     "steps": [
+      {
+       "t": 10,
+       "text": "Open the AI Assistant tab. Above it you see how many AI answers are left in your plan."
+      },
+      {
+       "t": 17,
+       "text": "Describe your limits in your own words. Here: the Mountain fox notebook in packs of three, from three to twelve, and every order at least twenty five dollars."
+      },
+      {
+       "t": 28,
+       "text": "Click Build rules. After a moment the AI shows the rules it would create, one per line, in plain words. Nothing is saved yet."
+      },
+      {
+       "t": 38,
+       "text": "Untick any line you do not want, and click Apply. The rules are saved, checked like rules typed by hand."
+      },
+      {
+       "t": 48,
+       "text": "On the rule table, the notebook now has its minimum, maximum and pack size."
+      },
+      {
+       "t": 60,
+       "text": "Check my rules reads all your rules and explains overlaps, contradictions and rules that can never apply, in plain words."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "free-and-pro",
+   "title": "Free and Pro",
+   "file": "free-and-pro.html"
+  },
+  {
+   "slug": "uninstall-and-delete",
+   "title": "Deactivate and delete",
+   "file": "uninstall-and-delete.html",
+   "lead": "Switch the plugin off, or remove it with its rules.",
+   "video": {
+    "yt": "sCYRqpBxGco",
+    "len": "1:22",
+    "clip": "02-uninstall"
+   },
+   "intro": "In this video: deactivating ILM Min Max Multiple Order Quantity, and deleting it completely.",
+   "steps": [
+    {
+     "t": 10,
+     "text": "Deleting the plugin deletes all rules and settings. To keep them, export your rules first on the Export and Import tab."
+    },
+    {
+     "t": 19,
+     "text": "Then open Plugins. Start with the Pro add-on."
+    },
+    {
+     "t": 26,
+     "text": "Click Deactivate. Pro is off, and your rules stay as they are. Deactivate only, if you just want to switch it off for a while."
+    },
+    {
+     "t": 38,
+     "text": "Deactivate the free plugin too. The shop no longer checks any limit, but nothing is deleted yet."
+    },
+    {
+     "t": 50,
+     "text": "Delete removes a plugin with its files. Delete the Pro add-on first: WordPress keeps the free plugin until the add-on that needs it is gone."
+    },
+    {
+     "t": 60,
+     "text": "Click Delete and confirm. The Pro add-on is deleted."
+    },
+    {
+     "t": 68,
+     "text": "Reload the Plugins page, then delete the free plugin. This also deletes its rules and settings. To use it again, install it as shown in the install video."
+    }
+   ]
+  }
+ ]
+}

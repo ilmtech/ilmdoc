@@ -1,0 +1,20 @@
+<p>Move Quantity/Amount rules between shops, or keep a backup, using a CSV file.</p>
+<img class="shot" src="assets/05_export_import.png">
+<ul class="legend">
+  <li><b>Export Rules (CSV)</b> &mdash; downloads every saved rule as a CSV file.</li>
+  <li><b>Import Rules (CSV)</b> &mdash; uploads a CSV in the same column layout Export produces. Every row is validated the same way a rule saved by hand is; bad rows are skipped and reported. Existing rules for a matching product are overwritten, not duplicated.</li>
+</ul>
+<table class="fieldtable">
+  <tr><th>Column</th><th>Content</th></tr>
+  <tr><td><code>id_product</code></td><td>The product id, or the category, brand, supplier or customer group id on those levels.</td></tr>
+  <tr><td><code>id_product_attribute</code></td><td>The combination id, 0 for the product as a whole.</td></tr>
+  <tr><td><code>ilmruletype</code></td><td>1 Product, 2 Category, 3 Brand, 4 Supplier, 5 Customer Group.</td></tr>
+  <tr><td><code>ilmmin</code>, <code>ilmmax</code>, <code>ilmgroup</code>, <code>ilmminamt</code>, <code>ilmmaxamt</code>, <code>ilmlimitmult</code></td><td>Min Qty, Max Qty, Multiple Qty, Min Amt, Max Amt, Limit Mult Qty.</td></tr>
+  <tr><td><code>ilmonetime</code></td><td>The Duration Rule id (1 when empty).</td></tr>
+  <tr><td><code>id_shop</code>, <code>id_group</code></td><td>Shop and customer group the rule is for, 0 for all.</td></tr>
+  <tr><td><code>id_customer</code></td><td>The customer the rule is for, 0 for everyone. Optional.</td></tr>
+  <tr><td><code>ilmallowed</code></td><td>Allowed quantities, e.g. <code>6,12,24</code>. Optional.</td></tr>
+  <tr><td><code>ilmconditions</code></td><td>The conditions, as exported. Optional.</td></tr>
+  <tr><td><code>status</code></td><td>1 on, 0 off. Optional: without it, an existing rule keeps its status and a new one is on. Import a file with <code>status</code> set to 0 to switch many rules off at once.</td></tr>
+</table>
+<p>The optional columns came with version 5.2.1, so a file exported by an earlier version still imports. Rows without any limit are not exported.</p>

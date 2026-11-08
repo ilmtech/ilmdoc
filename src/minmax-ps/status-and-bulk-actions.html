@@ -1,0 +1,12 @@
+<p>The <b>Status</b> column says what the cart does with each rule right now:</p>
+<table class="fieldtable">
+  <tr><th>Status</th><th>Meaning</th></tr>
+  <tr><td><b>Active</b> (green)</td><td>The cart applies the rule now. If its Duration Rule has an end date, it is shown below as <i>Until &lt;date&gt;</i>.</td></tr>
+  <tr><td><b>Scheduled</b> (blue)</td><td>Its Duration Rule starts later (<i>Starts &lt;date&gt;</i>). Until then the next rule in line applies.</td></tr>
+  <tr><td><b>Expired</b> (amber)</td><td>Its Duration Rule has ended (<i>Ended &lt;date&gt;</i>), so the rule no longer applies. Edit the Duration Rule to set new dates.</td></tr>
+  <tr><td><b>Off</b> (grey)</td><td>Switched off in this table. The cart ignores the rule, but its values are kept, so switching it back on restores it exactly.</td></tr>
+</table>
+<p>Use the switch in the Status column to turn one rule off or on. Editing a rule that is off keeps it off. Tick the boxes in the first column (or the box in the header, for every row on the page) to <b>Switch on</b>, <b>Switch off</b> or <b>Delete</b> several rules at once from the bar above the table. Deleting asks for confirmation and cannot be undone.</p>
+<img class="shot" src="assets/13_status_bulk.png">
+<p class="caption">Rules in each state, with two rows ticked for a bulk action.</p>
+<p class="note">If a rule's Duration Rule is switched off or deleted, the rule stays Active and applies to every order; an &#9432; icon next to Active says so.</p>

@@ -1,0 +1,16 @@
+<p>The <b>Configuration</b> tab has three sub-tabs: <b>General</b>, <b>Messages</b> and <b>Advanced</b>. On <b>General</b>, each switch adds its own column to the Quantity/Amount Rule table, and the value next to it is the shop-wide (Global) default, used until a more specific rule overrides it.</p>
+<img class="shot" src="assets/07a_config_general_top.png">
+<table class="fieldtable">
+  <tr><th>Setting</th><th>What it does</th></tr>
+  <tr><td>Minimum Quantity</td><td>Customers must order at least this many units of a product.</td></tr>
+  <tr><td>Maximum Quantity</td><td>Customers cannot order more than this many units of a product.</td></tr>
+  <tr><td>Multiplies of Quantity</td><td>Customers must order in packs of this size, e.g. 3, 6, 9 with a value of 3.</td></tr>
+  <tr><td>Limit Multiple Quantity</td><td>Above this quantity, the pack rule stops applying and single units are allowed again.</td></tr>
+  <tr><td>Start from the minimum</td><td>Part of Multiplies of Quantity. <b>Enabled</b>: steps count from the Minimum Quantity, so a minimum of 5 with steps of 2 allows 5, 7, 9&hellip; <b>Disabled</b>: 6, 8, 10 (multiples of 2 from the minimum up).</td></tr>
+  <tr><td>Minimum Amount</td><td>Customers must spend at least this much on the product (or on the category, brand, supplier or group, for those levels).</td></tr>
+  <tr><td>Maximum Amount</td><td>Customers cannot spend more than this much. Amount and quantity limits can be used together on the same rule.</td></tr>
+  <tr><td>Amounts include tax</td><td>Measures Minimum and Maximum Amount with tax, in the cart and in past orders. Off: without tax. Amounts are set in the shop's default currency and converted for shoppers who pay in another one.</td></tr>
+  <tr><td>Allowed Quantities</td><td>Adds the Allowed Qty column. Its Global value (e.g. <code>6,12,24</code>) is the Global rule's value, used like the other Global values when no more specific rule matches.</td></tr>
+  <tr><td>Different products per order</td><td>How many different products one order must hold (Minimum) and may hold (Maximum), whatever their quantities; 0 means no limit. <b>Per combination</b>: two combinations of one product count as two.</td></tr>
+  <tr><td>Auto Save</td><td>Saves a change to any field in the rule table straight away, with no Save click.</td></tr>
+</table>

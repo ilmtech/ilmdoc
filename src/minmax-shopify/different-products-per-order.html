@@ -1,0 +1,15 @@
+<p>This lesson is about limiting how many different products a single order can contain, no matter how many units of each one the shopper buys. It is a simple way to keep one order from turning into a mixed basket of many unrelated items. In our example, the store allows at most two different products per order. We will see the setting, then watch a shopper try to add a third product and get stopped.</p>
+<ol class="steps">
+<li><p>We start in the app's Configuration area, on the General page. Scroll down to the card called Different products per order. This is the section that controls the limit on how many distinct products can sit in one cart.</p>
+<img class="shot" src="assets/different-products-per-order-1.jpg" alt="Different products per order, step 1"></li>
+<li><p>In the Maximum field we type two. That means an order may hold up to two different products. There is also a Minimum field here, which works the same way in reverse: leave it empty and there is no lower limit, so a shopper can buy just one product. We leave it empty for now.</p>
+<img class="shot" src="assets/different-products-per-order-2.jpg" alt="Different products per order, step 2"></li>
+<li><p>Now we move to the storefront. The cart already contains a Classic Cotton T-shirt and a Baseball Cap, which is two different products. The shopper opens the Ceramic Coffee Mug page and clicks Add to cart to try for a third.</p>
+<img class="shot" src="assets/different-products-per-order-3.jpg" alt="Different products per order, step 3"></li>
+<li><p>Shopify refuses the add. An error appears on the product page explaining that a third different product is not allowed. The cart keeps its two products, the T-shirt and the Baseball Cap, and nothing is lost.</p>
+<img class="shot" src="assets/different-products-per-order-4.jpg" alt="Different products per order, step 4"></li>
+<li><p>Back in Configuration, we look at the Per combination option. When this is on, every variant counts as its own product, so a hoodie in size small and the same hoodie in size medium are treated as two separate products. We click Enable to turn it on.</p>
+<img class="shot" src="assets/different-products-per-order-5.jpg" alt="Different products per order, step 5"></li>
+<li><p>To test it, the cart holds a Classic Cotton T-shirt and an Everyday Hoodie in size small, which is two products. The shopper opens the Everyday Hoodie page again and adds size medium. Because Per combination is on, that variant counts as a third product, so the add is refused and the error appears again.</p>
+<img class="shot" src="assets/different-products-per-order-6.jpg" alt="Different products per order, step 6"></li>
+</ol>
