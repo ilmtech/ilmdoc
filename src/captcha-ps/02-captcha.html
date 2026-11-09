@@ -1,0 +1,24 @@
+<h1>Choose the captcha</h1>
+<p>Pick the check visitors see: the built-in ILM Captcha, a picture, or Turnstile, reCAPTCHA or hCaptcha with your keys.</p>
+<img class="shot" src="assets/02_captcha-v2.png" alt="The Captcha tab with the challenge types">
+<h3 class="sub">2.1 Protection</h3>
+<p>Enable or Disable turns the whole module on or off for this shop.</p>
+<h3 class="sub">2.2 Challenge shown to visitors</h3>
+<ul class="legend">
+<li><b>ILM Captcha (built-in)</b>: the visitor's browser solves a small puzzle in the background. No picture, no keys, no cookie and no outside service. Works with a keyboard and screen readers. Recommended.</li>
+<li><b>Cloudflare Turnstile</b>: free, usually invisible. Needs a site key and a secret key.</li>
+<li><b>Google reCAPTCHA</b>: v2 checkbox, v2 invisible or v3 score. Google gives 10,000 free checks a month per Google Cloud organisation and bills above that.</li>
+<li><b>hCaptcha</b>: checkbox or invisible. On the free plan visitors often get a picture puzzle.</li>
+<li><b>Math, Text and Icon captcha</b>: a sum or characters drawn as a picture, or an icon to click. No keys.</li>
+<li><b>No visible check</b>: only the hidden checks, the filters and the limits.</li>
+</ul>
+<h3 class="sub">2.3 ILM Captcha settings</h3>
+<p><b>Behaviour</b>: Automatic solves the puzzle while the visitor fills the form (the box appears only then). Checkbox shows an "I am not a robot" box. <b>Strength</b>: Medium takes about one second; use High during heavy spam.</p>
+<h3 class="sub">2.4 Keys for Turnstile, reCAPTCHA and hCaptcha</h3>
+<p>Each provider has a link to its key page. Create the keys for your shop domain and paste the site key and the secret key. reCAPTCHA has one pair of keys per type. For reCAPTCHA v3, Lowest score accepted is 0.5 by default; a higher value stops more bots and some people.</p>
+<img class="shot shot-narrow" src="assets/02b_turnstile_keys-v2.png" alt="Turnstile keys">
+<h3 class="sub">2.5 Look</h3>
+<p><b>Theme</b> light, dark or follow the device. <b>Size</b> normal or compact. <b>Place in the form</b>: above the send button or under the e-mail field. <b>Language of online widgets</b>: shop or browser language. The preview shows the built-in challenges.</p>
+<img class="shot shot-narrow" src="assets/02d_look_preview-v2.png" alt="Look settings and preview">
+<h3 class="sub">2.6 When an online service fails</h3>
+<p><b>Switch to ILM Captcha</b>: when Turnstile, reCAPTCHA or hCaptcha cannot load in the browser (ad blocker, outage), the built-in check is shown, so your forms keep working. <b>When the server cannot reach the service</b>: refuse the form (safest) or accept it and let the other checks run.</p>

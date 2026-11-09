@@ -1,21 +1,16 @@
-<h1>Choose the forms to protect</h1>
-
-<h3 class="sub">3.1 The Forms tab</h3>
-<p>Open the Forms tab to see the list of your store forms. Each row has switches for the checks you can turn on for that form.</p>
-<img class="shot" src="assets/forms.png" alt="Form selection with switches for each form">
-
-<h3 class="sub">3.2 The switches</h3>
-<ul class="legend">
-<li><b>Validate Captcha</b>: asks the visitor to solve the captcha before the form is sent.</li>
-<li><b>Validate Email</b>: checks the email address used in the form.</li>
-<li><b>Validate Message</b>: checks the message text in the form.</li>
-</ul>
-<p>Some forms do not have an email or message field, so those switches do not appear for them.</p>
-
-<h3 class="sub">3.3 Save your choices</h3>
-<ol class="steps">
-<li>Turn on the switches for the forms you want to protect.</li>
-<li>Click Save at the bottom of the tab.</li>
-</ol>
-
-<div class="note"><b>Hummingbird theme</b> On the Hummingbird theme, leave the contact form and the product review form off. Use an online captcha (reCAPTCHA or Turnstile) on the other forms.</div>
+<h1>Choose the forms</h1>
+<p>Turn each shop form on or off, choose its layers, and protect forms of your theme, page builder or other modules.</p>
+<img class="shot" src="assets/03_forms-v2.png" alt="The Forms tab with the protected forms and their layers">
+<h3 class="sub">3.1 Protected forms</h3>
+<p>Each form has Enable / Disable and four layers: <b>Captcha</b>, <b>Honeypot</b> (hidden checks), <b>E-mail check</b> and <b>Text check</b>. The forms are: Contact form, Create an account, Log in, Forgot your password, Checkout (account and guest), Newsletter, Product review and Back in stock alert.</p>
+<p>Choosing a new password from the reset link is never checked, so customers can always finish a password reset.</p>
+<h3 class="sub">3.2 Honeypot and fill time</h3>
+<p>A hidden field that only bots fill, and a minimum time between opening the page and sending (3 seconds by default). <b>Refuse posts without the browser check</b> stops bots that send the form without opening the page.</p>
+<h3 class="sub">3.3 Texts for visitors</h3>
+<p>Optional: the message when the check is not passed, and a help text under the check of each form, in every language.</p>
+<h3 class="sub">3.4 Other forms (themes, page builders, modules)</h3>
+<p>Protect any other form: give its CSS selector (where the check is placed) and the name of a field the form always sends (checked on the server). Page is optional, for example contact or module:controller. Example for a page builder contact form: selector .elementor-form, posted field form_fields[email].</p>
+<h3 class="sub">3.5 What visitors see</h3>
+<img class="shot shot-narrow" src="assets/10_shop_contact-v2.png" alt="Contact form with the ILM Captcha verified">
+<p>When a send is refused, the form is shown again with the visitor's text kept and the reason under the check.</p>
+<img class="shot shot-narrow" src="assets/16_refused-v2.png" alt="A refused send with the reason under the check">

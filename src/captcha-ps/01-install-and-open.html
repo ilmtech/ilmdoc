@@ -1,17 +1,17 @@
 <h1>Install and open the module</h1>
-
-<h3 class="sub">1.1 Install the module</h3>
-<ol class="steps">
-<li>In your PrestaShop back office, go to Modules and open the Module Manager.</li>
-<li>Click Upload a module and choose the module zip file.</li>
-<li>Wait for the install to finish.</li>
-</ol>
-
-<h3 class="sub">1.2 Open the settings</h3>
-<ol class="steps">
-<li>Find All In One Captcha - Anti Spam Email &amp; Message in your module list.</li>
-<li>Click Configure.</li>
-<li>The module opens on the Settings tab. The other tabs are Forms, Protect and Logs.</li>
-</ol>
-
-<div class="note"><b>Tip</b> The module works on PrestaShop 1.7 and newer.</div>
+<h3 class="sub">1.1 Install</h3>
+<ol class="steps"><li>Go to Modules &gt; Module Manager.</li><li>Click Upload a module and choose the module zip file.</li><li>Click Configure when the module is installed.</li></ol>
+<p>The module works at once: the built-in ILM Captcha protects the contact, account, password, checkout, newsletter, review and back-in-stock forms. Log in is not protected until you turn it on.</p>
+<h3 class="sub">1.2 Update from version 1.x</h3>
+<p>Upload the new zip over the old module. Your settings are kept: captcha type and keys, protected forms, banned e-mails and domains, blocked words, IP lists, attempt limits and log settings. Motion and Shuffled captchas no longer exist; shops that used them get the built-in ILM Captcha.</p>
+<h3 class="sub">1.3 The settings page</h3>
+<p>The tabs are Dashboard, Captcha, Forms, Spam filters, Access &amp; limits, Accounts, Logs and Help. Click Save at the top right to keep your changes. Settings are saved per shop.</p>
+<p>If your shop has several languages, use the Texts in list to write the visitor texts for each language.</p>
+<img class="shot" src="assets/01_dashboard-v2.png" alt="The Dashboard tab with blocked and passed sends per day">
+<h3 class="sub">1.4 Dashboard</h3>
+<ul class="legend">
+<li><b>Spam blocked</b> and <b>Real visitors passed</b>: sends in the chosen period (7, 30 or 90 days).</li>
+<li><b>Chart</b>: blocked and passed sends per day.</li>
+<li><b>By form</b> and <b>Why it was blocked</b>: which forms get spam and which check stopped it.</li>
+<li><b>Most blocked IP addresses</b>: click Block to refuse an address from now on. <b>Locked after failed attempts</b>: click Unlock to free an address at once.</li>
+</ul>

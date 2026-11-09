@@ -1,0 +1,11 @@
+<h1>Access and limits</h1>
+<p>Allow or refuse IP addresses and countries, trust logged-in customers and employees, and limit how often one address can send.</p>
+<img class="shot" src="assets/05_access-v2.png" alt="The Access and limits tab">
+<h3 class="sub">5.1 IP addresses</h3>
+<p>One per line: 203.0.113.7, 203.0.113.* or 203.0.113.0/24 (IPv6 too). <b>Never checked</b> is for your office and testers; Add my IP adds the address you use now. <b>Always refused</b> blocks the forms, or every page when <b>Block refused IPs on the whole shop</b> is on.</p>
+<h3 class="sub">5.2 Countries</h3>
+<p>Refuse forms sent from chosen countries. The country is known behind Cloudflare, or with the GeoLite2 database of PrestaShop (International &gt; Localization &gt; Geolocation).</p>
+<h3 class="sub">5.3 Trusted visitors</h3>
+<p>No check for logged-in customers, and no check for logged-in employees (turn it off to see what visitors see while you test).</p>
+<h3 class="sub">5.4 Rate limits</h3>
+<p><b>Sends of one form by one IP</b> within a number of minutes (0 = no limit). <b>Lock an IP after failures</b>: after that many refused sends within the minutes set, the address is locked for the time set. Locked addresses are listed on the Dashboard with an Unlock button.</p>

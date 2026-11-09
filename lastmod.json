@@ -4,32 +4,44 @@
 "h": "40992e852f90510905ff7bfde3b595224e4d5cb0"
 },
 "/prestashop/all-in-one-captcha/": {
-"d": "2026-11-07",
-"h": "f879f649005ce128cacfbdb369d8f3085421a893"
+"d": "2026-11-09",
+"h": "53d8f5e8452b33adac05941dc608dbe76cac19d8"
 },
-"/prestashop/all-in-one-captcha/captcha-types/": {
-"d": "2026-11-07",
-"h": "2256b5fb925c9005aaea01ac780e0f21f6dcac74"
+"/prestashop/all-in-one-captcha/access-limits/": {
+"d": "2026-11-09",
+"h": "1df803d524bbabf77a83ba8da3ef0b79f9b520dc"
+},
+"/prestashop/all-in-one-captcha/accounts/": {
+"d": "2026-11-09",
+"h": "c0bca4661e68d4ea5aa4a8ed9f315b49389cb2ca"
+},
+"/prestashop/all-in-one-captcha/captcha/": {
+"d": "2026-11-09",
+"h": "7cfbf39b05fe94c33c1e03358e620cb96bd8fc4b"
 },
 "/prestashop/all-in-one-captcha/forms/": {
-"d": "2026-11-07",
-"h": "cd9b88485715a01bbc2ab9378e8099838c52bd79"
+"d": "2026-11-09",
+"h": "c3f2783f9990fa25c9d4683a4d3cf9d5e64b016b"
+},
+"/prestashop/all-in-one-captcha/help/": {
+"d": "2026-11-09",
+"h": "83688e9a30f951444698d681c3bb739aaca7e8cc"
 },
 "/prestashop/all-in-one-captcha/install-and-open/": {
-"d": "2026-11-07",
-"h": "a7ca7d4cb835d46ba27bf13ec03654d4e5f5544b"
+"d": "2026-11-09",
+"h": "bc1b67f3c594a5d61e103d7e42536b409e43a94d"
 },
 "/prestashop/all-in-one-captcha/logs/": {
-"d": "2026-11-07",
-"h": "4c867ae437d5a9e06d8249418651c07d84cde3d9"
+"d": "2026-11-09",
+"h": "813a3d12341659af87230769c866a8f3bfee57e2"
 },
-"/prestashop/all-in-one-captcha/protect/": {
-"d": "2026-11-07",
-"h": "852e9a1dcac068b6c5cd865d6d553db16fb05824"
+"/prestashop/all-in-one-captcha/spam-filters/": {
+"d": "2026-11-09",
+"h": "128fd9b97a038227af78ffe1eca4d279b2e9ee7c"
 },
 "/prestashop/all-in-one-captcha/uninstall/": {
-"d": "2026-11-07",
-"h": "ff6ea52cd24a79953d693847acf61f2f53725f09"
+"d": "2026-11-09",
+"h": "55ae9121c46e0805f6a2d1528990435716fca1db"
 },
 "/prestashop/ilm-ai-chat/": {
 "d": "2026-11-06",
@@ -880,16 +892,16 @@
 "h": "3c83a3b35deaaf211b5152aa3c552f7a092213e3"
 },
 "/wordpress/ilm-min-max-order-qty-amount/free-and-pro/": {
-"d": "2026-11-06",
-"h": "d3bcc655e1e26330ebd5a162b6ae3082e19c9ea5"
+"d": "2026-11-08",
+"h": "63ac88a246e0c9a92f2f2553cd678eeec2ab30e5"
 },
 "/wordpress/ilm-min-max-order-qty-amount/getting-started/": {
 "d": "2026-11-06",
 "h": "5d65646e192be404917f155fe17bab734d63f701"
 },
 "/wordpress/ilm-min-max-order-qty-amount/getting-started/install-and-activate/": {
-"d": "2026-11-06",
-"h": "90d3271c67147b59845ac44a8df02dd65fda0b2d"
+"d": "2026-11-08",
+"h": "f77904ba35bfc0db86a6de260077a64c9e38d42a"
 },
 "/wordpress/ilm-min-max-order-qty-amount/messages-and-storefront/": {
 "d": "2026-11-06",
@@ -984,8 +996,8 @@
 "h": "6ee968e2c92869c4f85dabf0275b887f9efb5528"
 },
 "/wordpress/ilm-size-chart-for-woocommerce/": {
-"d": "2026-11-06",
-"h": "f43afce3bbcd3b5527f9553c0076fb7a103bbca3"
+"d": "2026-11-08",
+"h": "8f1b277bff34929285e5629d102371acd8decb84"
 },
 "/wordpress/ilm-size-chart-for-woocommerce/designer/": {
 "d": "2026-11-06",
@@ -1156,8 +1168,8 @@
 "h": "992bd2429473150df3730ec430af7f9a8bd1f052"
 },
 "/wordpress/ilm-size-chart-pro/installation-and-licence/": {
-"d": "2026-11-06",
-"h": "d8ca07dc8a0a2c0da2d4ac184fc42d66b5562812"
+"d": "2026-11-08",
+"h": "fa17f545ed45d327841d6ceaacb045dd875d7e85"
 },
 "/wordpress/ilm-size-chart-pro/privacy-and-services/": {
 "d": "2026-11-06",

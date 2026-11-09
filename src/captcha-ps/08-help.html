@@ -1,0 +1,9 @@
+<h1>Daily task and developers</h1>
+<p>The daily task address, the hook and the JavaScript call for developers, and what to do if a form still gets spam.</p>
+<img class="shot" src="assets/08_help-v2.png" alt="The Help tab">
+<h3 class="sub">8.1 Daily task</h3>
+<p>Optional but recommended: copy the address on the Help tab into a cron job of your hosting, once a day. It empties old log rows, deletes unconfirmed accounts when that option is on and refreshes the disposable e-mail list every week.</p>
+<h3 class="sub">8.2 For developers</h3>
+<p>Place the check in a custom template with {hook h='displayIlmCaptcha' form='contact'}. Protect a form added by JavaScript with IlmCaptcha.protect(element, 'contact'). Every answer is good for one send only.</p>
+<h3 class="sub">8.3 A form still gets spam?</h3>
+<p>Open the Logs tab with Every send logged. If the spam is not listed, the form is not protected yet: add it under Forms &gt; Other forms, or contact us.</p>

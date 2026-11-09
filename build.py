@@ -36,7 +36,7 @@ PROJECTS = HERE.parents[3]  # /home/asha/projects
 PS = PROJECTS / 'prestashop' / 'modules'
 SITE = 'https://doc.ilmtech.in'
 MODIFIED = '@@MODIFIED@@'  # replaced after the build: the date the article text last changed (lastmod.json)
-VERSION = '2.11.0'  # css/js cache buster
+VERSION = '2.11.1'  # css/js cache buster
 # the store's AI chat on every docs page (module ilmaichat, "Show the chat on other sites"); '' = off.
 # ILM_CHAT_EMBED overrides it for a local test.
 CHAT_EMBED = os.environ.get('ILM_CHAT_EMBED', 'https://ilmtech.in/module/ilmaichat/embed')
@@ -105,13 +105,13 @@ GUIDES = [
     },
     {
         'key': 'captcha-ps', 'platform': 'prestashop', 'alias': 'all-in-one-captcha',
-        'title': 'All In One Captcha for PrestaShop',
+        'title': 'ILM All In One Captcha - Anti-Spam for PrestaShop',
         'menu_title': 'All In One Captcha',
-        'note': 'Captcha and spam blocking for your forms',
+        'note': 'Captcha, spam filters and fake account protection',
         'src': HERE / 'src' / 'captcha-ps',
-        'lead': 'Add an online or offline captcha to your store forms, block IP addresses, e-mail addresses and words, and see a log of every check.',
-        'facts': [('fa-solid fa-tag', 'Version 1.0.8'), ('fa-solid fa-cart-shopping', 'PrestaShop 1.7 or newer'),
-                  ('fa-solid fa-shield-halved', '8 captcha types')],
+        'lead': 'Stop spam and fake accounts on every PrestaShop form: a captcha checked on your server (built-in, Turnstile, reCAPTCHA, hCaptcha), hidden checks, e-mail and text filters, IP and country rules, rate limits and e-mail confirmation of new accounts.',
+        'facts': [('fa-solid fa-tag', 'Version 2.0.0'), ('fa-solid fa-cart-shopping', 'PrestaShop 1.7.1 to 9.x'),
+                  ('fa-brands fa-php', 'PHP 7.1 to 8.5'), ('fa-solid fa-shield-halved', '8 forms + any other form')],
         'actions': [('Live demo', 'https://demo.ilmtech.in/ps_ondru/?module=ilmcaptcha', ''),
                     ('Back office demo', 'https://demo.ilmtech.in/ps_ondru/ilmdemo/login?module=ilmcaptcha', 'ghost')],
     },
@@ -125,7 +125,7 @@ GUIDES = [
         'lead': 'A size chart plugin for WooCommerce: build charts with a drag-and-drop builder, show them in a popup '
                 'or on the product page, and choose where they appear with every display rule. Unlimited charts, 8 themes, no licence key. '
                 'Pro adds an AI builder, Find my size and 5 more themes.',
-        'facts': [('fa-solid fa-tag', 'Version 2.0.2'), ('fa-brands fa-wordpress', 'WordPress 6.2 to 7.x'),
+        'facts': [('fa-solid fa-tag', 'Version 2.0.3'), ('fa-brands fa-wordpress', 'WordPress 6.2 to 7.x'),
                   ('fa-solid fa-bag-shopping', 'WooCommerce 7.0 to 11.x'), ('fa-brands fa-php', 'PHP 7.4 to 8.5'),
                   ('fa-solid fa-unlock', 'Free, GPLv2 or later')],
         'actions': [('Get it on WordPress.org', 'https://wordpress.org/plugins/ilm-size-chart-for-woocommerce/', ''),
@@ -269,6 +269,9 @@ OLD_URLS.update({f'{WSC}/{a}': f'{WSCP}/{b}/' for a, b in {  # Pro videos moved 
 OLD_URLS[f'{WSCP}/ai-chart-builder'] = f'{WSCP}/create-with-ai/'
 # Size Chart (PrestaShop) readme chapters -> the video pages (2026-11-04)
 SC = '/prestashop/ilm-size-chart'
+CAP = '/prestashop/all-in-one-captcha'
+OLD_URLS.update({f'{CAP}/{a}': f'{CAP}/{b}/' for a, b in {  # 1.x guide chapters (2026-11-09, version 2.0.0)
+    'captcha-types': 'captcha', 'protect': 'access-limits'}.items()})
 OLD_URLS.update({f'{SC}/{a}': f'{SC}/{b}/' for a, b in {
     'installation-and-licence': 'getting-started/install-and-activate',
     'the-size-chart-list': 'getting-started/the-size-chart-list',
