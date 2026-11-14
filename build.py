@@ -36,7 +36,7 @@ PROJECTS = HERE.parents[3]  # /home/asha/projects
 PS = PROJECTS / 'prestashop' / 'modules'
 SITE = 'https://doc.ilmtech.in'
 MODIFIED = '@@MODIFIED@@'  # replaced after the build: the date the article text last changed (lastmod.json)
-VERSION = '2.11.2'  # css/js cache buster
+VERSION = '2.11.3'  # css/js cache buster
 # the store's AI chat on every docs page (module ilmaichat, "Show the chat on other sites"); '' = off.
 # ILM_CHAT_EMBED overrides it for a local test.
 CHAT_EMBED = os.environ.get('ILM_CHAT_EMBED', 'https://ilmtech.in/module/ilmaichat/embed')
