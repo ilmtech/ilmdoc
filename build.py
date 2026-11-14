@@ -36,7 +36,7 @@ PROJECTS = HERE.parents[3]  # /home/asha/projects
 PS = PROJECTS / 'prestashop' / 'modules'
 SITE = 'https://doc.ilmtech.in'
 MODIFIED = '@@MODIFIED@@'  # replaced after the build: the date the article text last changed (lastmod.json)
-VERSION = '2.11.1'  # css/js cache buster
+VERSION = '2.11.2'  # css/js cache buster
 # the store's AI chat on every docs page (module ilmaichat, "Show the chat on other sites"); '' = off.
 # ILM_CHAT_EMBED overrides it for a local test.
 CHAT_EMBED = os.environ.get('ILM_CHAT_EMBED', 'https://ilmtech.in/module/ilmaichat/embed')
@@ -196,7 +196,9 @@ GUIDES = [
                 'type, customer tag or the whole store, limit purchases between dates, and stop carts that break a rule at checkout.',
         'facts': [('fa-brands fa-shopify', 'Shopify app'), ('fa-solid fa-layer-group', 'Free, Basic and Pro plans'),
                   ('fa-solid fa-shield-halved', 'Checked again at checkout'), ('fa-solid fa-language', 'Every store language')],
-        'actions': [('Live demo', 'https://apps.ilmtech.in/demo/ilm-minmax', 'ghost'),
+        'actions': [('Install from the Shopify App Store',
+                     'https://apps.shopify.com/ilm-min-max-order-qty-amount?utm_source=doc.ilmtech.in&utm_medium=referral&utm_campaign=guide', ''),
+                    ('Live demo', 'https://apps.ilmtech.in/demo/ilm-minmax', 'ghost'),
                     ('Video guides', 'https://www.youtube.com/playlist?list=PLQCercGzuy5M', 'ghost')],
         'hero': False,  # step pages: every picture belongs to its step
     },
